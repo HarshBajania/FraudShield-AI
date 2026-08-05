@@ -8,7 +8,6 @@
 ![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-red)
 ![Docker](https://img.shields.io/badge/Docker-Containerized-blue)
 ![MLflow](https://img.shields.io/badge/MLflow-MLOps-purple)
-![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
 ---
 
