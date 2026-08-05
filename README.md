@@ -391,15 +391,14 @@ uvicorn api.app:app --reload
 
 # 👨‍💻 Author
 
-**Your Name**
+Harsh Bajania
 
 Machine Learning Engineer | Data Scientist
 
-📧 your.email@example.com
+📧 harsh.bajania2@gmail.com
 
-🔗 LinkedIn: https://linkedin.com/in/yourprofile
+🔗 LinkedIn: https://www.linkedin.com/in/harsh-bajania-8565b1327/
 
-💻 GitHub: https://github.com/yourusername
 
 ---
 
