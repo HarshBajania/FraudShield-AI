@@ -185,10 +185,6 @@ python -m scripts.smoke
 - [Validation report](docs/validation.md)
 - [Demo walkthrough](docs/demo-guide.md)
 
-## 🤝 Contributing
-
-Create a feature branch, make your changes, run the relevant checks, and open a pull request with a description of the change.
-
 ---
 
 <div align="center">
