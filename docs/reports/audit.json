@@ -1,0 +1,98 @@
+{
+  "financial": {
+    "rows": 5000,
+    "fraud_count": 482,
+    "fraud_rate": 0.0964,
+    "missing": {
+      "Transaction_ID": 0,
+      "Customer_ID": 0,
+      "Transaction_Date": 0,
+      "Transaction_Amount": 0,
+      "Merchant_Category": 0,
+      "Payment_Method": 0,
+      "Device_Type": 0,
+      "Location": 0,
+      "Is_International": 0,
+      "Previous_Transactions": 0,
+      "Average_Spend": 0,
+      "Account_Age_Days": 0,
+      "Suspicious_Keyword": 0,
+      "Fraudulent": 0
+    },
+    "duplicate_rows": 0,
+    "zero_amounts": 2,
+    "amount_outliers_iqr": 240,
+    "excluded_features": [
+      "Transaction_ID",
+      "Customer_ID",
+      "Fraudulent",
+      "Suspicious_Keyword",
+      "Previous_Transactions",
+      "Average_Spend"
+    ],
+    "availability_warning": "Historical spend/count and Suspicious_Keyword excluded: point-in-time provenance unavailable. Account age and international status assumed available at authorization."
+  },
+  "credit": {
+    "rows": 100000,
+    "fraud_count": 1000,
+    "fraud_rate": 0.01,
+    "missing": {
+      "TransactionID": 0,
+      "TransactionDate": 0,
+      "Amount": 0,
+      "MerchantID": 0,
+      "TransactionType": 0,
+      "Location": 0,
+      "IsFraud": 0,
+      "date": 0
+    },
+    "duplicates": 0,
+    "excluded": [
+      "TransactionID",
+      "MerchantID"
+    ],
+    "validation_comparison": [
+      {
+        "model": "logistic",
+        "validation_pr_auc": 0.010302431806218924
+      },
+      {
+        "model": "random_forest",
+        "validation_pr_auc": 0.010169636535354683
+      },
+      {
+        "model": "hist_gradient_boosting",
+        "validation_pr_auc": 0.011500866102059753
+      }
+    ],
+    "selected": "hist_gradient_boosting",
+    "test_pr_auc": 0.008885868976428813,
+    "test_roc_auc": 0.4587987234728865,
+    "test_prevalence": 0.010152538134533633,
+    "split_rows": [
+      59992,
+      20013,
+      19995
+    ],
+    "note": "Independent benchmark, not pooled with financial dataset. Merchant ID excluded because identifier semantics are undocumented."
+  },
+  "suspicious_keyword_label_crosstab": {
+    "0": {
+      "No": 4381,
+      "Yes": 137
+    },
+    "1": {
+      "No": 359,
+      "Yes": 123
+    }
+  },
+  "numeric_target_correlations": {
+    "Transaction_Amount": 0.011636936252349555,
+    "Is_International": 0.2879132386609903,
+    "Previous_Transactions": -0.014648758566348634,
+    "Average_Spend": 0.0011137432308622286,
+    "Account_Age_Days": 0.008562993625213905,
+    "Fraudulent": 1.0
+  },
+  "provenance": "No source license, origin, currency, timezone or label-generation documentation supplied; do not assume real banking data."
+}

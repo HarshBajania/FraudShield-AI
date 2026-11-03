@@ -1,0 +1,11 @@
+{
+  "seed": 42,
+  "split_fractions": [0.5, 0.15, 0.1, 0.1, 0.15],
+  "investigation_cost": 5.0,
+  "false_positive_cost": 2.0,
+  "missed_fraud_multiplier": 1.0,
+  "review_capacity_fraction": 0.2,
+  "risk_boundaries": [25, 50, 75],
+  "max_amount": 1000000000.0,
+  "threshold_grid_size": 201
+}

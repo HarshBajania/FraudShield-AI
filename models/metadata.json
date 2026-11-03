@@ -1,0 +1,3088 @@
+{
+  "model_name": "Weighted random forest",
+  "model_version": "1.0.0",
+  "training_date": "2026-10-07T13:00:05.864297+00:00",
+  "dataset_version": "3f106a0947420fee300785f4493847b6bd9efda5647c512a02cc38017dc3b76e",
+  "dataset_file": "financial_fraud_detection_dataset.csv",
+  "features": [
+    "Transaction_Date",
+    "Transaction_Amount",
+    "Is_International",
+    "Account_Age_Days",
+    "Merchant_Category",
+    "Payment_Method",
+    "Device_Type",
+    "Location"
+  ],
+  "threshold": 0.24088144860721933,
+  "training_config": {
+    "seed": 42,
+    "split_fractions": [
+      0.5,
+      0.15,
+      0.1,
+      0.1,
+      0.15
+    ],
+    "investigation_cost": 5.0,
+    "false_positive_cost": 2.0,
+    "missed_fraud_multiplier": 1.0,
+    "review_capacity_fraction": 0.2,
+    "risk_boundaries": [
+      25,
+      50,
+      75
+    ],
+    "max_amount": 1000000000.0,
+    "threshold_grid_size": 201
+  },
+  "libraries": {
+    "python": "3.14.4",
+    "sklearn": "1.9.1",
+    "pandas": "3.0.6",
+    "numpy": "2.5.3"
+  },
+  "split_windows": {
+    "fit": {
+      "rows": 2457,
+      "fraud": 237,
+      "start": "2023-01-01 02:16:00",
+      "end": "2023-07-27 23:44:00"
+    },
+    "tune": {
+      "rows": 764,
+      "fraud": 73,
+      "start": "2023-07-28 00:07:00",
+      "end": "2023-09-28 23:54:00"
+    },
+    "calibration": {
+      "rows": 535,
+      "fraud": 62,
+      "start": "2023-09-29 07:42:00",
+      "end": "2023-11-08 23:47:00"
+    },
+    "policy": {
+      "rows": 499,
+      "fraud": 47,
+      "start": "2023-11-09 01:17:00",
+      "end": "2023-12-20 23:30:00"
+    },
+    "test": {
+      "rows": 745,
+      "fraud": 63,
+      "start": "2023-12-21 00:33:00",
+      "end": "2024-02-21 15:34:00"
+    }
+  },
+  "data_quality": {
+    "rows": 5000,
+    "fraud_count": 482,
+    "fraud_rate": 0.0964,
+    "missing": {
+      "Transaction_ID": 0,
+      "Customer_ID": 0,
+      "Transaction_Date": 0,
+      "Transaction_Amount": 0,
+      "Merchant_Category": 0,
+      "Payment_Method": 0,
+      "Device_Type": 0,
+      "Location": 0,
+      "Is_International": 0,
+      "Previous_Transactions": 0,
+      "Average_Spend": 0,
+      "Account_Age_Days": 0,
+      "Suspicious_Keyword": 0,
+      "Fraudulent": 0
+    },
+    "duplicate_rows": 0,
+    "zero_amounts": 2,
+    "amount_outliers_iqr": 240,
+    "excluded_features": [
+      "Transaction_ID",
+      "Customer_ID",
+      "Fraudulent",
+      "Suspicious_Keyword",
+      "Previous_Transactions",
+      "Average_Spend"
+    ],
+    "availability_warning": "Historical spend/count and Suspicious_Keyword excluded: point-in-time provenance unavailable. Account age and international status assumed available at authorization."
+  },
+  "test_metrics": {
+    "precision": 0.2777777777777778,
+    "recall": 0.5555555555555556,
+    "f1": 0.37037037037037035,
+    "pr_auc": 0.3049572339681143,
+    "roc_auc": 0.8381278219987898,
+    "brier_score": 0.06774238772253251,
+    "confusion_matrix": [
+      [
+        591,
+        91
+      ],
+      [
+        28,
+        35
+      ]
+    ],
+    "false_positive_rate": 0.13343108504398826,
+    "false_negative_rate": 0.4444444444444444,
+    "precision_at_k": 0.28187919463087246,
+    "recall_at_k": 0.6666666666666666,
+    "k": 149,
+    "fraud_capture_rate": 0.5555555555555556,
+    "amount_capture_rate": 0.6070733066921494,
+    "fraud_amount_captured": 3354.25,
+    "fraud_amount_missed": 2171.03,
+    "legitimate_amount_flagged": 7792.42,
+    "investigation_cost": 630.0,
+    "estimated_fraud_loss": 2171.03,
+    "estimated_cost": 2983.03,
+    "review_rate": 0.1691275167785235,
+    "threshold": 0.24088144860721933,
+    "rows": 745,
+    "prevalence": 0.08456375838926175
+  },
+  "test_uncertainty": {
+    "pr_auc_95_percentile_interval": [
+      0.22643021864272667,
+      0.4170410483140385
+    ],
+    "resamples": 300
+  },
+  "constant_baseline_test": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "pr_auc": 0.08456375838926175,
+    "roc_auc": 0.5,
+    "brier_score": 0.07755422822413996,
+    "confusion_matrix": [
+      [
+        682,
+        0
+      ],
+      [
+        63,
+        0
+      ]
+    ],
+    "false_positive_rate": 0.0,
+    "false_negative_rate": 1.0,
+    "precision_at_k": 0.06711409395973154,
+    "recall_at_k": 0.15873015873015872,
+    "k": 149,
+    "fraud_capture_rate": 0.0,
+    "amount_capture_rate": 0.0,
+    "fraud_amount_captured": 0.0,
+    "fraud_amount_missed": 5525.280000000001,
+    "legitimate_amount_flagged": 0.0,
+    "investigation_cost": 0.0,
+    "estimated_fraud_loss": 5525.280000000001,
+    "estimated_cost": 5525.280000000001,
+    "review_rate": 0.0,
+    "threshold": 1.0000000000000002,
+    "rows": 745,
+    "prevalence": 0.08456375838926175
+  },
+  "model_comparison": [
+    {
+      "model": "Logistic regression",
+      "tuning_pr_auc": 0.32858585852557887,
+      "policy_metrics": {
+        "precision": 0.2682926829268293,
+        "recall": 0.46808510638297873,
+        "f1": 0.34108527131782945,
+        "pr_auc": 0.3037617296289526,
+        "roc_auc": 0.8056392393146301,
+        "brier_score": 0.07667092268870744,
+        "confusion_matrix": [
+          [
+            392,
+            60
+          ],
+          [
+            25,
+            22
+          ]
+        ],
+        "false_positive_rate": 0.13274336283185842,
+        "false_negative_rate": 0.5319148936170213,
+        "precision_at_k": 0.24,
+        "recall_at_k": 0.5106382978723404,
+        "k": 100,
+        "fraud_capture_rate": 0.46808510638297873,
+        "amount_capture_rate": 0.5960990988871374,
+        "fraud_amount_captured": 2026.88,
+        "fraud_amount_missed": 1373.36,
+        "legitimate_amount_flagged": 8748.22,
+        "investigation_cost": 410.0,
+        "estimated_fraud_loss": 1373.36,
+        "estimated_cost": 1903.36,
+        "review_rate": 0.16432865731462926,
+        "threshold": 0.20441162655516493,
+        "rows": 499,
+        "prevalence": 0.09418837675350701
+      }
+    },
+    {
+      "model": "Weighted logistic regression",
+      "tuning_pr_auc": 0.3276847245385792,
+      "policy_metrics": {
+        "precision": 0.26666666666666666,
+        "recall": 0.5106382978723404,
+        "f1": 0.35036496350364965,
+        "pr_auc": 0.3094558436005955,
+        "roc_auc": 0.7934946337789494,
+        "brier_score": 0.07660365873725156,
+        "confusion_matrix": [
+          [
+            386,
+            66
+          ],
+          [
+            23,
+            24
+          ]
+        ],
+        "false_positive_rate": 0.14601769911504425,
+        "false_negative_rate": 0.48936170212765956,
+        "precision_at_k": 0.24,
+        "recall_at_k": 0.5106382978723404,
+        "k": 100,
+        "fraud_capture_rate": 0.5106382978723404,
+        "amount_capture_rate": 0.6216767051737525,
+        "fraud_amount_captured": 2113.85,
+        "fraud_amount_missed": 1286.3899999999999,
+        "legitimate_amount_flagged": 9320.99,
+        "investigation_cost": 450.0,
+        "estimated_fraud_loss": 1286.3899999999999,
+        "estimated_cost": 1868.3899999999999,
+        "review_rate": 0.18036072144288579,
+        "threshold": 0.19315982994628256,
+        "rows": 499,
+        "prevalence": 0.09418837675350701
+      }
+    },
+    {
+      "model": "Random forest",
+      "tuning_pr_auc": 0.35316053879455234,
+      "policy_metrics": {
+        "precision": 0.29292929292929293,
+        "recall": 0.6170212765957447,
+        "f1": 0.3972602739726027,
+        "pr_auc": 0.32911993504101644,
+        "roc_auc": 0.81707776313312,
+        "brier_score": 0.0751932569307029,
+        "confusion_matrix": [
+          [
+            382,
+            70
+          ],
+          [
+            18,
+            29
+          ]
+        ],
+        "false_positive_rate": 0.15486725663716813,
+        "false_negative_rate": 0.3829787234042553,
+        "precision_at_k": 0.29,
+        "recall_at_k": 0.6170212765957447,
+        "k": 100,
+        "fraud_capture_rate": 0.6170212765957447,
+        "amount_capture_rate": 0.6885690421852575,
+        "fraud_amount_captured": 2341.3,
+        "fraud_amount_missed": 1058.94,
+        "legitimate_amount_flagged": 8917.239999999996,
+        "investigation_cost": 495.0,
+        "estimated_fraud_loss": 1058.94,
+        "estimated_cost": 1693.94,
+        "review_rate": 0.19839679358717435,
+        "threshold": 0.2119348208452947,
+        "rows": 499,
+        "prevalence": 0.09418837675350701
+      }
+    },
+    {
+      "model": "Weighted random forest",
+      "tuning_pr_auc": 0.30672375979499217,
+      "policy_metrics": {
+        "precision": 0.29896907216494845,
+        "recall": 0.6170212765957447,
+        "f1": 0.4027777777777778,
+        "pr_auc": 0.33413338962967304,
+        "roc_auc": 0.8106759555639239,
+        "brier_score": 0.07332576567800733,
+        "confusion_matrix": [
+          [
+            384,
+            68
+          ],
+          [
+            18,
+            29
+          ]
+        ],
+        "false_positive_rate": 0.1504424778761062,
+        "false_negative_rate": 0.3829787234042553,
+        "precision_at_k": 0.29,
+        "recall_at_k": 0.6170212765957447,
+        "k": 100,
+        "fraud_capture_rate": 0.6170212765957447,
+        "amount_capture_rate": 0.7306954803190363,
+        "fraud_amount_captured": 2484.54,
+        "fraud_amount_missed": 915.6999999999999,
+        "legitimate_amount_flagged": 7159.310000000001,
+        "investigation_cost": 485.0,
+        "estimated_fraud_loss": 915.6999999999999,
+        "estimated_cost": 1536.6999999999998,
+        "review_rate": 0.19438877755511022,
+        "threshold": 0.24088144860721933,
+        "rows": 499,
+        "prevalence": 0.09418837675350701
+      }
+    },
+    {
+      "model": "Gradient boosting",
+      "tuning_pr_auc": 0.3117585927889851,
+      "policy_metrics": {
+        "precision": 0.3584905660377358,
+        "recall": 0.40425531914893614,
+        "f1": 0.38,
+        "pr_auc": 0.3252560349144391,
+        "roc_auc": 0.8171483713048391,
+        "brier_score": 0.07436816946907407,
+        "confusion_matrix": [
+          [
+            418,
+            34
+          ],
+          [
+            28,
+            19
+          ]
+        ],
+        "false_positive_rate": 0.0752212389380531,
+        "false_negative_rate": 0.5957446808510638,
+        "precision_at_k": 0.28,
+        "recall_at_k": 0.5957446808510638,
+        "k": 100,
+        "fraud_capture_rate": 0.40425531914893614,
+        "amount_capture_rate": 0.41672646636707994,
+        "fraud_amount_captured": 1416.97,
+        "fraud_amount_missed": 1983.2700000000002,
+        "legitimate_amount_flagged": 2481.7900000000004,
+        "investigation_cost": 265.0,
+        "estimated_fraud_loss": 1983.2700000000002,
+        "estimated_cost": 2316.2700000000004,
+        "review_rate": 0.1062124248496994,
+        "threshold": 0.2494298509165164,
+        "rows": 499,
+        "prevalence": 0.09418837675350701
+      }
+    }
+  ],
+  "tuning_runs": [
+    {
+      "model": "Logistic regression",
+      "parameters": {
+        "C": 0.1,
+        "class_weight": null,
+        "dual": false,
+        "fit_intercept": true,
+        "intercept_scaling": 1,
+        "l1_ratio": 0.0,
+        "max_iter": 2000,
+        "n_jobs": null,
+        "penalty": "deprecated",
+        "random_state": 42,
+        "solver": "lbfgs",
+        "tol": 0.0001,
+        "verbose": 0,
+        "warm_start": false
+      },
+      "tuning_pr_auc": 0.32858585852557887
+    },
+    {
+      "model": "Logistic regression",
+      "parameters": {
+        "C": 1,
+        "class_weight": null,
+        "dual": false,
+        "fit_intercept": true,
+        "intercept_scaling": 1,
+        "l1_ratio": 0.0,
+        "max_iter": 2000,
+        "n_jobs": null,
+        "penalty": "deprecated",
+        "random_state": 42,
+        "solver": "lbfgs",
+        "tol": 0.0001,
+        "verbose": 0,
+        "warm_start": false
+      },
+      "tuning_pr_auc": 0.32529683952619864
+    },
+    {
+      "model": "Weighted logistic regression",
+      "parameters": {
+        "C": 0.1,
+        "class_weight": "balanced",
+        "dual": false,
+        "fit_intercept": true,
+        "intercept_scaling": 1,
+        "l1_ratio": 0.0,
+        "max_iter": 2000,
+        "n_jobs": null,
+        "penalty": "deprecated",
+        "random_state": 42,
+        "solver": "lbfgs",
+        "tol": 0.0001,
+        "verbose": 0,
+        "warm_start": false
+      },
+      "tuning_pr_auc": 0.3276847245385792
+    },
+    {
+      "model": "Weighted logistic regression",
+      "parameters": {
+        "C": 1,
+        "class_weight": "balanced",
+        "dual": false,
+        "fit_intercept": true,
+        "intercept_scaling": 1,
+        "l1_ratio": 0.0,
+        "max_iter": 2000,
+        "n_jobs": null,
+        "penalty": "deprecated",
+        "random_state": 42,
+        "solver": "lbfgs",
+        "tol": 0.0001,
+        "verbose": 0,
+        "warm_start": false
+      },
+      "tuning_pr_auc": 0.32649163091645256
+    },
+    {
+      "model": "Random forest",
+      "parameters": {
+        "bootstrap": true,
+        "ccp_alpha": 0.0,
+        "class_weight": null,
+        "criterion": "gini",
+        "max_depth": 5,
+        "max_features": "sqrt",
+        "max_leaf_nodes": null,
+        "max_samples": null,
+        "min_impurity_decrease": 0.0,
+        "min_samples_leaf": 12,
+        "min_samples_split": 2,
+        "min_weight_fraction_leaf": 0.0,
+        "monotonic_cst": null,
+        "n_estimators": 150,
+        "n_jobs": -1,
+        "oob_score": false,
+        "random_state": 42,
+        "verbose": 0,
+        "warm_start": false
+      },
+      "tuning_pr_auc": 0.35316053879455234
+    },
+    {
+      "model": "Random forest",
+      "parameters": {
+        "bootstrap": true,
+        "ccp_alpha": 0.0,
+        "class_weight": null,
+        "criterion": "gini",
+        "max_depth": 10,
+        "max_features": "sqrt",
+        "max_leaf_nodes": null,
+        "max_samples": null,
+        "min_impurity_decrease": 0.0,
+        "min_samples_leaf": 12,
+        "min_samples_split": 2,
+        "min_weight_fraction_leaf": 0.0,
+        "monotonic_cst": null,
+        "n_estimators": 150,
+        "n_jobs": -1,
+        "oob_score": false,
+        "random_state": 42,
+        "verbose": 0,
+        "warm_start": false
+      },
+      "tuning_pr_auc": 0.3435108102763281
+    },
+    {
+      "model": "Weighted random forest",
+      "parameters": {
+        "bootstrap": true,
+        "ccp_alpha": 0.0,
+        "class_weight": "balanced",
+        "criterion": "gini",
+        "max_depth": 5,
+        "max_features": "sqrt",
+        "max_leaf_nodes": null,
+        "max_samples": null,
+        "min_impurity_decrease": 0.0,
+        "min_samples_leaf": 12,
+        "min_samples_split": 2,
+        "min_weight_fraction_leaf": 0.0,
+        "monotonic_cst": null,
+        "n_estimators": 150,
+        "n_jobs": -1,
+        "oob_score": false,
+        "random_state": 42,
+        "verbose": 0,
+        "warm_start": false
+      },
+      "tuning_pr_auc": 0.30672375979499217
+    },
+    {
+      "model": "Weighted random forest",
+      "parameters": {
+        "bootstrap": true,
+        "ccp_alpha": 0.0,
+        "class_weight": "balanced",
+        "criterion": "gini",
+        "max_depth": 10,
+        "max_features": "sqrt",
+        "max_leaf_nodes": null,
+        "max_samples": null,
+        "min_impurity_decrease": 0.0,
+        "min_samples_leaf": 12,
+        "min_samples_split": 2,
+        "min_weight_fraction_leaf": 0.0,
+        "monotonic_cst": null,
+        "n_estimators": 150,
+        "n_jobs": -1,
+        "oob_score": false,
+        "random_state": 42,
+        "verbose": 0,
+        "warm_start": false
+      },
+      "tuning_pr_auc": 0.2818938059537785
+    },
+    {
+      "model": "Gradient boosting",
+      "parameters": {
+        "ccp_alpha": 0.0,
+        "criterion": "deprecated",
+        "init": null,
+        "learning_rate": 0.05,
+        "loss": "log_loss",
+        "max_depth": 1,
+        "max_features": null,
+        "max_leaf_nodes": null,
+        "min_impurity_decrease": 0.0,
+        "min_samples_leaf": 15,
+        "min_samples_split": 2,
+        "min_weight_fraction_leaf": 0.0,
+        "n_estimators": 100,
+        "n_iter_no_change": null,
+        "random_state": 42,
+        "subsample": 1.0,
+        "tol": 0.0001,
+        "validation_fraction": 0.1,
+        "verbose": 0,
+        "warm_start": false
+      },
+      "tuning_pr_auc": 0.3117585927889851
+    },
+    {
+      "model": "Gradient boosting",
+      "parameters": {
+        "ccp_alpha": 0.0,
+        "criterion": "deprecated",
+        "init": null,
+        "learning_rate": 0.05,
+        "loss": "log_loss",
+        "max_depth": 2,
+        "max_features": null,
+        "max_leaf_nodes": null,
+        "min_impurity_decrease": 0.0,
+        "min_samples_leaf": 15,
+        "min_samples_split": 2,
+        "min_weight_fraction_leaf": 0.0,
+        "n_estimators": 100,
+        "n_iter_no_change": null,
+        "random_state": 42,
+        "subsample": 1.0,
+        "tol": 0.0001,
+        "validation_fraction": 0.1,
+        "verbose": 0,
+        "warm_start": false
+      },
+      "tuning_pr_auc": 0.30326409968117696
+    }
+  ],
+  "threshold_analysis": [
+    {
+      "threshold": 0.0,
+      "estimated_cost": 3399.0,
+      "review_rate": 1.0,
+      "recall": 1.0,
+      "precision": 0.09418837675350701
+    },
+    {
+      "threshold": 0.008232773717621497,
+      "estimated_cost": 3385.0,
+      "review_rate": 0.9959919839679359,
+      "recall": 1.0,
+      "precision": 0.09456740442655935
+    },
+    {
+      "threshold": 0.008670765088643744,
+      "estimated_cost": 3357.0,
+      "review_rate": 0.9879759519038076,
+      "recall": 1.0,
+      "precision": 0.09533468559837728
+    },
+    {
+      "threshold": 0.009704075124194347,
+      "estimated_cost": 3351.0,
+      "review_rate": 0.9799599198396793,
+      "recall": 0.9787234042553191,
+      "precision": 0.09406952965235174
+    },
+    {
+      "threshold": 0.010002554738534378,
+      "estimated_cost": 3330.0,
+      "review_rate": 0.9739478957915831,
+      "recall": 0.9787234042553191,
+      "precision": 0.09465020576131687
+    },
+    {
+      "threshold": 0.010893892486977303,
+      "estimated_cost": 3302.0,
+      "review_rate": 0.9659318637274549,
+      "recall": 0.9787234042553191,
+      "precision": 0.0954356846473029
+    },
+    {
+      "threshold": 0.011437795249007237,
+      "estimated_cost": 3274.0,
+      "review_rate": 0.9579158316633266,
+      "recall": 0.9787234042553191,
+      "precision": 0.09623430962343096
+    },
+    {
+      "threshold": 0.01194305391119708,
+      "estimated_cost": 3246.0,
+      "review_rate": 0.9498997995991983,
+      "recall": 0.9787234042553191,
+      "precision": 0.0970464135021097
+    },
+    {
+      "threshold": 0.012590683569515454,
+      "estimated_cost": 3218.0,
+      "review_rate": 0.9418837675350702,
+      "recall": 0.9787234042553191,
+      "precision": 0.09787234042553192
+    },
+    {
+      "threshold": 0.012960917488916942,
+      "estimated_cost": 3190.0,
+      "review_rate": 0.9338677354709419,
+      "recall": 0.9787234042553191,
+      "precision": 0.09871244635193133
+    },
+    {
+      "threshold": 0.013168743864275008,
+      "estimated_cost": 3162.0,
+      "review_rate": 0.9258517034068137,
+      "recall": 0.9787234042553191,
+      "precision": 0.09956709956709957
+    },
+    {
+      "threshold": 0.013656824790259446,
+      "estimated_cost": 3134.0,
+      "review_rate": 0.9178356713426854,
+      "recall": 0.9787234042553191,
+      "precision": 0.10043668122270742
+    },
+    {
+      "threshold": 0.014496616201347519,
+      "estimated_cost": 3106.0,
+      "review_rate": 0.9098196392785571,
+      "recall": 0.9787234042553191,
+      "precision": 0.1013215859030837
+    },
+    {
+      "threshold": 0.014833896774095951,
+      "estimated_cost": 3078.0,
+      "review_rate": 0.9018036072144289,
+      "recall": 0.9787234042553191,
+      "precision": 0.10222222222222223
+    },
+    {
+      "threshold": 0.015069094922663721,
+      "estimated_cost": 3057.0,
+      "review_rate": 0.8957915831663327,
+      "recall": 0.9787234042553191,
+      "precision": 0.1029082774049217
+    },
+    {
+      "threshold": 0.015780403499116313,
+      "estimated_cost": 3029.0,
+      "review_rate": 0.8877755511022044,
+      "recall": 0.9787234042553191,
+      "precision": 0.1038374717832957
+    },
+    {
+      "threshold": 0.01629980871102964,
+      "estimated_cost": 3001.0,
+      "review_rate": 0.8797595190380761,
+      "recall": 0.9787234042553191,
+      "precision": 0.10478359908883828
+    },
+    {
+      "threshold": 0.01638235492962941,
+      "estimated_cost": 2973.0,
+      "review_rate": 0.8717434869739479,
+      "recall": 0.9787234042553191,
+      "precision": 0.10574712643678161
+    },
+    {
+      "threshold": 0.01720129480604463,
+      "estimated_cost": 2945.0,
+      "review_rate": 0.8637274549098196,
+      "recall": 0.9787234042553191,
+      "precision": 0.10672853828306264
+    },
+    {
+      "threshold": 0.01757347078654912,
+      "estimated_cost": 2917.0,
+      "review_rate": 0.8557114228456913,
+      "recall": 0.9787234042553191,
+      "precision": 0.10772833723653395
+    },
+    {
+      "threshold": 0.01854299946292596,
+      "estimated_cost": 2889.0,
+      "review_rate": 0.8476953907815631,
+      "recall": 0.9787234042553191,
+      "precision": 0.10874704491725769
+    },
+    {
+      "threshold": 0.01951911328416127,
+      "estimated_cost": 2958.83,
+      "review_rate": 0.8396793587174348,
+      "recall": 0.9574468085106383,
+      "precision": 0.10739856801909307
+    },
+    {
+      "threshold": 0.020033761799803988,
+      "estimated_cost": 2937.83,
+      "review_rate": 0.8336673346693386,
+      "recall": 0.9574468085106383,
+      "precision": 0.10817307692307693
+    },
+    {
+      "threshold": 0.020954353933256547,
+      "estimated_cost": 2909.83,
+      "review_rate": 0.8256513026052105,
+      "recall": 0.9574468085106383,
+      "precision": 0.10922330097087378
+    },
+    {
+      "threshold": 0.02132465113631911,
+      "estimated_cost": 2881.83,
+      "review_rate": 0.8176352705410822,
+      "recall": 0.9574468085106383,
+      "precision": 0.11029411764705882
+    },
+    {
+      "threshold": 0.022056564694476376,
+      "estimated_cost": 2853.83,
+      "review_rate": 0.8096192384769539,
+      "recall": 0.9574468085106383,
+      "precision": 0.11138613861386139
+    },
+    {
+      "threshold": 0.02299130182164209,
+      "estimated_cost": 2825.83,
+      "review_rate": 0.8016032064128257,
+      "recall": 0.9574468085106383,
+      "precision": 0.1125
+    },
+    {
+      "threshold": 0.02455362069489682,
+      "estimated_cost": 2797.83,
+      "review_rate": 0.7935871743486974,
+      "recall": 0.9574468085106383,
+      "precision": 0.11363636363636363
+    },
+    {
+      "threshold": 0.025009202726272585,
+      "estimated_cost": 2776.83,
+      "review_rate": 0.7875751503006012,
+      "recall": 0.9574468085106383,
+      "precision": 0.11450381679389313
+    },
+    {
+      "threshold": 0.025360565586844516,
+      "estimated_cost": 2748.83,
+      "review_rate": 0.779559118236473,
+      "recall": 0.9574468085106383,
+      "precision": 0.11568123393316196
+    },
+    {
+      "threshold": 0.02642776510643281,
+      "estimated_cost": 2720.83,
+      "review_rate": 0.7715430861723447,
+      "recall": 0.9574468085106383,
+      "precision": 0.11688311688311688
+    },
+    {
+      "threshold": 0.026849185926118943,
+      "estimated_cost": 2692.83,
+      "review_rate": 0.7635270541082164,
+      "recall": 0.9574468085106383,
+      "precision": 0.11811023622047244
+    },
+    {
+      "threshold": 0.027703498170637587,
+      "estimated_cost": 2664.83,
+      "review_rate": 0.7555110220440882,
+      "recall": 0.9574468085106383,
+      "precision": 0.11936339522546419
+    },
+    {
+      "threshold": 0.028218617281724333,
+      "estimated_cost": 2636.83,
+      "review_rate": 0.7474949899799599,
+      "recall": 0.9574468085106383,
+      "precision": 0.12064343163538874
+    },
+    {
+      "threshold": 0.02901894493697684,
+      "estimated_cost": 2608.83,
+      "review_rate": 0.7394789579158316,
+      "recall": 0.9574468085106383,
+      "precision": 0.12195121951219512
+    },
+    {
+      "threshold": 0.029945212215185767,
+      "estimated_cost": 2580.83,
+      "review_rate": 0.7314629258517034,
+      "recall": 0.9574468085106383,
+      "precision": 0.1232876712328767
+    },
+    {
+      "threshold": 0.030266242347059578,
+      "estimated_cost": 2559.83,
+      "review_rate": 0.7254509018036072,
+      "recall": 0.9574468085106383,
+      "precision": 0.12430939226519337
+    },
+    {
+      "threshold": 0.03067929012857394,
+      "estimated_cost": 2531.83,
+      "review_rate": 0.717434869739479,
+      "recall": 0.9574468085106383,
+      "precision": 0.12569832402234637
+    },
+    {
+      "threshold": 0.031131320245865977,
+      "estimated_cost": 2503.83,
+      "review_rate": 0.7094188376753507,
+      "recall": 0.9574468085106383,
+      "precision": 0.1271186440677966
+    },
+    {
+      "threshold": 0.031666145972442605,
+      "estimated_cost": 2475.83,
+      "review_rate": 0.7014028056112225,
+      "recall": 0.9574468085106383,
+      "precision": 0.12857142857142856
+    },
+    {
+      "threshold": 0.031915805038528665,
+      "estimated_cost": 2447.83,
+      "review_rate": 0.6933867735470942,
+      "recall": 0.9574468085106383,
+      "precision": 0.13005780346820808
+    },
+    {
+      "threshold": 0.03257651814912677,
+      "estimated_cost": 2437.05,
+      "review_rate": 0.685370741482966,
+      "recall": 0.9361702127659575,
+      "precision": 0.1286549707602339
+    },
+    {
+      "threshold": 0.03309325238721278,
+      "estimated_cost": 2409.05,
+      "review_rate": 0.6773547094188377,
+      "recall": 0.9361702127659575,
+      "precision": 0.1301775147928994
+    },
+    {
+      "threshold": 0.033879718332725094,
+      "estimated_cost": 2381.05,
+      "review_rate": 0.6693386773547094,
+      "recall": 0.9361702127659575,
+      "precision": 0.1317365269461078
+    },
+    {
+      "threshold": 0.034784811387524615,
+      "estimated_cost": 2353.05,
+      "review_rate": 0.6613226452905812,
+      "recall": 0.9361702127659575,
+      "precision": 0.13333333333333333
+    },
+    {
+      "threshold": 0.03516330800959365,
+      "estimated_cost": 2332.05,
+      "review_rate": 0.655310621242485,
+      "recall": 0.9361702127659575,
+      "precision": 0.1345565749235474
+    },
+    {
+      "threshold": 0.035884120632226305,
+      "estimated_cost": 2304.05,
+      "review_rate": 0.6472945891783567,
+      "recall": 0.9361702127659575,
+      "precision": 0.13622291021671826
+    },
+    {
+      "threshold": 0.03656642868588507,
+      "estimated_cost": 2276.05,
+      "review_rate": 0.6392785571142284,
+      "recall": 0.9361702127659575,
+      "precision": 0.13793103448275862
+    },
+    {
+      "threshold": 0.03710955657951335,
+      "estimated_cost": 2248.05,
+      "review_rate": 0.6312625250501002,
+      "recall": 0.9361702127659575,
+      "precision": 0.13968253968253969
+    },
+    {
+      "threshold": 0.03807107960520109,
+      "estimated_cost": 2369.09,
+      "review_rate": 0.6232464929859719,
+      "recall": 0.9148936170212766,
+      "precision": 0.1382636655948553
+    },
+    {
+      "threshold": 0.03939382256044093,
+      "estimated_cost": 2341.09,
+      "review_rate": 0.6152304609218436,
+      "recall": 0.9148936170212766,
+      "precision": 0.14006514657980457
+    },
+    {
+      "threshold": 0.03995184809129697,
+      "estimated_cost": 2313.09,
+      "review_rate": 0.6072144288577155,
+      "recall": 0.9148936170212766,
+      "precision": 0.1419141914191419
+    },
+    {
+      "threshold": 0.040416009065597794,
+      "estimated_cost": 2292.09,
+      "review_rate": 0.6012024048096193,
+      "recall": 0.9148936170212766,
+      "precision": 0.14333333333333334
+    },
+    {
+      "threshold": 0.04142513577321972,
+      "estimated_cost": 2264.09,
+      "review_rate": 0.593186372745491,
+      "recall": 0.9148936170212766,
+      "precision": 0.14527027027027026
+    },
+    {
+      "threshold": 0.04235817627111476,
+      "estimated_cost": 2236.09,
+      "review_rate": 0.5851703406813628,
+      "recall": 0.9148936170212766,
+      "precision": 0.14726027397260275
+    },
+    {
+      "threshold": 0.04256229025073203,
+      "estimated_cost": 2208.09,
+      "review_rate": 0.5771543086172345,
+      "recall": 0.9148936170212766,
+      "precision": 0.14930555555555555
+    },
+    {
+      "threshold": 0.042973055720125324,
+      "estimated_cost": 2180.09,
+      "review_rate": 0.5691382765531062,
+      "recall": 0.9148936170212766,
+      "precision": 0.15140845070422534
+    },
+    {
+      "threshold": 0.04354065093040517,
+      "estimated_cost": 2152.09,
+      "review_rate": 0.561122244488978,
+      "recall": 0.9148936170212766,
+      "precision": 0.15357142857142858
+    },
+    {
+      "threshold": 0.0440243543782415,
+      "estimated_cost": 2233.09,
+      "review_rate": 0.5531062124248497,
+      "recall": 0.8936170212765957,
+      "precision": 0.15217391304347827
+    },
+    {
+      "threshold": 0.04532488109565404,
+      "estimated_cost": 2212.09,
+      "review_rate": 0.5470941883767535,
+      "recall": 0.8936170212765957,
+      "precision": 0.15384615384615385
+    },
+    {
+      "threshold": 0.04673164965583344,
+      "estimated_cost": 2184.09,
+      "review_rate": 0.5390781563126252,
+      "recall": 0.8936170212765957,
+      "precision": 0.15613382899628253
+    },
+    {
+      "threshold": 0.04743375549047602,
+      "estimated_cost": 2156.09,
+      "review_rate": 0.531062124248497,
+      "recall": 0.8936170212765957,
+      "precision": 0.15849056603773584
+    },
+    {
+      "threshold": 0.04773121724173917,
+      "estimated_cost": 2128.09,
+      "review_rate": 0.5230460921843687,
+      "recall": 0.8936170212765957,
+      "precision": 0.16091954022988506
+    },
+    {
+      "threshold": 0.04833982678923365,
+      "estimated_cost": 2100.09,
+      "review_rate": 0.5150300601202404,
+      "recall": 0.8936170212765957,
+      "precision": 0.16342412451361868
+    },
+    {
+      "threshold": 0.04894866763542449,
+      "estimated_cost": 2072.09,
+      "review_rate": 0.5070140280561122,
+      "recall": 0.8936170212765957,
+      "precision": 0.16600790513833993
+    },
+    {
+      "threshold": 0.04936684189217037,
+      "estimated_cost": 2044.0900000000001,
+      "review_rate": 0.49899799599198397,
+      "recall": 0.8936170212765957,
+      "precision": 0.1686746987951807
+    },
+    {
+      "threshold": 0.05,
+      "estimated_cost": 2146.51,
+      "review_rate": 0.4909819639278557,
+      "recall": 0.8723404255319149,
+      "precision": 0.1673469387755102
+    },
+    {
+      "threshold": 0.05102447885238398,
+      "estimated_cost": 2125.51,
+      "review_rate": 0.4849699398797595,
+      "recall": 0.8723404255319149,
+      "precision": 0.16942148760330578
+    },
+    {
+      "threshold": 0.05136111142549217,
+      "estimated_cost": 2097.51,
+      "review_rate": 0.47695390781563124,
+      "recall": 0.8723404255319149,
+      "precision": 0.1722689075630252
+    },
+    {
+      "threshold": 0.05272393745629969,
+      "estimated_cost": 2069.51,
+      "review_rate": 0.46893787575150303,
+      "recall": 0.8723404255319149,
+      "precision": 0.1752136752136752
+    },
+    {
+      "threshold": 0.05340055383048405,
+      "estimated_cost": 2041.51,
+      "review_rate": 0.46092184368737477,
+      "recall": 0.8723404255319149,
+      "precision": 0.1782608695652174
+    },
+    {
+      "threshold": 0.053781984902200125,
+      "estimated_cost": 2013.51,
+      "review_rate": 0.4529058116232465,
+      "recall": 0.8723404255319149,
+      "precision": 0.18141592920353983
+    },
+    {
+      "threshold": 0.054788124009051684,
+      "estimated_cost": 1985.51,
+      "review_rate": 0.44488977955911824,
+      "recall": 0.8723404255319149,
+      "precision": 0.18468468468468469
+    },
+    {
+      "threshold": 0.05543605539871153,
+      "estimated_cost": 1964.51,
+      "review_rate": 0.43887775551102204,
+      "recall": 0.8723404255319149,
+      "precision": 0.1872146118721461
+    },
+    {
+      "threshold": 0.05752141696626223,
+      "estimated_cost": 1936.51,
+      "review_rate": 0.4308617234468938,
+      "recall": 0.8723404255319149,
+      "precision": 0.19069767441860466
+    },
+    {
+      "threshold": 0.058553368293833244,
+      "estimated_cost": 1908.51,
+      "review_rate": 0.4228456913827655,
+      "recall": 0.8723404255319149,
+      "precision": 0.1943127962085308
+    },
+    {
+      "threshold": 0.060213493846119806,
+      "estimated_cost": 1887.51,
+      "review_rate": 0.4168336673346693,
+      "recall": 0.8723404255319149,
+      "precision": 0.1971153846153846
+    },
+    {
+      "threshold": 0.06206132638214413,
+      "estimated_cost": 1859.51,
+      "review_rate": 0.4088176352705411,
+      "recall": 0.8723404255319149,
+      "precision": 0.20098039215686275
+    },
+    {
+      "threshold": 0.0644887640838614,
+      "estimated_cost": 1831.51,
+      "review_rate": 0.40080160320641284,
+      "recall": 0.8723404255319149,
+      "precision": 0.205
+    },
+    {
+      "threshold": 0.06666615713637472,
+      "estimated_cost": 1810.51,
+      "review_rate": 0.39478957915831664,
+      "recall": 0.8723404255319149,
+      "precision": 0.20812182741116753
+    },
+    {
+      "threshold": 0.0696650514964902,
+      "estimated_cost": 1782.51,
+      "review_rate": 0.3867735470941884,
+      "recall": 0.8723404255319149,
+      "precision": 0.21243523316062177
+    },
+    {
+      "threshold": 0.07112172125464117,
+      "estimated_cost": 1761.51,
+      "review_rate": 0.3807615230460922,
+      "recall": 0.8723404255319149,
+      "precision": 0.21578947368421053
+    },
+    {
+      "threshold": 0.07321636854410318,
+      "estimated_cost": 1733.51,
+      "review_rate": 0.3727454909819639,
+      "recall": 0.8723404255319149,
+      "precision": 0.22043010752688172
+    },
+    {
+      "threshold": 0.08,
+      "estimated_cost": 1712.51,
+      "review_rate": 0.3667334669338677,
+      "recall": 0.8723404255319149,
+      "precision": 0.22404371584699453
+    },
+    {
+      "threshold": 0.085,
+      "estimated_cost": 1691.51,
+      "review_rate": 0.36072144288577157,
+      "recall": 0.8723404255319149,
+      "precision": 0.22777777777777777
+    },
+    {
+      "threshold": 0.08927778557608873,
+      "estimated_cost": 1670.51,
+      "review_rate": 0.35470941883767537,
+      "recall": 0.8723404255319149,
+      "precision": 0.23163841807909605
+    },
+    {
+      "threshold": 0.09697211908517284,
+      "estimated_cost": 1656.51,
+      "review_rate": 0.35070140280561124,
+      "recall": 0.8723404255319149,
+      "precision": 0.2342857142857143
+    },
+    {
+      "threshold": 0.105,
+      "estimated_cost": 1635.51,
+      "review_rate": 0.34468937875751504,
+      "recall": 0.8723404255319149,
+      "precision": 0.23837209302325582
+    },
+    {
+      "threshold": 0.115,
+      "estimated_cost": 1621.51,
+      "review_rate": 0.3406813627254509,
+      "recall": 0.8723404255319149,
+      "precision": 0.2411764705882353
+    },
+    {
+      "threshold": 0.125,
+      "estimated_cost": 1607.51,
+      "review_rate": 0.3366733466933868,
+      "recall": 0.8723404255319149,
+      "precision": 0.24404761904761904
+    },
+    {
+      "threshold": 0.13163516655838156,
+      "estimated_cost": 1593.51,
+      "review_rate": 0.33266533066132264,
+      "recall": 0.8723404255319149,
+      "precision": 0.2469879518072289
+    },
+    {
+      "threshold": 0.14,
+      "estimated_cost": 1572.51,
+      "review_rate": 0.32665330661322645,
+      "recall": 0.8723404255319149,
+      "precision": 0.25153374233128833
+    },
+    {
+      "threshold": 0.155,
+      "estimated_cost": 1565.51,
+      "review_rate": 0.3246492985971944,
+      "recall": 0.8723404255319149,
+      "precision": 0.25308641975308643
+    },
+    {
+      "threshold": 0.1626152716419514,
+      "estimated_cost": 1551.51,
+      "review_rate": 0.32064128256513025,
+      "recall": 0.8723404255319149,
+      "precision": 0.25625
+    },
+    {
+      "threshold": 0.17,
+      "estimated_cost": 1618.51,
+      "review_rate": 0.31462925851703405,
+      "recall": 0.8297872340425532,
+      "precision": 0.2484076433121019
+    },
+    {
+      "threshold": 0.1752490053600796,
+      "estimated_cost": 1604.51,
+      "review_rate": 0.3106212424849699,
+      "recall": 0.8297872340425532,
+      "precision": 0.25161290322580643
+    },
+    {
+      "threshold": 0.17826394033810147,
+      "estimated_cost": 1624.63,
+      "review_rate": 0.3026052104208417,
+      "recall": 0.7872340425531915,
+      "precision": 0.24503311258278146
+    },
+    {
+      "threshold": 0.18086654215589842,
+      "estimated_cost": 1643.8500000000001,
+      "review_rate": 0.2965931863727455,
+      "recall": 0.7659574468085106,
+      "precision": 0.24324324324324326
+    },
+    {
+      "threshold": 0.18644070095075874,
+      "estimated_cost": 1640.88,
+      "review_rate": 0.2905811623246493,
+      "recall": 0.7446808510638298,
+      "precision": 0.2413793103448276
+    },
+    {
+      "threshold": 0.19068119231600758,
+      "estimated_cost": 1631.8799999999999,
+      "review_rate": 0.2845691382765531,
+      "recall": 0.723404255319149,
+      "precision": 0.23943661971830985
+    },
+    {
+      "threshold": 0.1968752212622958,
+      "estimated_cost": 1610.8799999999999,
+      "review_rate": 0.2785571142284569,
+      "recall": 0.723404255319149,
+      "precision": 0.2446043165467626
+    },
+    {
+      "threshold": 0.2016115599696057,
+      "estimated_cost": 1589.8799999999999,
+      "review_rate": 0.2725450901803607,
+      "recall": 0.723404255319149,
+      "precision": 0.25
+    },
+    {
+      "threshold": 0.20611040711112383,
+      "estimated_cost": 1568.8799999999999,
+      "review_rate": 0.2665330661322645,
+      "recall": 0.723404255319149,
+      "precision": 0.2556390977443609
+    },
+    {
+      "threshold": 0.21,
+      "estimated_cost": 1613.35,
+      "review_rate": 0.25851703406813625,
+      "recall": 0.7021276595744681,
+      "precision": 0.2558139534883721
+    },
+    {
+      "threshold": 0.2162617948875927,
+      "estimated_cost": 1599.35,
+      "review_rate": 0.2545090180360721,
+      "recall": 0.7021276595744681,
+      "precision": 0.25984251968503935
+    },
+    {
+      "threshold": 0.21865233488894292,
+      "estimated_cost": 1571.35,
+      "review_rate": 0.24649298597194388,
+      "recall": 0.7021276595744681,
+      "precision": 0.2682926829268293
+    },
+    {
+      "threshold": 0.2200574017778057,
+      "estimated_cost": 1582.75,
+      "review_rate": 0.24048096192384769,
+      "recall": 0.6808510638297872,
+      "precision": 0.26666666666666666
+    },
+    {
+      "threshold": 0.22352612793133572,
+      "estimated_cost": 1618.87,
+      "review_rate": 0.23246492985971945,
+      "recall": 0.6595744680851063,
+      "precision": 0.2672413793103448
+    },
+    {
+      "threshold": 0.22548915956634902,
+      "estimated_cost": 1597.87,
+      "review_rate": 0.22645290581162325,
+      "recall": 0.6595744680851063,
+      "precision": 0.2743362831858407
+    },
+    {
+      "threshold": 0.23,
+      "estimated_cost": 1614.71,
+      "review_rate": 0.218436873747495,
+      "recall": 0.6382978723404256,
+      "precision": 0.27522935779816515
+    },
+    {
+      "threshold": 0.23440292488138995,
+      "estimated_cost": 1593.71,
+      "review_rate": 0.2124248496993988,
+      "recall": 0.6382978723404256,
+      "precision": 0.2830188679245283
+    },
+    {
+      "threshold": 0.23736469125948456,
+      "estimated_cost": 1578.6999999999998,
+      "review_rate": 0.20641282565130262,
+      "recall": 0.6170212765957447,
+      "precision": 0.2815533980582524
+    },
+    {
+      "threshold": 0.24,
+      "estimated_cost": 1550.6999999999998,
+      "review_rate": 0.19839679358717435,
+      "recall": 0.6170212765957447,
+      "precision": 0.29292929292929293
+    },
+    {
+      "threshold": 0.24219929474248952,
+      "estimated_cost": 1678.66,
+      "review_rate": 0.19238476953907815,
+      "recall": 0.5957446808510638,
+      "precision": 0.2916666666666667
+    },
+    {
+      "threshold": 0.24855752461491532,
+      "estimated_cost": 1775.88,
+      "review_rate": 0.18637274549098196,
+      "recall": 0.574468085106383,
+      "precision": 0.2903225806451613
+    },
+    {
+      "threshold": 0.25406230777162686,
+      "estimated_cost": 1754.88,
+      "review_rate": 0.18036072144288579,
+      "recall": 0.574468085106383,
+      "precision": 0.3
+    },
+    {
+      "threshold": 0.25770108790488616,
+      "estimated_cost": 1770.91,
+      "review_rate": 0.1743486973947896,
+      "recall": 0.5531914893617021,
+      "precision": 0.2988505747126437
+    },
+    {
+      "threshold": 0.2603332815556485,
+      "estimated_cost": 1787.1299999999999,
+      "review_rate": 0.1683366733466934,
+      "recall": 0.5319148936170213,
+      "precision": 0.2976190476190476
+    },
+    {
+      "threshold": 0.263292345673456,
+      "estimated_cost": 1844.37,
+      "review_rate": 0.16032064128256512,
+      "recall": 0.48936170212765956,
+      "precision": 0.2875
+    },
+    {
+      "threshold": 0.2662944832327683,
+      "estimated_cost": 1984.22,
+      "review_rate": 0.15430861723446893,
+      "recall": 0.44680851063829785,
+      "precision": 0.2727272727272727
+    },
+    {
+      "threshold": 0.2683230230449816,
+      "estimated_cost": 2149.3,
+      "review_rate": 0.1462925851703407,
+      "recall": 0.425531914893617,
+      "precision": 0.273972602739726
+    },
+    {
+      "threshold": 0.27,
+      "estimated_cost": 2181.04,
+      "review_rate": 0.13827655310621242,
+      "recall": 0.40425531914893614,
+      "precision": 0.2753623188405797
+    },
+    {
+      "threshold": 0.27650612869146757,
+      "estimated_cost": 2167.04,
+      "review_rate": 0.1342685370741483,
+      "recall": 0.40425531914893614,
+      "precision": 0.2835820895522388
+    },
+    {
+      "threshold": 0.2792106589986256,
+      "estimated_cost": 2149.63,
+      "review_rate": 0.12625250501002003,
+      "recall": 0.3829787234042553,
+      "precision": 0.2857142857142857
+    },
+    {
+      "threshold": 0.2824974346266667,
+      "estimated_cost": 2142.41,
+      "review_rate": 0.12024048096192384,
+      "recall": 0.3617021276595745,
+      "precision": 0.2833333333333333
+    },
+    {
+      "threshold": 0.29,
+      "estimated_cost": 2301.34,
+      "review_rate": 0.11422845691382766,
+      "recall": 0.3191489361702128,
+      "precision": 0.2631578947368421
+    },
+    {
+      "threshold": 0.2915132038431516,
+      "estimated_cost": 2280.34,
+      "review_rate": 0.10821643286573146,
+      "recall": 0.3191489361702128,
+      "precision": 0.2777777777777778
+    },
+    {
+      "threshold": 0.295,
+      "estimated_cost": 2252.34,
+      "review_rate": 0.10020040080160321,
+      "recall": 0.3191489361702128,
+      "precision": 0.3
+    },
+    {
+      "threshold": 0.3,
+      "estimated_cost": 2335.3,
+      "review_rate": 0.09418837675350701,
+      "recall": 0.2765957446808511,
+      "precision": 0.2765957446808511
+    },
+    {
+      "threshold": 0.305,
+      "estimated_cost": 2314.3,
+      "review_rate": 0.08817635270541083,
+      "recall": 0.2765957446808511,
+      "precision": 0.29545454545454547
+    },
+    {
+      "threshold": 0.30727688853268603,
+      "estimated_cost": 2293.3,
+      "review_rate": 0.08216432865731463,
+      "recall": 0.2765957446808511,
+      "precision": 0.3170731707317073
+    },
+    {
+      "threshold": 0.31100048093869886,
+      "estimated_cost": 2272.3,
+      "review_rate": 0.07615230460921844,
+      "recall": 0.2765957446808511,
+      "precision": 0.34210526315789475
+    },
+    {
+      "threshold": 0.315,
+      "estimated_cost": 2320.98,
+      "review_rate": 0.06813627254509018,
+      "recall": 0.2553191489361702,
+      "precision": 0.35294117647058826
+    },
+    {
+      "threshold": 0.32330860442035125,
+      "estimated_cost": 2327.7400000000002,
+      "review_rate": 0.06412825651302605,
+      "recall": 0.23404255319148937,
+      "precision": 0.34375
+    },
+    {
+      "threshold": 0.3269766587481168,
+      "estimated_cost": 2393.93,
+      "review_rate": 0.05811623246492986,
+      "recall": 0.2127659574468085,
+      "precision": 0.3448275862068966
+    },
+    {
+      "threshold": 0.33066766031031286,
+      "estimated_cost": 2372.93,
+      "review_rate": 0.052104208416833664,
+      "recall": 0.2127659574468085,
+      "precision": 0.38461538461538464
+    },
+    {
+      "threshold": 0.3418168698480837,
+      "estimated_cost": 2525.47,
+      "review_rate": 0.04809619238476954,
+      "recall": 0.19148936170212766,
+      "precision": 0.375
+    },
+    {
+      "threshold": 0.34979716866801935,
+      "estimated_cost": 2528.62,
+      "review_rate": 0.04208416833667335,
+      "recall": 0.1702127659574468,
+      "precision": 0.38095238095238093
+    },
+    {
+      "threshold": 0.355,
+      "estimated_cost": 2619.9399999999996,
+      "review_rate": 0.036072144288577156,
+      "recall": 0.14893617021276595,
+      "precision": 0.3888888888888889
+    },
+    {
+      "threshold": 0.365,
+      "estimated_cost": 2605.9399999999996,
+      "review_rate": 0.03206412825651302,
+      "recall": 0.14893617021276595,
+      "precision": 0.4375
+    },
+    {
+      "threshold": 0.38,
+      "estimated_cost": 2670.09,
+      "review_rate": 0.03006012024048096,
+      "recall": 0.1276595744680851,
+      "precision": 0.4
+    },
+    {
+      "threshold": 0.4,
+      "estimated_cost": 2670.09,
+      "review_rate": 0.03006012024048096,
+      "recall": 0.1276595744680851,
+      "precision": 0.4
+    },
+    {
+      "threshold": 0.41500000000000004,
+      "estimated_cost": 2663.09,
+      "review_rate": 0.028056112224448898,
+      "recall": 0.1276595744680851,
+      "precision": 0.42857142857142855
+    },
+    {
+      "threshold": 0.43,
+      "estimated_cost": 2656.09,
+      "review_rate": 0.026052104208416832,
+      "recall": 0.1276595744680851,
+      "precision": 0.46153846153846156
+    },
+    {
+      "threshold": 0.45,
+      "estimated_cost": 2656.09,
+      "review_rate": 0.026052104208416832,
+      "recall": 0.1276595744680851,
+      "precision": 0.46153846153846156
+    },
+    {
+      "threshold": 0.47000000000000003,
+      "estimated_cost": 2656.09,
+      "review_rate": 0.026052104208416832,
+      "recall": 0.1276595744680851,
+      "precision": 0.46153846153846156
+    },
+    {
+      "threshold": 0.48159933263221183,
+      "estimated_cost": 2737.24,
+      "review_rate": 0.02404809619238477,
+      "recall": 0.10638297872340426,
+      "precision": 0.4166666666666667
+    },
+    {
+      "threshold": 0.49,
+      "estimated_cost": 2716.24,
+      "review_rate": 0.018036072144288578,
+      "recall": 0.10638297872340426,
+      "precision": 0.5555555555555556
+    },
+    {
+      "threshold": 0.505,
+      "estimated_cost": 2709.24,
+      "review_rate": 0.01603206412825651,
+      "recall": 0.10638297872340426,
+      "precision": 0.625
+    },
+    {
+      "threshold": 0.52,
+      "estimated_cost": 2702.24,
+      "review_rate": 0.014028056112224449,
+      "recall": 0.10638297872340426,
+      "precision": 0.7142857142857143
+    },
+    {
+      "threshold": 0.54,
+      "estimated_cost": 2702.24,
+      "review_rate": 0.014028056112224449,
+      "recall": 0.10638297872340426,
+      "precision": 0.7142857142857143
+    },
+    {
+      "threshold": 0.56,
+      "estimated_cost": 2702.24,
+      "review_rate": 0.014028056112224449,
+      "recall": 0.10638297872340426,
+      "precision": 0.7142857142857143
+    },
+    {
+      "threshold": 0.5750000000000001,
+      "estimated_cost": 2712.31,
+      "review_rate": 0.012024048096192385,
+      "recall": 0.0851063829787234,
+      "precision": 0.6666666666666666
+    },
+    {
+      "threshold": 0.59,
+      "estimated_cost": 2759.8199999999997,
+      "review_rate": 0.01002004008016032,
+      "recall": 0.06382978723404255,
+      "precision": 0.6
+    },
+    {
+      "threshold": 0.61,
+      "estimated_cost": 2759.8199999999997,
+      "review_rate": 0.01002004008016032,
+      "recall": 0.06382978723404255,
+      "precision": 0.6
+    },
+    {
+      "threshold": 0.63,
+      "estimated_cost": 2759.8199999999997,
+      "review_rate": 0.01002004008016032,
+      "recall": 0.06382978723404255,
+      "precision": 0.6
+    },
+    {
+      "threshold": 0.645,
+      "estimated_cost": 2775.84,
+      "review_rate": 0.008016032064128256,
+      "recall": 0.0425531914893617,
+      "precision": 0.5
+    },
+    {
+      "threshold": 0.6566446157804348,
+      "estimated_cost": 2768.84,
+      "review_rate": 0.006012024048096192,
+      "recall": 0.0425531914893617,
+      "precision": 0.6666666666666666
+    },
+    {
+      "threshold": 0.67,
+      "estimated_cost": 3269.28,
+      "review_rate": 0.002004008016032064,
+      "recall": 0.02127659574468085,
+      "precision": 1.0
+    },
+    {
+      "threshold": 0.685,
+      "estimated_cost": 3400.2400000000002,
+      "review_rate": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    {
+      "threshold": 0.705,
+      "estimated_cost": 3400.2400000000002,
+      "review_rate": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    {
+      "threshold": 0.725,
+      "estimated_cost": 3400.2400000000002,
+      "review_rate": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    {
+      "threshold": 0.745,
+      "estimated_cost": 3400.2400000000002,
+      "review_rate": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    {
+      "threshold": 0.765,
+      "estimated_cost": 3400.2400000000002,
+      "review_rate": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    {
+      "threshold": 0.785,
+      "estimated_cost": 3400.2400000000002,
+      "review_rate": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    {
+      "threshold": 0.805,
+      "estimated_cost": 3400.2400000000002,
+      "review_rate": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    {
+      "threshold": 0.8250000000000001,
+      "estimated_cost": 3400.2400000000002,
+      "review_rate": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    {
+      "threshold": 0.845,
+      "estimated_cost": 3400.2400000000002,
+      "review_rate": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    {
+      "threshold": 0.865,
+      "estimated_cost": 3400.2400000000002,
+      "review_rate": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    {
+      "threshold": 0.885,
+      "estimated_cost": 3400.2400000000002,
+      "review_rate": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    {
+      "threshold": 0.905,
+      "estimated_cost": 3400.2400000000002,
+      "review_rate": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    {
+      "threshold": 0.925,
+      "estimated_cost": 3400.2400000000002,
+      "review_rate": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    {
+      "threshold": 0.9450000000000001,
+      "estimated_cost": 3400.2400000000002,
+      "review_rate": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    {
+      "threshold": 0.965,
+      "estimated_cost": 3400.2400000000002,
+      "review_rate": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    {
+      "threshold": 0.985,
+      "estimated_cost": 3400.2400000000002,
+      "review_rate": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    {
+      "threshold": 1.0000000000000002,
+      "estimated_cost": 3400.2400000000002,
+      "review_rate": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    }
+  ],
+  "curves": {
+    "pr": [
+      {
+        "x": 1.0,
+        "y": 0.08456375838926175
+      },
+      {
+        "x": 1.0,
+        "y": 0.08513513513513514
+      },
+      {
+        "x": 1.0,
+        "y": 0.08571428571428572
+      },
+      {
+        "x": 1.0,
+        "y": 0.0863013698630137
+      },
+      {
+        "x": 1.0,
+        "y": 0.08689655172413793
+      },
+      {
+        "x": 1.0,
+        "y": 0.0875
+      },
+      {
+        "x": 1.0,
+        "y": 0.08811188811188811
+      },
+      {
+        "x": 0.9841269841269841,
+        "y": 0.08732394366197183
+      },
+      {
+        "x": 0.9841269841269841,
+        "y": 0.08794326241134752
+      },
+      {
+        "x": 0.9841269841269841,
+        "y": 0.08857142857142856
+      },
+      {
+        "x": 0.9841269841269841,
+        "y": 0.08920863309352518
+      },
+      {
+        "x": 0.9841269841269841,
+        "y": 0.08985507246376812
+      },
+      {
+        "x": 0.9841269841269841,
+        "y": 0.0905109489051095
+      },
+      {
+        "x": 0.9841269841269841,
+        "y": 0.09117647058823529
+      },
+      {
+        "x": 0.9841269841269841,
+        "y": 0.09185185185185185
+      },
+      {
+        "x": 0.9841269841269841,
+        "y": 0.09253731343283582
+      },
+      {
+        "x": 0.9841269841269841,
+        "y": 0.09323308270676692
+      },
+      {
+        "x": 0.9841269841269841,
+        "y": 0.09393939393939393
+      },
+      {
+        "x": 0.9841269841269841,
+        "y": 0.09465648854961832
+      },
+      {
+        "x": 0.9841269841269841,
+        "y": 0.09538461538461539
+      },
+      {
+        "x": 0.9682539682539683,
+        "y": 0.09457364341085271
+      },
+      {
+        "x": 0.9682539682539683,
+        "y": 0.0953125
+      },
+      {
+        "x": 0.9682539682539683,
+        "y": 0.09606299212598425
+      },
+      {
+        "x": 0.9682539682539683,
+        "y": 0.09682539682539683
+      },
+      {
+        "x": 0.9682539682539683,
+        "y": 0.0976
+      },
+      {
+        "x": 0.9682539682539683,
+        "y": 0.09838709677419355
+      },
+      {
+        "x": 0.9682539682539683,
+        "y": 0.0991869918699187
+      },
+      {
+        "x": 0.9682539682539683,
+        "y": 0.1
+      },
+      {
+        "x": 0.9682539682539683,
+        "y": 0.10082644628099173
+      },
+      {
+        "x": 0.9682539682539683,
+        "y": 0.10166666666666667
+      },
+      {
+        "x": 0.9682539682539683,
+        "y": 0.10252100840336134
+      },
+      {
+        "x": 0.9682539682539683,
+        "y": 0.10338983050847457
+      },
+      {
+        "x": 0.9682539682539683,
+        "y": 0.10427350427350428
+      },
+      {
+        "x": 0.9682539682539683,
+        "y": 0.10517241379310345
+      },
+      {
+        "x": 0.9682539682539683,
+        "y": 0.10608695652173913
+      },
+      {
+        "x": 0.9682539682539683,
+        "y": 0.10701754385964912
+      },
+      {
+        "x": 0.9682539682539683,
+        "y": 0.1079646017699115
+      },
+      {
+        "x": 0.9682539682539683,
+        "y": 0.10892857142857143
+      },
+      {
+        "x": 0.9682539682539683,
+        "y": 0.10990990990990991
+      },
+      {
+        "x": 0.9682539682539683,
+        "y": 0.11090909090909092
+      },
+      {
+        "x": 0.9682539682539683,
+        "y": 0.11192660550458716
+      },
+      {
+        "x": 0.9682539682539683,
+        "y": 0.11296296296296296
+      },
+      {
+        "x": 0.9682539682539683,
+        "y": 0.11401869158878504
+      },
+      {
+        "x": 0.9682539682539683,
+        "y": 0.11509433962264151
+      },
+      {
+        "x": 0.9682539682539683,
+        "y": 0.11619047619047619
+      },
+      {
+        "x": 0.9682539682539683,
+        "y": 0.11730769230769231
+      },
+      {
+        "x": 0.9682539682539683,
+        "y": 0.11844660194174757
+      },
+      {
+        "x": 0.9682539682539683,
+        "y": 0.11960784313725491
+      },
+      {
+        "x": 0.9682539682539683,
+        "y": 0.12079207920792079
+      },
+      {
+        "x": 0.9682539682539683,
+        "y": 0.122
+      },
+      {
+        "x": 0.9523809523809523,
+        "y": 0.12121212121212122
+      },
+      {
+        "x": 0.9523809523809523,
+        "y": 0.12244897959183673
+      },
+      {
+        "x": 0.9365079365079365,
+        "y": 0.12164948453608247
+      },
+      {
+        "x": 0.9365079365079365,
+        "y": 0.12291666666666666
+      },
+      {
+        "x": 0.9365079365079365,
+        "y": 0.12421052631578948
+      },
+      {
+        "x": 0.9365079365079365,
+        "y": 0.125531914893617
+      },
+      {
+        "x": 0.9365079365079365,
+        "y": 0.12688172043010754
+      },
+      {
+        "x": 0.9365079365079365,
+        "y": 0.1282608695652174
+      },
+      {
+        "x": 0.9365079365079365,
+        "y": 0.12967032967032968
+      },
+      {
+        "x": 0.9365079365079365,
+        "y": 0.13111111111111112
+      },
+      {
+        "x": 0.9365079365079365,
+        "y": 0.13258426966292136
+      },
+      {
+        "x": 0.9365079365079365,
+        "y": 0.1340909090909091
+      },
+      {
+        "x": 0.9365079365079365,
+        "y": 0.135632183908046
+      },
+      {
+        "x": 0.9365079365079365,
+        "y": 0.1372093023255814
+      },
+      {
+        "x": 0.9206349206349206,
+        "y": 0.13647058823529412
+      },
+      {
+        "x": 0.9047619047619048,
+        "y": 0.1357142857142857
+      },
+      {
+        "x": 0.9047619047619048,
+        "y": 0.13734939759036144
+      },
+      {
+        "x": 0.9047619047619048,
+        "y": 0.13902439024390245
+      },
+      {
+        "x": 0.9047619047619048,
+        "y": 0.14074074074074075
+      },
+      {
+        "x": 0.9047619047619048,
+        "y": 0.1425
+      },
+      {
+        "x": 0.9047619047619048,
+        "y": 0.14430379746835442
+      },
+      {
+        "x": 0.9047619047619048,
+        "y": 0.14615384615384616
+      },
+      {
+        "x": 0.9047619047619048,
+        "y": 0.14805194805194805
+      },
+      {
+        "x": 0.9047619047619048,
+        "y": 0.15
+      },
+      {
+        "x": 0.9047619047619048,
+        "y": 0.152
+      },
+      {
+        "x": 0.9047619047619048,
+        "y": 0.15405405405405406
+      },
+      {
+        "x": 0.9047619047619048,
+        "y": 0.15616438356164383
+      },
+      {
+        "x": 0.9047619047619048,
+        "y": 0.15833333333333333
+      },
+      {
+        "x": 0.9047619047619048,
+        "y": 0.16056338028169015
+      },
+      {
+        "x": 0.9047619047619048,
+        "y": 0.16285714285714287
+      },
+      {
+        "x": 0.9047619047619048,
+        "y": 0.16521739130434782
+      },
+      {
+        "x": 0.9047619047619048,
+        "y": 0.1676470588235294
+      },
+      {
+        "x": 0.9047619047619048,
+        "y": 0.1701492537313433
+      },
+      {
+        "x": 0.9047619047619048,
+        "y": 0.17272727272727273
+      },
+      {
+        "x": 0.9047619047619048,
+        "y": 0.1753846153846154
+      },
+      {
+        "x": 0.9047619047619048,
+        "y": 0.178125
+      },
+      {
+        "x": 0.9047619047619048,
+        "y": 0.18095238095238095
+      },
+      {
+        "x": 0.9047619047619048,
+        "y": 0.18387096774193548
+      },
+      {
+        "x": 0.9047619047619048,
+        "y": 0.18688524590163935
+      },
+      {
+        "x": 0.9047619047619048,
+        "y": 0.19
+      },
+      {
+        "x": 0.9047619047619048,
+        "y": 0.19322033898305085
+      },
+      {
+        "x": 0.9047619047619048,
+        "y": 0.19655172413793104
+      },
+      {
+        "x": 0.9047619047619048,
+        "y": 0.2
+      },
+      {
+        "x": 0.9047619047619048,
+        "y": 0.20357142857142857
+      },
+      {
+        "x": 0.8888888888888888,
+        "y": 0.20363636363636364
+      },
+      {
+        "x": 0.8888888888888888,
+        "y": 0.2074074074074074
+      },
+      {
+        "x": 0.8888888888888888,
+        "y": 0.21132075471698114
+      },
+      {
+        "x": 0.8888888888888888,
+        "y": 0.2153846153846154
+      },
+      {
+        "x": 0.8888888888888888,
+        "y": 0.2196078431372549
+      },
+      {
+        "x": 0.8888888888888888,
+        "y": 0.224
+      },
+      {
+        "x": 0.8888888888888888,
+        "y": 0.22857142857142856
+      },
+      {
+        "x": 0.8888888888888888,
+        "y": 0.23333333333333334
+      },
+      {
+        "x": 0.8888888888888888,
+        "y": 0.23829787234042554
+      },
+      {
+        "x": 0.8888888888888888,
+        "y": 0.24347826086956523
+      },
+      {
+        "x": 0.8888888888888888,
+        "y": 0.24888888888888888
+      },
+      {
+        "x": 0.8888888888888888,
+        "y": 0.2545454545454545
+      },
+      {
+        "x": 0.8888888888888888,
+        "y": 0.26046511627906976
+      },
+      {
+        "x": 0.8571428571428571,
+        "y": 0.2571428571428571
+      },
+      {
+        "x": 0.8571428571428571,
+        "y": 0.2634146341463415
+      },
+      {
+        "x": 0.8412698412698413,
+        "y": 0.265
+      },
+      {
+        "x": 0.8253968253968254,
+        "y": 0.26666666666666666
+      },
+      {
+        "x": 0.7777777777777778,
+        "y": 0.2578947368421053
+      },
+      {
+        "x": 0.7777777777777778,
+        "y": 0.2648648648648649
+      },
+      {
+        "x": 0.7619047619047619,
+        "y": 0.26666666666666666
+      },
+      {
+        "x": 0.7619047619047619,
+        "y": 0.2742857142857143
+      },
+      {
+        "x": 0.746031746031746,
+        "y": 0.27647058823529413
+      },
+      {
+        "x": 0.7301587301587301,
+        "y": 0.2787878787878788
+      },
+      {
+        "x": 0.7301587301587301,
+        "y": 0.2875
+      },
+      {
+        "x": 0.7142857142857143,
+        "y": 0.2903225806451613
+      },
+      {
+        "x": 0.6825396825396826,
+        "y": 0.2866666666666667
+      },
+      {
+        "x": 0.6507936507936508,
+        "y": 0.2827586206896552
+      },
+      {
+        "x": 0.6507936507936508,
+        "y": 0.29285714285714287
+      },
+      {
+        "x": 0.6190476190476191,
+        "y": 0.28888888888888886
+      },
+      {
+        "x": 0.5873015873015873,
+        "y": 0.2846153846153846
+      },
+      {
+        "x": 0.5555555555555556,
+        "y": 0.28
+      },
+      {
+        "x": 0.5238095238095238,
+        "y": 0.275
+      },
+      {
+        "x": 0.5238095238095238,
+        "y": 0.28695652173913044
+      },
+      {
+        "x": 0.49206349206349204,
+        "y": 0.2818181818181818
+      },
+      {
+        "x": 0.49206349206349204,
+        "y": 0.29523809523809524
+      },
+      {
+        "x": 0.47619047619047616,
+        "y": 0.3
+      },
+      {
+        "x": 0.4444444444444444,
+        "y": 0.29473684210526313
+      },
+      {
+        "x": 0.42857142857142855,
+        "y": 0.3
+      },
+      {
+        "x": 0.42857142857142855,
+        "y": 0.3176470588235294
+      },
+      {
+        "x": 0.3968253968253968,
+        "y": 0.3125
+      },
+      {
+        "x": 0.36507936507936506,
+        "y": 0.30666666666666664
+      },
+      {
+        "x": 0.36507936507936506,
+        "y": 0.32857142857142857
+      },
+      {
+        "x": 0.3333333333333333,
+        "y": 0.3230769230769231
+      },
+      {
+        "x": 0.2857142857142857,
+        "y": 0.3
+      },
+      {
+        "x": 0.2857142857142857,
+        "y": 0.32727272727272727
+      },
+      {
+        "x": 0.23809523809523808,
+        "y": 0.3
+      },
+      {
+        "x": 0.23809523809523808,
+        "y": 0.3333333333333333
+      },
+      {
+        "x": 0.20634920634920634,
+        "y": 0.325
+      },
+      {
+        "x": 0.19047619047619047,
+        "y": 0.34285714285714286
+      },
+      {
+        "x": 0.1746031746031746,
+        "y": 0.36666666666666664
+      },
+      {
+        "x": 0.12698412698412698,
+        "y": 0.32
+      },
+      {
+        "x": 0.1111111111111111,
+        "y": 0.35
+      },
+      {
+        "x": 0.07936507936507936,
+        "y": 0.3333333333333333
+      },
+      {
+        "x": 0.047619047619047616,
+        "y": 0.3
+      },
+      {
+        "x": 0.031746031746031744,
+        "y": 0.4
+      },
+      {
+        "x": 0.0,
+        "y": 1.0
+      }
+    ],
+    "roc": [
+      {
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "x": 0.0,
+        "y": 0.015873015873015872
+      },
+      {
+        "x": 0.002932551319648094,
+        "y": 0.015873015873015872
+      },
+      {
+        "x": 0.002932551319648094,
+        "y": 0.031746031746031744
+      },
+      {
+        "x": 0.005865102639296188,
+        "y": 0.031746031746031744
+      },
+      {
+        "x": 0.005865102639296188,
+        "y": 0.047619047619047616
+      },
+      {
+        "x": 0.010263929618768328,
+        "y": 0.047619047619047616
+      },
+      {
+        "x": 0.010263929618768328,
+        "y": 0.06349206349206349
+      },
+      {
+        "x": 0.013196480938416423,
+        "y": 0.06349206349206349
+      },
+      {
+        "x": 0.013196480938416423,
+        "y": 0.07936507936507936
+      },
+      {
+        "x": 0.01466275659824047,
+        "y": 0.07936507936507936
+      },
+      {
+        "x": 0.01466275659824047,
+        "y": 0.09523809523809523
+      },
+      {
+        "x": 0.017595307917888565,
+        "y": 0.09523809523809523
+      },
+      {
+        "x": 0.017595307917888565,
+        "y": 0.1111111111111111
+      },
+      {
+        "x": 0.020527859237536656,
+        "y": 0.1111111111111111
+      },
+      {
+        "x": 0.020527859237536656,
+        "y": 0.12698412698412698
+      },
+      {
+        "x": 0.024926686217008796,
+        "y": 0.12698412698412698
+      },
+      {
+        "x": 0.024926686217008796,
+        "y": 0.1746031746031746
+      },
+      {
+        "x": 0.030791788856304986,
+        "y": 0.1746031746031746
+      },
+      {
+        "x": 0.030791788856304986,
+        "y": 0.19047619047619047
+      },
+      {
+        "x": 0.03519061583577713,
+        "y": 0.19047619047619047
+      },
+      {
+        "x": 0.03519061583577713,
+        "y": 0.20634920634920634
+      },
+      {
+        "x": 0.039589442815249266,
+        "y": 0.20634920634920634
+      },
+      {
+        "x": 0.039589442815249266,
+        "y": 0.2222222222222222
+      },
+      {
+        "x": 0.04105571847507331,
+        "y": 0.2222222222222222
+      },
+      {
+        "x": 0.04105571847507331,
+        "y": 0.23809523809523808
+      },
+      {
+        "x": 0.051319648093841645,
+        "y": 0.23809523809523808
+      },
+      {
+        "x": 0.051319648093841645,
+        "y": 0.2698412698412698
+      },
+      {
+        "x": 0.054252199413489736,
+        "y": 0.2698412698412698
+      },
+      {
+        "x": 0.054252199413489736,
+        "y": 0.2857142857142857
+      },
+      {
+        "x": 0.06158357771260997,
+        "y": 0.2857142857142857
+      },
+      {
+        "x": 0.06158357771260997,
+        "y": 0.30158730158730157
+      },
+      {
+        "x": 0.06304985337243402,
+        "y": 0.30158730158730157
+      },
+      {
+        "x": 0.06304985337243402,
+        "y": 0.3333333333333333
+      },
+      {
+        "x": 0.06451612903225806,
+        "y": 0.3333333333333333
+      },
+      {
+        "x": 0.06451612903225806,
+        "y": 0.3492063492063492
+      },
+      {
+        "x": 0.06744868035190615,
+        "y": 0.3492063492063492
+      },
+      {
+        "x": 0.06744868035190615,
+        "y": 0.36507936507936506
+      },
+      {
+        "x": 0.07771260997067449,
+        "y": 0.36507936507936506
+      },
+      {
+        "x": 0.07771260997067449,
+        "y": 0.38095238095238093
+      },
+      {
+        "x": 0.08064516129032258,
+        "y": 0.38095238095238093
+      },
+      {
+        "x": 0.08064516129032258,
+        "y": 0.3968253968253968
+      },
+      {
+        "x": 0.08211143695014662,
+        "y": 0.3968253968253968
+      },
+      {
+        "x": 0.08211143695014662,
+        "y": 0.4126984126984127
+      },
+      {
+        "x": 0.08357771260997067,
+        "y": 0.4126984126984127
+      },
+      {
+        "x": 0.08357771260997067,
+        "y": 0.42857142857142855
+      },
+      {
+        "x": 0.09237536656891496,
+        "y": 0.42857142857142855
+      },
+      {
+        "x": 0.09237536656891496,
+        "y": 0.4444444444444444
+      },
+      {
+        "x": 0.10117302052785923,
+        "y": 0.4444444444444444
+      },
+      {
+        "x": 0.10117302052785923,
+        "y": 0.4603174603174603
+      },
+      {
+        "x": 0.10263929618768329,
+        "y": 0.4603174603174603
+      },
+      {
+        "x": 0.10263929618768329,
+        "y": 0.47619047619047616
+      },
+      {
+        "x": 0.10850439882697947,
+        "y": 0.47619047619047616
+      },
+      {
+        "x": 0.10850439882697947,
+        "y": 0.49206349206349204
+      },
+      {
+        "x": 0.11730205278592376,
+        "y": 0.49206349206349204
+      },
+      {
+        "x": 0.11730205278592376,
+        "y": 0.5079365079365079
+      },
+      {
+        "x": 0.1187683284457478,
+        "y": 0.5079365079365079
+      },
+      {
+        "x": 0.1187683284457478,
+        "y": 0.5238095238095238
+      },
+      {
+        "x": 0.12903225806451613,
+        "y": 0.5238095238095238
+      },
+      {
+        "x": 0.12903225806451613,
+        "y": 0.5555555555555556
+      },
+      {
+        "x": 0.1348973607038123,
+        "y": 0.5555555555555556
+      },
+      {
+        "x": 0.1348973607038123,
+        "y": 0.5714285714285714
+      },
+      {
+        "x": 0.13636363636363635,
+        "y": 0.5714285714285714
+      },
+      {
+        "x": 0.13636363636363635,
+        "y": 0.5873015873015873
+      },
+      {
+        "x": 0.13929618768328444,
+        "y": 0.5873015873015873
+      },
+      {
+        "x": 0.13929618768328444,
+        "y": 0.6190476190476191
+      },
+      {
+        "x": 0.1436950146627566,
+        "y": 0.6190476190476191
+      },
+      {
+        "x": 0.1436950146627566,
+        "y": 0.6507936507936508
+      },
+      {
+        "x": 0.15395894428152493,
+        "y": 0.6507936507936508
+      },
+      {
+        "x": 0.15395894428152493,
+        "y": 0.6666666666666666
+      },
+      {
+        "x": 0.15689149560117302,
+        "y": 0.6666666666666666
+      },
+      {
+        "x": 0.15689149560117302,
+        "y": 0.6984126984126984
+      },
+      {
+        "x": 0.15835777126099707,
+        "y": 0.6984126984126984
+      },
+      {
+        "x": 0.15835777126099707,
+        "y": 0.7142857142857143
+      },
+      {
+        "x": 0.16715542521994134,
+        "y": 0.7142857142857143
+      },
+      {
+        "x": 0.16715542521994134,
+        "y": 0.7301587301587301
+      },
+      {
+        "x": 0.17888563049853373,
+        "y": 0.7301587301587301
+      },
+      {
+        "x": 0.17888563049853373,
+        "y": 0.746031746031746
+      },
+      {
+        "x": 0.18621700879765396,
+        "y": 0.746031746031746
+      },
+      {
+        "x": 0.18621700879765396,
+        "y": 0.7619047619047619
+      },
+      {
+        "x": 0.19648093841642228,
+        "y": 0.7619047619047619
+      },
+      {
+        "x": 0.19648093841642228,
+        "y": 0.7777777777777778
+      },
+      {
+        "x": 0.20674486803519063,
+        "y": 0.7777777777777778
+      },
+      {
+        "x": 0.20674486803519063,
+        "y": 0.8095238095238095
+      },
+      {
+        "x": 0.20967741935483872,
+        "y": 0.8095238095238095
+      },
+      {
+        "x": 0.20967741935483872,
+        "y": 0.8253968253968254
+      },
+      {
+        "x": 0.2126099706744868,
+        "y": 0.8253968253968254
+      },
+      {
+        "x": 0.2126099706744868,
+        "y": 0.8412698412698413
+      },
+      {
+        "x": 0.22140762463343108,
+        "y": 0.8412698412698413
+      },
+      {
+        "x": 0.22140762463343108,
+        "y": 0.8571428571428571
+      },
+      {
+        "x": 0.23020527859237536,
+        "y": 0.8571428571428571
+      },
+      {
+        "x": 0.23020527859237536,
+        "y": 0.8888888888888888
+      },
+      {
+        "x": 0.32404692082111436,
+        "y": 0.8888888888888888
+      },
+      {
+        "x": 0.32404692082111436,
+        "y": 0.9047619047619048
+      },
+      {
+        "x": 0.532258064516129,
+        "y": 0.9047619047619048
+      },
+      {
+        "x": 0.532258064516129,
+        "y": 0.9206349206349206
+      },
+      {
+        "x": 0.5439882697947214,
+        "y": 0.9206349206349206
+      },
+      {
+        "x": 0.5439882697947214,
+        "y": 0.9365079365079365
+      },
+      {
+        "x": 0.6290322580645161,
+        "y": 0.9365079365079365
+      },
+      {
+        "x": 0.6290322580645161,
+        "y": 0.9523809523809523
+      },
+      {
+        "x": 0.6422287390029325,
+        "y": 0.9523809523809523
+      },
+      {
+        "x": 0.6422287390029325,
+        "y": 0.9682539682539683
+      },
+      {
+        "x": 0.8592375366568915,
+        "y": 0.9682539682539683
+      },
+      {
+        "x": 0.8592375366568915,
+        "y": 0.9841269841269841
+      },
+      {
+        "x": 0.9516129032258065,
+        "y": 0.9841269841269841
+      },
+      {
+        "x": 0.9516129032258065,
+        "y": 1.0
+      },
+      {
+        "x": 1.0,
+        "y": 1.0
+      }
+    ]
+  },
+  "global_explanations": [
+    {
+      "feature": "hour_cos",
+      "mean_absolute_shap": 0.09398103869134623
+    },
+    {
+      "feature": "hour_sin",
+      "mean_absolute_shap": 0.0836056723781914
+    },
+    {
+      "feature": "Is_International",
+      "mean_absolute_shap": 0.05049812585735846
+    },
+    {
+      "feature": "day_of_week",
+      "mean_absolute_shap": 0.010892937380290879
+    },
+    {
+      "feature": "Transaction_Amount",
+      "mean_absolute_shap": 0.00924611507935496
+    },
+    {
+      "feature": "log_amount",
+      "mean_absolute_shap": 0.007219324307745775
+    },
+    {
+      "feature": "Account_Age_Days",
+      "mean_absolute_shap": 0.005199363352738764
+    },
+    {
+      "feature": "Location_Mumbai",
+      "mean_absolute_shap": 0.004491366614395417
+    },
+    {
+      "feature": "Merchant_Category_Electronics",
+      "mean_absolute_shap": 0.002929299629196383
+    },
+    {
+      "feature": "weekend",
+      "mean_absolute_shap": 0.002074360332169579
+    },
+    {
+      "feature": "Device_Type_POS",
+      "mean_absolute_shap": 0.0019281854019045411
+    },
+    {
+      "feature": "Location_Hyderabad",
+      "mean_absolute_shap": 0.0018836879557782896
+    },
+    {
+      "feature": "Payment_Method_Credit Card",
+      "mean_absolute_shap": 0.0018190858570046992
+    },
+    {
+      "feature": "Payment_Method_NetBanking",
+      "mean_absolute_shap": 0.0017580416807711368
+    },
+    {
+      "feature": "Location_Bengaluru",
+      "mean_absolute_shap": 0.0017323316361210624
+    },
+    {
+      "feature": "Merchant_Category_Travel",
+      "mean_absolute_shap": 0.0015583684981701157
+    },
+    {
+      "feature": "Device_Type_Desktop",
+      "mean_absolute_shap": 0.001386356718683003
+    },
+    {
+      "feature": "Location_Pune",
+      "mean_absolute_shap": 0.0013382670559398048
+    },
+    {
+      "feature": "Location_Kolkata",
+      "mean_absolute_shap": 0.0013325243482258525
+    },
+    {
+      "feature": "Merchant_Category_Entertainment",
+      "mean_absolute_shap": 0.0012780257488042542
+    },
+    {
+      "feature": "Merchant_Category_Food",
+      "mean_absolute_shap": 0.0011475294855210622
+    },
+    {
+      "feature": "Location_Chennai",
+      "mean_absolute_shap": 0.001034899111699792
+    },
+    {
+      "feature": "Payment_Method_UPI",
+      "mean_absolute_shap": 0.0008569654825190473
+    },
+    {
+      "feature": "Device_Type_Mobile",
+      "mean_absolute_shap": 0.0008179834194156434
+    },
+    {
+      "feature": "Payment_Method_PayPal",
+      "mean_absolute_shap": 0.0007793304400999378
+    },
+    {
+      "feature": "Payment_Method_Debit Card",
+      "mean_absolute_shap": 0.0007468179583155626
+    },
+    {
+      "feature": "Merchant_Category_Grocery",
+      "mean_absolute_shap": 0.0006147249321990241
+    },
+    {
+      "feature": "Merchant_Category_Fashion",
+      "mean_absolute_shap": 0.0006020087067150316
+    },
+    {
+      "feature": "Merchant_Category_Utilities",
+      "mean_absolute_shap": 0.0005614889658046384
+    },
+    {
+      "feature": "Merchant_Category_Health",
+      "mean_absolute_shap": 0.0003374206028778594
+    },
+    {
+      "feature": "Location_Delhi",
+      "mean_absolute_shap": 0.00031760328473850005
+    }
+  ],
+  "drift": {
+    "numeric": {
+      "Transaction_Amount": {
+        "ks_statistic": 0.022354429065838455,
+        "p_value": 0.9300150276558719,
+        "warning": false
+      },
+      "Is_International": {
+        "ks_statistic": 0.01787086887758027,
+        "p_value": 0.9914115326075477,
+        "warning": false
+      },
+      "Account_Age_Days": {
+        "ks_statistic": 0.03654918285790776,
+        "p_value": 0.4178827019308464,
+        "warning": false
+      }
+    },
+    "categorical": {
+      "Merchant_Category": {
+        "total_variation": 0.039922096297935236,
+        "warning": false
+      },
+      "Payment_Method": {
+        "total_variation": 0.03018304092129595,
+        "warning": false
+      },
+      "Device_Type": {
+        "total_variation": 0.02196436424624343,
+        "warning": false
+      },
+      "Location": {
+        "total_variation": 0.03638638269510755,
+        "warning": false
+      }
+    },
+    "reference_rows": 2457,
+    "current_rows": 745,
+    "note": "KS > 0.15 or total variation > 0.15 triggers a diagnostic warning. No live performance monitoring without delayed labels."
+  },
+  "amount_reference_quantiles": [
+    0.8968,
+    55.15,
+    357.98240000000015
+  ],
+  "selection_reason": "Lowest cost on policy window under review-capacity constraint; tuning by PR-AUC, calibration on separate window; test untouched until selection.",
+  "limitations": [
+    "Dataset origin, currency, timezone and label-generation mechanism are undocumented.",
+    "Offline estimates; no claim of production effectiveness.",
+    "Historical features and suspicious keyword excluded due to unknown point-in-time provenance.",
+    "Customer identifiers excluded; chronological evaluation covers recurring customers, not customer-disjoint generalization.",
+    "Probabilities calibrated on a small window; risk bands are configurable presentation conventions.",
+    "SHAP explains base estimator output before probability calibration.",
+    "Review-capacity constraint applies on policy window; future review volumes may exceed it."
+  ],
+  "selected_parameters": {
+    "bootstrap": true,
+    "ccp_alpha": 0.0,
+    "class_weight": "balanced",
+    "criterion": "gini",
+    "max_depth": 5,
+    "max_features": "sqrt",
+    "max_leaf_nodes": null,
+    "max_samples": null,
+    "min_impurity_decrease": 0.0,
+    "min_samples_leaf": 12,
+    "min_samples_split": 2,
+    "min_weight_fraction_leaf": 0.0,
+    "monotonic_cst": null,
+    "n_estimators": 150,
+    "n_jobs": -1,
+    "oob_score": false,
+    "random_state": 42,
+    "verbose": 0,
+    "warm_start": false
+  }
+}

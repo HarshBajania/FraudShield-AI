@@ -1,0 +1,2458 @@
+Transaction_Date,Transaction_Amount,Is_International,Account_Age_Days,Merchant_Category,Payment_Method,Device_Type,Location
+2023-01-01 02:16:00,210.69,0,1824,Grocery,PayPal,Desktop,Hyderabad
+2023-01-01 05:46:00,66.73,1,79,Entertainment,Debit Card,Desktop,Hyderabad
+2023-01-01 09:06:00,14.24,0,790,Utilities,Debit Card,POS,Pune
+2023-01-01 11:34:00,74.9,0,388,Fashion,Debit Card,Desktop,Hyderabad
+2023-01-01 11:41:00,45.04,0,1300,Grocery,NetBanking,POS,Chennai
+2023-01-01 11:51:00,12.67,0,634,Travel,Credit Card,Mobile,Hyderabad
+2023-01-01 12:08:00,3.7,0,1260,Entertainment,Credit Card,POS,Mumbai
+2023-01-01 14:42:00,5.31,0,1336,Entertainment,PayPal,Desktop,Hyderabad
+2023-01-01 18:05:00,54.32,0,671,Fashion,PayPal,Desktop,Hyderabad
+2023-01-01 18:56:00,179.62,0,287,Health,UPI,Mobile,Bengaluru
+2023-01-01 19:42:00,56.41,0,491,Electronics,NetBanking,POS,Bengaluru
+2023-01-01 22:32:00,239.34,0,211,Electronics,Debit Card,Desktop,Hyderabad
+2023-01-02 01:07:00,36.68,0,761,Food,UPI,POS,Bengaluru
+2023-01-02 04:32:00,142.91,0,839,Utilities,Debit Card,POS,Pune
+2023-01-02 07:17:00,32.66,0,1500,Health,Debit Card,Desktop,Mumbai
+2023-01-02 14:09:00,13.3,1,1568,Entertainment,PayPal,Desktop,Bengaluru
+2023-01-02 14:12:00,45.01,0,287,Grocery,NetBanking,Desktop,Hyderabad
+2023-01-02 22:53:00,1.18,1,1460,Grocery,Credit Card,Desktop,Mumbai
+2023-01-03 00:44:00,4.69,1,1996,Entertainment,NetBanking,Desktop,Kolkata
+2023-01-03 01:03:00,34.23,0,675,Utilities,NetBanking,Desktop,Chennai
+2023-01-03 02:52:00,99.51,0,1338,Utilities,PayPal,POS,Kolkata
+2023-01-03 05:22:00,40.36,0,582,Health,NetBanking,Mobile,Chennai
+2023-01-03 06:29:00,16.31,0,1466,Entertainment,UPI,Desktop,Pune
+2023-01-03 07:09:00,12.02,0,543,Grocery,Debit Card,Desktop,Mumbai
+2023-01-03 07:11:00,9.02,0,488,Utilities,Debit Card,POS,Bengaluru
+2023-01-03 07:52:00,69.53,0,74,Food,Debit Card,POS,Bengaluru
+2023-01-03 12:08:00,58.34,0,1848,Electronics,NetBanking,Desktop,Mumbai
+2023-01-03 12:59:00,25.87,0,1555,Entertainment,Debit Card,POS,Pune
+2023-01-03 13:44:00,48.15,0,620,Electronics,Debit Card,POS,Mumbai
+2023-01-03 15:07:00,19.45,0,102,Electronics,Debit Card,Desktop,Mumbai
+2023-01-03 16:34:00,265.98,1,1925,Health,UPI,Desktop,Pune
+2023-01-03 18:17:00,36.51,1,1471,Entertainment,UPI,POS,Mumbai
+2023-01-03 20:05:00,227.05,0,1775,Grocery,NetBanking,POS,Hyderabad
+2023-01-03 20:33:00,7.09,0,649,Health,UPI,Mobile,Delhi
+2023-01-03 22:03:00,19.96,0,769,Grocery,Credit Card,Mobile,Hyderabad
+2023-01-04 00:49:00,182.93,1,430,Travel,Debit Card,Desktop,Hyderabad
+2023-01-04 01:15:00,8.24,0,202,Entertainment,Credit Card,POS,Delhi
+2023-01-04 01:17:00,88.26,0,337,Electronics,Debit Card,POS,Bengaluru
+2023-01-04 02:26:00,30.72,0,1347,Food,PayPal,Mobile,Pune
+2023-01-04 06:30:00,154.5,0,1143,Health,PayPal,Mobile,Mumbai
+2023-01-04 06:38:00,130.96,0,679,Electronics,PayPal,Mobile,Chennai
+2023-01-04 06:57:00,18.17,0,1902,Electronics,Debit Card,POS,Chennai
+2023-01-04 08:53:00,18.91,1,871,Utilities,PayPal,POS,Delhi
+2023-01-04 09:25:00,12.9,0,1825,Grocery,UPI,Desktop,Chennai
+2023-01-04 09:48:00,12.52,0,277,Grocery,Credit Card,Desktop,Pune
+2023-01-04 09:51:00,69.98,0,1961,Fashion,Credit Card,Mobile,Pune
+2023-01-04 17:50:00,57.5,0,683,Fashion,PayPal,POS,Bengaluru
+2023-01-04 18:11:00,80.57,0,1238,Grocery,Debit Card,Desktop,Mumbai
+2023-01-04 20:54:00,240.32,0,858,Fashion,UPI,Desktop,Mumbai
+2023-01-04 22:19:00,222.86,0,843,Grocery,PayPal,Mobile,Pune
+2023-01-05 06:59:00,31.41,1,1782,Grocery,PayPal,Desktop,Mumbai
+2023-01-05 18:32:00,57.68,0,376,Electronics,PayPal,Mobile,Bengaluru
+2023-01-05 19:51:00,124.26,0,776,Health,Debit Card,Mobile,Hyderabad
+2023-01-05 21:00:00,13.37,0,1111,Utilities,PayPal,Mobile,Kolkata
+2023-01-05 21:39:00,90.54,0,766,Fashion,Credit Card,POS,Delhi
+2023-01-05 21:58:00,31.36,1,263,Food,NetBanking,Desktop,Mumbai
+2023-01-05 22:16:00,16.06,0,1430,Food,UPI,Desktop,Hyderabad
+2023-01-06 03:59:00,48.46,0,679,Health,Debit Card,POS,Delhi
+2023-01-06 04:03:00,33.88,0,1289,Travel,UPI,POS,Chennai
+2023-01-06 07:44:00,15.99,0,191,Entertainment,Credit Card,POS,Bengaluru
+2023-01-06 14:09:00,14.36,0,981,Health,Debit Card,POS,Mumbai
+2023-01-06 15:39:00,93.41,0,732,Fashion,NetBanking,Desktop,Chennai
+2023-01-06 15:39:00,7.81,0,867,Entertainment,NetBanking,Mobile,Kolkata
+2023-01-06 17:17:00,39.9,1,1242,Utilities,Credit Card,Desktop,Pune
+2023-01-06 17:52:00,16.47,0,1701,Grocery,NetBanking,Desktop,Mumbai
+2023-01-06 19:00:00,43.53,0,443,Utilities,NetBanking,POS,Hyderabad
+2023-01-06 19:17:00,79.84,0,1522,Utilities,Credit Card,Desktop,Pune
+2023-01-06 22:54:00,191.95,0,1600,Entertainment,NetBanking,POS,Delhi
+2023-01-06 23:09:00,77.55,1,571,Travel,Credit Card,POS,Kolkata
+2023-01-06 23:54:00,119.21,0,1795,Utilities,Debit Card,Desktop,Mumbai
+2023-01-07 01:43:00,165.05,1,1812,Utilities,NetBanking,Mobile,Pune
+2023-01-07 01:53:00,13.95,0,1603,Food,NetBanking,Desktop,Kolkata
+2023-01-07 05:07:00,7.9,0,901,Entertainment,Debit Card,Mobile,Bengaluru
+2023-01-07 05:55:00,31.39,0,1239,Travel,Debit Card,Desktop,Delhi
+2023-01-07 08:20:00,27.09,0,570,Utilities,PayPal,Mobile,Hyderabad
+2023-01-07 08:36:00,172.74,0,1892,Travel,Credit Card,Mobile,Pune
+2023-01-07 11:03:00,27.59,0,1618,Grocery,NetBanking,Mobile,Bengaluru
+2023-01-07 11:27:00,124.54,0,394,Travel,PayPal,Mobile,Pune
+2023-01-07 12:28:00,45.46,1,819,Entertainment,NetBanking,Mobile,Hyderabad
+2023-01-07 16:35:00,1.62,0,937,Health,NetBanking,Mobile,Kolkata
+2023-01-07 16:38:00,44.83,0,1694,Health,Credit Card,Desktop,Kolkata
+2023-01-07 17:04:00,133.62,0,386,Electronics,Credit Card,Mobile,Delhi
+2023-01-07 21:59:00,240.51,0,1370,Food,UPI,Mobile,Delhi
+2023-01-08 02:29:00,13.23,0,1524,Utilities,Debit Card,Desktop,Bengaluru
+2023-01-08 02:59:00,271.5,0,510,Grocery,PayPal,Mobile,Kolkata
+2023-01-08 17:14:00,152.1,0,1387,Fashion,NetBanking,Desktop,Kolkata
+2023-01-08 18:52:00,69.81,0,304,Grocery,NetBanking,POS,Bengaluru
+2023-01-09 05:53:00,65.85,0,1430,Grocery,NetBanking,Mobile,Chennai
+2023-01-09 07:12:00,38.27,0,320,Travel,PayPal,Mobile,Hyderabad
+2023-01-09 08:23:00,180.16,0,1572,Food,Credit Card,Mobile,Bengaluru
+2023-01-09 09:09:00,176.23,0,1784,Fashion,NetBanking,Desktop,Hyderabad
+2023-01-09 10:11:00,220.83,0,1477,Travel,NetBanking,POS,Hyderabad
+2023-01-09 13:37:00,34.09,0,57,Entertainment,Debit Card,POS,Hyderabad
+2023-01-09 14:09:00,72.37,0,1556,Health,NetBanking,POS,Bengaluru
+2023-01-09 15:58:00,17.43,0,472,Grocery,UPI,POS,Delhi
+2023-01-09 16:21:00,64.99,0,1477,Fashion,NetBanking,Desktop,Hyderabad
+2023-01-09 16:55:00,61.6,0,1305,Travel,NetBanking,Desktop,Delhi
+2023-01-09 19:24:00,140.05,0,490,Travel,Credit Card,Desktop,Bengaluru
+2023-01-09 22:14:00,31.78,1,1474,Grocery,Debit Card,Mobile,Kolkata
+2023-01-10 00:38:00,52.91,1,1646,Food,NetBanking,POS,Pune
+2023-01-10 09:53:00,1.22,0,661,Grocery,UPI,POS,Bengaluru
+2023-01-10 11:17:00,283.07,0,679,Entertainment,NetBanking,Mobile,Pune
+2023-01-10 11:21:00,8.02,0,1093,Entertainment,Credit Card,Desktop,Bengaluru
+2023-01-10 12:39:00,199.42,0,1945,Utilities,NetBanking,Mobile,Hyderabad
+2023-01-10 13:04:00,6.79,0,1826,Fashion,UPI,Mobile,Delhi
+2023-01-10 13:15:00,11.62,0,1925,Entertainment,Credit Card,Mobile,Bengaluru
+2023-01-10 18:10:00,19.93,0,1022,Health,Debit Card,Desktop,Bengaluru
+2023-01-10 19:43:00,65.26,0,732,Food,PayPal,POS,Delhi
+2023-01-10 21:16:00,22.98,0,789,Food,PayPal,Desktop,Kolkata
+2023-01-11 05:48:00,22.91,0,469,Food,PayPal,Desktop,Delhi
+2023-01-11 07:41:00,158.51,0,432,Fashion,UPI,Desktop,Chennai
+2023-01-11 09:09:00,5.55,1,1445,Travel,Debit Card,Mobile,Mumbai
+2023-01-11 09:41:00,127.38,0,1498,Food,PayPal,Mobile,Chennai
+2023-01-11 10:59:00,23.36,0,772,Utilities,UPI,Desktop,Mumbai
+2023-01-11 13:15:00,55.54,0,984,Fashion,NetBanking,Mobile,Hyderabad
+2023-01-11 15:02:00,127.27,0,1198,Entertainment,UPI,Desktop,Hyderabad
+2023-01-11 16:43:00,4.29,0,1320,Fashion,UPI,Desktop,Chennai
+2023-01-11 18:28:00,36.16,1,1525,Food,Debit Card,POS,Hyderabad
+2023-01-11 19:24:00,32.58,0,793,Entertainment,Debit Card,Desktop,Hyderabad
+2023-01-11 19:35:00,259.93,0,1900,Health,Credit Card,Desktop,Bengaluru
+2023-01-11 21:03:00,117.2,0,376,Travel,UPI,POS,Delhi
+2023-01-11 23:17:00,203.38,1,1308,Electronics,Credit Card,POS,Pune
+2023-01-12 02:28:00,34.53,0,1282,Electronics,NetBanking,Desktop,Bengaluru
+2023-01-12 03:04:00,78.22,0,317,Grocery,PayPal,Mobile,Mumbai
+2023-01-12 05:43:00,114.51,0,240,Utilities,PayPal,POS,Bengaluru
+2023-01-12 08:33:00,140.6,0,1789,Travel,Debit Card,Desktop,Delhi
+2023-01-12 09:29:00,53.77,0,199,Electronics,Credit Card,Mobile,Pune
+2023-01-12 11:49:00,6.02,0,498,Fashion,UPI,Mobile,Pune
+2023-01-12 11:57:00,54.23,0,1442,Fashion,UPI,Desktop,Pune
+2023-01-12 12:07:00,5.44,0,49,Grocery,Debit Card,POS,Bengaluru
+2023-01-12 12:30:00,117.22,0,480,Food,PayPal,Desktop,Pune
+2023-01-12 13:16:00,16.53,0,731,Entertainment,NetBanking,Mobile,Delhi
+2023-01-12 13:44:00,176.74,0,196,Utilities,UPI,POS,Chennai
+2023-01-12 14:54:00,53.53,0,1285,Electronics,Debit Card,POS,Bengaluru
+2023-01-12 20:17:00,104.27,0,1035,Entertainment,UPI,Mobile,Delhi
+2023-01-12 22:58:00,69.27,0,298,Entertainment,UPI,Desktop,Kolkata
+2023-01-13 03:23:00,159.08,0,1591,Electronics,Debit Card,Desktop,Hyderabad
+2023-01-13 05:12:00,167.2,0,1306,Travel,Debit Card,Desktop,Mumbai
+2023-01-13 07:56:00,68.98,1,214,Electronics,PayPal,Desktop,Delhi
+2023-01-13 08:04:00,18.39,0,1909,Electronics,NetBanking,Desktop,Pune
+2023-01-13 08:33:00,46.68,0,547,Health,UPI,Desktop,Delhi
+2023-01-13 09:22:00,11.51,0,1296,Food,Credit Card,Desktop,Bengaluru
+2023-01-13 11:03:00,25.55,0,1041,Entertainment,Debit Card,POS,Mumbai
+2023-01-13 11:59:00,21.83,0,378,Electronics,UPI,POS,Hyderabad
+2023-01-13 12:19:00,25.69,0,96,Utilities,Debit Card,Desktop,Chennai
+2023-01-13 16:59:00,158.9,0,956,Fashion,Credit Card,Desktop,Mumbai
+2023-01-13 18:21:00,121.08,1,1302,Fashion,Credit Card,POS,Chennai
+2023-01-14 02:50:00,42.37,0,270,Food,NetBanking,Desktop,Delhi
+2023-01-14 07:23:00,6.76,1,200,Food,PayPal,POS,Kolkata
+2023-01-14 11:13:00,7.4,0,580,Fashion,NetBanking,Desktop,Delhi
+2023-01-14 14:48:00,253.48,0,844,Travel,NetBanking,Mobile,Chennai
+2023-01-14 18:43:00,131.16,0,568,Fashion,Credit Card,Mobile,Pune
+2023-01-14 20:32:00,24.12,0,173,Food,UPI,Mobile,Kolkata
+2023-01-14 20:42:00,36.67,0,1656,Electronics,PayPal,POS,Chennai
+2023-01-15 00:46:00,70.12,0,227,Electronics,PayPal,POS,Hyderabad
+2023-01-15 05:40:00,60.98,1,1913,Travel,UPI,Desktop,Hyderabad
+2023-01-15 05:45:00,90.25,0,203,Utilities,Debit Card,POS,Delhi
+2023-01-15 09:36:00,36.91,0,1300,Utilities,Credit Card,Desktop,Mumbai
+2023-01-15 09:57:00,25.93,0,825,Utilities,UPI,POS,Bengaluru
+2023-01-15 10:32:00,13.75,0,131,Electronics,UPI,POS,Pune
+2023-01-15 10:55:00,65.28,0,321,Electronics,UPI,POS,Bengaluru
+2023-01-15 11:37:00,26.13,1,738,Grocery,Credit Card,POS,Bengaluru
+2023-01-15 14:33:00,0.98,0,551,Food,Credit Card,Mobile,Pune
+2023-01-15 16:09:00,91.98,1,1681,Travel,Credit Card,POS,Kolkata
+2023-01-15 17:31:00,10.54,0,1876,Travel,Debit Card,Mobile,Chennai
+2023-01-15 18:42:00,53.5,0,1580,Grocery,UPI,Mobile,Hyderabad
+2023-01-15 18:43:00,344.5,0,1531,Fashion,Credit Card,Desktop,Kolkata
+2023-01-15 23:00:00,269.67,0,1882,Electronics,NetBanking,POS,Kolkata
+2023-01-16 00:46:00,117.38,0,754,Food,Debit Card,Mobile,Kolkata
+2023-01-16 02:48:00,149.93,0,1196,Electronics,Credit Card,Desktop,Hyderabad
+2023-01-16 02:57:00,78.66,0,1157,Electronics,Debit Card,Desktop,Mumbai
+2023-01-16 03:50:00,16.38,0,1458,Food,UPI,Mobile,Delhi
+2023-01-16 07:03:00,144.69,1,434,Entertainment,NetBanking,POS,Hyderabad
+2023-01-16 09:25:00,37.89,0,452,Entertainment,PayPal,Mobile,Delhi
+2023-01-16 14:41:00,11.73,0,1798,Food,PayPal,POS,Kolkata
+2023-01-16 16:28:00,14.67,0,1877,Travel,PayPal,Desktop,Kolkata
+2023-01-16 23:27:00,284.72,0,537,Grocery,UPI,Mobile,Chennai
+2023-01-17 02:54:00,12.71,0,185,Fashion,Debit Card,Mobile,Kolkata
+2023-01-17 05:26:00,46.97,1,1817,Utilities,Debit Card,Desktop,Kolkata
+2023-01-17 05:47:00,88.8,1,1213,Entertainment,NetBanking,POS,Delhi
+2023-01-17 07:34:00,5.89,0,652,Utilities,PayPal,Desktop,Delhi
+2023-01-17 08:44:00,13.6,1,68,Entertainment,Credit Card,POS,Mumbai
+2023-01-17 09:19:00,12.0,0,1274,Health,Credit Card,POS,Kolkata
+2023-01-17 13:15:00,30.13,0,500,Entertainment,PayPal,Desktop,Kolkata
+2023-01-17 15:48:00,1.25,0,113,Grocery,Debit Card,POS,Mumbai
+2023-01-17 16:29:00,98.84,0,1308,Travel,Credit Card,Mobile,Hyderabad
+2023-01-17 19:45:00,126.4,0,122,Grocery,UPI,Desktop,Delhi
+2023-01-18 08:03:00,242.61,0,1289,Utilities,Credit Card,POS,Mumbai
+2023-01-18 08:28:00,78.28,0,1397,Travel,PayPal,Desktop,Pune
+2023-01-18 11:28:00,73.18,0,1718,Electronics,NetBanking,POS,Delhi
+2023-01-18 12:48:00,74.83,0,810,Electronics,Credit Card,POS,Hyderabad
+2023-01-18 13:53:00,65.9,0,357,Grocery,PayPal,POS,Chennai
+2023-01-18 19:28:00,20.73,0,1841,Entertainment,NetBanking,POS,Chennai
+2023-01-18 20:27:00,139.93,0,614,Utilities,Debit Card,Desktop,Chennai
+2023-01-18 21:15:00,48.31,0,296,Travel,UPI,Desktop,Hyderabad
+2023-01-18 23:06:00,0.35,0,1239,Grocery,PayPal,Desktop,Hyderabad
+2023-01-19 00:10:00,163.57,0,639,Food,PayPal,POS,Delhi
+2023-01-19 03:54:00,70.67,1,979,Food,PayPal,POS,Bengaluru
+2023-01-19 03:56:00,66.61,0,1619,Health,PayPal,POS,Kolkata
+2023-01-19 04:25:00,260.39,1,1608,Electronics,PayPal,POS,Delhi
+2023-01-19 08:02:00,83.58,1,1327,Entertainment,PayPal,Desktop,Mumbai
+2023-01-19 11:11:00,35.43,0,1492,Food,UPI,Desktop,Hyderabad
+2023-01-19 15:30:00,78.18,0,769,Travel,Debit Card,POS,Hyderabad
+2023-01-19 15:43:00,115.66,0,42,Food,UPI,Desktop,Delhi
+2023-01-19 15:47:00,174.15,0,200,Utilities,PayPal,POS,Chennai
+2023-01-19 15:57:00,219.83,0,1599,Health,Debit Card,Mobile,Kolkata
+2023-01-19 16:02:00,18.3,0,1019,Utilities,UPI,POS,Kolkata
+2023-01-19 16:13:00,27.11,0,1369,Health,Credit Card,POS,Mumbai
+2023-01-19 16:54:00,138.27,0,288,Grocery,Debit Card,Desktop,Mumbai
+2023-01-19 19:22:00,74.73,0,217,Food,Credit Card,Desktop,Kolkata
+2023-01-19 19:54:00,20.95,0,1316,Entertainment,PayPal,Mobile,Hyderabad
+2023-01-19 20:20:00,40.22,0,208,Entertainment,UPI,Desktop,Chennai
+2023-01-19 21:35:00,8.05,1,1918,Utilities,Debit Card,Mobile,Hyderabad
+2023-01-19 23:58:00,43.45,0,543,Fashion,PayPal,Mobile,Delhi
+2023-01-20 04:52:00,25.43,0,1741,Health,PayPal,Mobile,Mumbai
+2023-01-20 08:24:00,84.71,0,1064,Electronics,PayPal,Mobile,Chennai
+2023-01-20 12:10:00,1.34,0,481,Electronics,Credit Card,Desktop,Delhi
+2023-01-20 14:55:00,1.55,0,1305,Fashion,PayPal,Desktop,Chennai
+2023-01-20 15:13:00,208.93,0,1961,Electronics,PayPal,POS,Chennai
+2023-01-21 00:10:00,107.48,0,1849,Grocery,Credit Card,Desktop,Kolkata
+2023-01-21 00:30:00,91.18,0,1823,Grocery,Debit Card,POS,Hyderabad
+2023-01-21 01:05:00,44.72,1,1464,Fashion,NetBanking,POS,Bengaluru
+2023-01-21 02:43:00,175.61,0,1895,Entertainment,Credit Card,POS,Chennai
+2023-01-21 03:31:00,105.12,0,1007,Food,NetBanking,Desktop,Kolkata
+2023-01-21 04:46:00,74.74,0,1159,Entertainment,UPI,Mobile,Pune
+2023-01-21 06:57:00,58.77,0,1609,Grocery,PayPal,POS,Chennai
+2023-01-21 08:15:00,17.98,0,589,Fashion,PayPal,POS,Mumbai
+2023-01-21 08:39:00,28.15,0,700,Utilities,PayPal,POS,Hyderabad
+2023-01-21 09:27:00,68.85,0,363,Travel,Credit Card,Desktop,Pune
+2023-01-21 10:04:00,145.57,1,1538,Utilities,Debit Card,Desktop,Pune
+2023-01-21 10:20:00,111.15,0,1817,Grocery,Debit Card,POS,Pune
+2023-01-21 10:59:00,53.24,0,1222,Utilities,Debit Card,Mobile,Bengaluru
+2023-01-21 12:04:00,98.2,0,379,Health,UPI,POS,Mumbai
+2023-01-21 13:05:00,42.07,0,1563,Electronics,Debit Card,Desktop,Mumbai
+2023-01-21 13:18:00,80.06,0,284,Electronics,Debit Card,POS,Bengaluru
+2023-01-21 15:40:00,78.56,0,1828,Food,PayPal,Desktop,Mumbai
+2023-01-21 21:01:00,79.31,0,344,Utilities,Credit Card,Desktop,Delhi
+2023-01-21 22:27:00,23.86,0,223,Utilities,UPI,Mobile,Hyderabad
+2023-01-22 02:51:00,48.44,0,604,Utilities,PayPal,Desktop,Bengaluru
+2023-01-22 06:47:00,57.89,0,1386,Entertainment,UPI,POS,Bengaluru
+2023-01-22 07:19:00,142.88,0,1916,Fashion,Debit Card,Desktop,Kolkata
+2023-01-22 08:20:00,0.98,0,263,Electronics,PayPal,Desktop,Kolkata
+2023-01-22 13:34:00,37.9,0,1049,Fashion,NetBanking,POS,Mumbai
+2023-01-22 16:38:00,103.09,0,687,Entertainment,PayPal,Mobile,Delhi
+2023-01-22 18:03:00,285.42,0,108,Health,NetBanking,POS,Bengaluru
+2023-01-22 23:32:00,137.3,1,553,Food,Debit Card,Desktop,Mumbai
+2023-01-22 23:51:00,15.07,0,1529,Fashion,UPI,Mobile,Hyderabad
+2023-01-23 02:23:00,20.91,0,1898,Grocery,UPI,Desktop,Bengaluru
+2023-01-23 02:47:00,33.39,0,710,Entertainment,Credit Card,Desktop,Bengaluru
+2023-01-23 04:43:00,18.98,0,1224,Entertainment,Credit Card,Mobile,Bengaluru
+2023-01-23 05:45:00,0.42,0,110,Grocery,Credit Card,Desktop,Chennai
+2023-01-23 07:27:00,32.33,0,1691,Electronics,Debit Card,Desktop,Mumbai
+2023-01-23 07:40:00,4.47,0,1880,Utilities,Credit Card,Desktop,Kolkata
+2023-01-23 13:06:00,114.71,0,1059,Electronics,UPI,Mobile,Hyderabad
+2023-01-23 23:19:00,191.91,0,1317,Utilities,NetBanking,Desktop,Chennai
+2023-01-24 00:12:00,25.32,0,897,Entertainment,NetBanking,Desktop,Mumbai
+2023-01-24 02:36:00,68.24,0,1405,Electronics,Debit Card,Desktop,Mumbai
+2023-01-24 07:46:00,37.54,0,1311,Health,Credit Card,Desktop,Hyderabad
+2023-01-24 08:43:00,27.22,0,117,Utilities,Credit Card,Mobile,Bengaluru
+2023-01-24 09:48:00,61.02,0,1496,Travel,PayPal,Desktop,Chennai
+2023-01-24 10:16:00,129.34,0,464,Fashion,Credit Card,POS,Kolkata
+2023-01-24 12:48:00,22.75,0,265,Electronics,Credit Card,Desktop,Hyderabad
+2023-01-24 15:52:00,29.36,1,728,Electronics,NetBanking,Desktop,Hyderabad
+2023-01-24 18:26:00,43.27,0,897,Travel,NetBanking,Mobile,Mumbai
+2023-01-24 20:24:00,64.81,0,1909,Entertainment,Credit Card,Mobile,Bengaluru
+2023-01-24 23:18:00,13.24,0,1798,Utilities,NetBanking,POS,Hyderabad
+2023-01-25 00:22:00,47.23,0,898,Utilities,Debit Card,Desktop,Pune
+2023-01-25 00:43:00,0.87,0,1528,Travel,PayPal,POS,Kolkata
+2023-01-25 04:24:00,15.36,0,1288,Electronics,UPI,POS,Bengaluru
+2023-01-25 06:50:00,63.0,0,686,Grocery,Debit Card,POS,Bengaluru
+2023-01-25 09:35:00,282.35,0,1532,Fashion,Credit Card,Desktop,Mumbai
+2023-01-25 09:49:00,31.74,0,1830,Travel,Debit Card,Mobile,Delhi
+2023-01-25 10:32:00,70.51,1,1547,Grocery,Debit Card,Desktop,Hyderabad
+2023-01-25 11:06:00,104.6,0,917,Fashion,NetBanking,Mobile,Pune
+2023-01-25 11:51:00,2.05,0,1687,Health,NetBanking,Desktop,Bengaluru
+2023-01-25 12:38:00,0.67,1,759,Entertainment,NetBanking,Mobile,Chennai
+2023-01-25 14:42:00,83.04,0,936,Fashion,NetBanking,Desktop,Pune
+2023-01-25 18:37:00,13.59,0,183,Fashion,UPI,Desktop,Pune
+2023-01-25 19:49:00,66.39,0,1488,Grocery,PayPal,Desktop,Chennai
+2023-01-25 20:17:00,24.67,0,1685,Entertainment,PayPal,Mobile,Pune
+2023-01-26 01:51:00,2.98,0,347,Health,Credit Card,Mobile,Mumbai
+2023-01-26 02:33:00,78.13,0,401,Fashion,NetBanking,Mobile,Hyderabad
+2023-01-26 03:09:00,27.01,0,1234,Electronics,Debit Card,POS,Delhi
+2023-01-26 04:43:00,22.29,1,1879,Grocery,Debit Card,Desktop,Pune
+2023-01-26 05:57:00,7.53,1,1654,Food,UPI,Mobile,Chennai
+2023-01-26 07:16:00,313.09,1,1789,Health,NetBanking,Desktop,Hyderabad
+2023-01-26 08:11:00,213.83,0,1849,Fashion,NetBanking,Desktop,Pune
+2023-01-26 11:45:00,118.94,0,876,Grocery,NetBanking,POS,Mumbai
+2023-01-26 12:40:00,41.59,0,604,Grocery,Debit Card,Mobile,Mumbai
+2023-01-26 12:55:00,227.36,0,1391,Grocery,Credit Card,Desktop,Mumbai
+2023-01-26 13:21:00,72.03,0,884,Electronics,Credit Card,POS,Chennai
+2023-01-26 18:11:00,27.08,1,655,Electronics,UPI,Mobile,Bengaluru
+2023-01-26 18:46:00,25.93,0,412,Electronics,PayPal,POS,Chennai
+2023-01-26 22:29:00,24.73,0,1372,Health,PayPal,Mobile,Mumbai
+2023-01-26 23:29:00,1.55,0,1581,Health,NetBanking,Desktop,Chennai
+2023-01-26 23:51:00,43.41,0,1531,Travel,NetBanking,Desktop,Kolkata
+2023-01-27 01:55:00,18.1,0,849,Utilities,Credit Card,Desktop,Delhi
+2023-01-27 01:59:00,32.54,1,1663,Health,PayPal,Desktop,Mumbai
+2023-01-27 05:16:00,134.97,0,466,Fashion,Credit Card,Desktop,Hyderabad
+2023-01-27 06:44:00,86.74,0,1657,Fashion,Debit Card,Mobile,Mumbai
+2023-01-27 06:57:00,132.13,0,1824,Electronics,NetBanking,Mobile,Hyderabad
+2023-01-27 07:30:00,147.06,0,1765,Entertainment,Credit Card,Desktop,Mumbai
+2023-01-27 07:47:00,46.75,0,868,Fashion,Credit Card,Mobile,Pune
+2023-01-27 12:45:00,15.38,0,540,Fashion,Credit Card,POS,Hyderabad
+2023-01-27 16:41:00,28.23,0,89,Entertainment,UPI,Mobile,Bengaluru
+2023-01-27 17:36:00,150.93,0,633,Fashion,NetBanking,POS,Delhi
+2023-01-27 19:13:00,74.47,0,561,Travel,PayPal,POS,Pune
+2023-01-28 05:19:00,15.93,1,86,Food,NetBanking,Desktop,Hyderabad
+2023-01-28 06:05:00,5.65,0,427,Grocery,Credit Card,POS,Pune
+2023-01-28 06:12:00,9.26,0,1342,Travel,UPI,Desktop,Bengaluru
+2023-01-28 10:31:00,178.55,0,219,Travel,Credit Card,Desktop,Bengaluru
+2023-01-28 13:03:00,317.01,0,750,Travel,NetBanking,Desktop,Delhi
+2023-01-28 13:07:00,171.64,0,1851,Health,Debit Card,Mobile,Mumbai
+2023-01-28 15:51:00,139.93,0,1990,Electronics,NetBanking,POS,Hyderabad
+2023-01-28 17:36:00,94.99,0,40,Health,UPI,Mobile,Bengaluru
+2023-01-28 21:02:00,121.07,0,1541,Grocery,PayPal,POS,Mumbai
+2023-01-29 00:18:00,10.26,0,1080,Fashion,Debit Card,Mobile,Chennai
+2023-01-29 03:07:00,132.19,0,1311,Fashion,PayPal,POS,Chennai
+2023-01-29 03:12:00,199.74,0,789,Utilities,UPI,POS,Kolkata
+2023-01-29 04:40:00,168.64,0,1630,Entertainment,Debit Card,Desktop,Mumbai
+2023-01-29 06:35:00,44.48,1,227,Health,Credit Card,POS,Pune
+2023-01-29 07:00:00,30.73,0,1251,Travel,UPI,Desktop,Chennai
+2023-01-29 09:17:00,11.89,1,340,Entertainment,PayPal,Desktop,Chennai
+2023-01-29 12:01:00,68.09,0,208,Fashion,PayPal,Mobile,Chennai
+2023-01-29 13:37:00,63.36,0,256,Grocery,PayPal,Mobile,Mumbai
+2023-01-29 18:51:00,58.75,0,994,Health,Debit Card,Desktop,Bengaluru
+2023-01-29 21:08:00,102.43,0,135,Health,UPI,Mobile,Pune
+2023-01-29 21:17:00,29.8,0,268,Utilities,NetBanking,Mobile,Chennai
+2023-01-29 22:21:00,105.19,0,1200,Food,Debit Card,POS,Bengaluru
+2023-01-29 23:56:00,143.49,0,1061,Utilities,Credit Card,Desktop,Pune
+2023-01-30 01:19:00,225.75,0,163,Health,UPI,POS,Mumbai
+2023-01-30 04:48:00,13.61,0,227,Fashion,Credit Card,Mobile,Bengaluru
+2023-01-30 05:00:00,48.01,0,1485,Food,NetBanking,Desktop,Kolkata
+2023-01-30 05:29:00,6.87,0,1223,Food,Credit Card,Mobile,Mumbai
+2023-01-30 05:35:00,75.29,0,1124,Grocery,Debit Card,Mobile,Chennai
+2023-01-30 06:29:00,2.47,0,675,Food,PayPal,POS,Kolkata
+2023-01-30 10:54:00,89.35,0,1323,Health,NetBanking,Mobile,Delhi
+2023-01-30 11:09:00,45.11,0,1804,Health,NetBanking,POS,Mumbai
+2023-01-30 12:11:00,40.58,0,999,Electronics,Debit Card,Mobile,Bengaluru
+2023-01-30 12:49:00,20.91,0,1445,Food,PayPal,POS,Mumbai
+2023-01-30 15:03:00,19.89,0,1721,Fashion,PayPal,POS,Chennai
+2023-01-30 18:15:00,16.15,0,1519,Utilities,NetBanking,Mobile,Chennai
+2023-01-30 20:25:00,29.61,0,1491,Utilities,Credit Card,POS,Delhi
+2023-01-30 23:41:00,3.95,0,1750,Electronics,PayPal,Desktop,Hyderabad
+2023-01-31 00:04:00,1.72,0,142,Grocery,UPI,Mobile,Delhi
+2023-01-31 07:32:00,280.3,0,639,Entertainment,Credit Card,Desktop,Chennai
+2023-01-31 07:47:00,94.63,0,1965,Food,PayPal,Desktop,Pune
+2023-01-31 08:32:00,95.25,0,1367,Health,NetBanking,Mobile,Chennai
+2023-01-31 09:36:00,125.85,0,1832,Electronics,NetBanking,Mobile,Chennai
+2023-01-31 10:54:00,84.37,0,459,Utilities,Debit Card,Mobile,Mumbai
+2023-01-31 11:52:00,71.01,0,337,Food,PayPal,Mobile,Bengaluru
+2023-01-31 13:20:00,43.43,0,177,Food,NetBanking,Desktop,Bengaluru
+2023-01-31 14:56:00,114.52,0,1866,Grocery,NetBanking,POS,Delhi
+2023-01-31 15:41:00,72.28,0,1172,Food,NetBanking,Mobile,Bengaluru
+2023-01-31 16:26:00,5.15,0,1502,Grocery,PayPal,Desktop,Chennai
+2023-01-31 17:33:00,52.46,0,133,Fashion,PayPal,Mobile,Kolkata
+2023-01-31 17:35:00,42.12,0,1001,Health,NetBanking,Mobile,Mumbai
+2023-01-31 19:05:00,28.81,0,1367,Utilities,Debit Card,POS,Kolkata
+2023-01-31 19:41:00,86.19,0,462,Food,Debit Card,POS,Hyderabad
+2023-01-31 21:32:00,18.97,0,781,Entertainment,PayPal,Desktop,Bengaluru
+2023-01-31 21:45:00,9.69,0,1765,Fashion,PayPal,Mobile,Bengaluru
+2023-01-31 22:30:00,16.57,0,348,Travel,PayPal,Desktop,Chennai
+2023-01-31 23:28:00,18.44,0,1260,Entertainment,Credit Card,Desktop,Chennai
+2023-02-01 03:30:00,121.82,0,233,Utilities,Debit Card,Mobile,Bengaluru
+2023-02-01 06:46:00,349.14,0,1652,Entertainment,PayPal,POS,Kolkata
+2023-02-01 09:24:00,73.11,0,941,Health,Debit Card,Mobile,Bengaluru
+2023-02-01 10:30:00,38.75,0,1225,Entertainment,Credit Card,Mobile,Hyderabad
+2023-02-01 11:27:00,111.99,0,169,Electronics,Debit Card,Desktop,Kolkata
+2023-02-01 16:11:00,42.45,0,1105,Entertainment,Debit Card,POS,Pune
+2023-02-01 19:44:00,76.54,0,616,Electronics,Debit Card,POS,Pune
+2023-02-01 19:57:00,93.7,0,282,Entertainment,Credit Card,Desktop,Delhi
+2023-02-01 20:06:00,63.11,0,821,Travel,NetBanking,Mobile,Delhi
+2023-02-01 20:35:00,33.56,0,1311,Fashion,Credit Card,Mobile,Pune
+2023-02-01 22:35:00,179.96,1,912,Electronics,Debit Card,Mobile,Mumbai
+2023-02-01 23:44:00,122.98,0,942,Electronics,PayPal,Desktop,Mumbai
+2023-02-02 02:21:00,218.34,0,814,Health,Debit Card,POS,Kolkata
+2023-02-02 03:53:00,134.76,0,1299,Fashion,UPI,Desktop,Delhi
+2023-02-02 04:26:00,46.79,0,414,Utilities,Debit Card,Mobile,Hyderabad
+2023-02-02 05:16:00,23.06,0,1580,Electronics,Debit Card,POS,Chennai
+2023-02-02 06:12:00,39.82,0,1814,Fashion,Debit Card,Desktop,Kolkata
+2023-02-02 08:21:00,106.98,0,383,Grocery,UPI,Mobile,Chennai
+2023-02-02 10:43:00,8.12,0,790,Electronics,Debit Card,Mobile,Mumbai
+2023-02-02 11:19:00,160.81,0,1338,Grocery,UPI,POS,Mumbai
+2023-02-02 11:40:00,58.88,0,1121,Food,NetBanking,Desktop,Mumbai
+2023-02-02 12:15:00,25.34,0,1434,Electronics,Debit Card,POS,Chennai
+2023-02-02 14:36:00,14.2,0,101,Travel,Credit Card,Mobile,Bengaluru
+2023-02-02 15:22:00,140.6,0,1757,Travel,Debit Card,Desktop,Pune
+2023-02-02 16:00:00,300.27,0,486,Electronics,UPI,Desktop,Hyderabad
+2023-02-02 19:35:00,218.42,0,841,Utilities,Debit Card,Desktop,Bengaluru
+2023-02-02 20:05:00,52.4,0,450,Entertainment,NetBanking,POS,Kolkata
+2023-02-02 22:32:00,33.96,0,1753,Health,UPI,Mobile,Hyderabad
+2023-02-02 22:42:00,71.66,0,905,Food,PayPal,POS,Delhi
+2023-02-02 23:49:00,35.06,0,1448,Utilities,UPI,Mobile,Kolkata
+2023-02-03 03:19:00,220.26,0,1866,Fashion,PayPal,Mobile,Hyderabad
+2023-02-03 03:27:00,108.99,0,1939,Food,Debit Card,POS,Pune
+2023-02-03 04:33:00,146.51,0,291,Grocery,PayPal,Mobile,Pune
+2023-02-03 05:13:00,156.78,0,1443,Electronics,NetBanking,POS,Chennai
+2023-02-03 07:54:00,352.41,0,276,Fashion,Debit Card,POS,Mumbai
+2023-02-03 08:27:00,48.08,0,610,Food,PayPal,POS,Hyderabad
+2023-02-03 08:35:00,107.6,0,1166,Travel,PayPal,Mobile,Chennai
+2023-02-03 09:46:00,66.81,0,1307,Travel,PayPal,Mobile,Delhi
+2023-02-03 10:00:00,97.79,0,597,Utilities,Debit Card,Mobile,Bengaluru
+2023-02-03 10:11:00,67.63,0,440,Grocery,NetBanking,Desktop,Bengaluru
+2023-02-03 11:50:00,199.37,0,853,Electronics,UPI,Desktop,Delhi
+2023-02-03 12:11:00,18.74,0,981,Electronics,Debit Card,Desktop,Pune
+2023-02-03 13:05:00,197.06,0,1491,Fashion,UPI,Mobile,Hyderabad
+2023-02-03 14:36:00,359.64,0,462,Travel,Debit Card,POS,Delhi
+2023-02-03 15:48:00,39.96,0,395,Grocery,NetBanking,Mobile,Mumbai
+2023-02-03 21:57:00,100.69,0,271,Health,PayPal,POS,Bengaluru
+2023-02-03 23:10:00,173.86,0,670,Entertainment,PayPal,POS,Pune
+2023-02-04 01:05:00,61.62,0,359,Travel,Debit Card,Mobile,Mumbai
+2023-02-04 05:23:00,45.32,0,1489,Entertainment,Credit Card,POS,Bengaluru
+2023-02-04 10:47:00,163.68,0,1793,Utilities,Credit Card,Desktop,Bengaluru
+2023-02-04 14:41:00,144.85,1,397,Travel,Credit Card,POS,Delhi
+2023-02-04 16:19:00,158.65,1,171,Travel,Debit Card,POS,Kolkata
+2023-02-04 16:21:00,87.94,0,647,Travel,Debit Card,Desktop,Hyderabad
+2023-02-04 17:14:00,70.01,0,160,Fashion,Credit Card,Mobile,Hyderabad
+2023-02-04 17:57:00,44.33,0,1253,Electronics,NetBanking,Desktop,Mumbai
+2023-02-04 18:09:00,20.08,0,991,Grocery,NetBanking,Desktop,Kolkata
+2023-02-04 18:13:00,86.38,0,263,Grocery,PayPal,POS,Mumbai
+2023-02-04 21:50:00,57.19,0,1905,Health,Debit Card,Desktop,Pune
+2023-02-05 02:29:00,139.29,0,115,Health,UPI,POS,Mumbai
+2023-02-05 03:52:00,180.82,0,1702,Entertainment,Credit Card,Mobile,Delhi
+2023-02-05 06:13:00,21.69,0,549,Food,UPI,POS,Pune
+2023-02-05 10:55:00,90.06,0,1729,Travel,Debit Card,Desktop,Hyderabad
+2023-02-05 11:58:00,27.64,0,363,Entertainment,PayPal,Mobile,Bengaluru
+2023-02-05 12:23:00,46.3,0,1502,Entertainment,Credit Card,POS,Hyderabad
+2023-02-05 14:37:00,17.06,0,61,Food,UPI,POS,Chennai
+2023-02-05 18:00:00,251.01,0,1633,Health,Debit Card,Mobile,Pune
+2023-02-05 18:20:00,109.65,0,757,Health,PayPal,POS,Hyderabad
+2023-02-05 19:07:00,35.47,0,726,Entertainment,NetBanking,POS,Bengaluru
+2023-02-06 03:10:00,52.19,1,1237,Travel,UPI,Desktop,Bengaluru
+2023-02-06 03:11:00,317.85,1,1683,Electronics,UPI,Desktop,Kolkata
+2023-02-06 03:18:00,80.3,0,1450,Entertainment,Debit Card,Mobile,Bengaluru
+2023-02-06 07:05:00,113.76,0,1282,Grocery,NetBanking,POS,Delhi
+2023-02-06 09:04:00,122.99,0,1261,Utilities,Credit Card,Desktop,Mumbai
+2023-02-06 09:47:00,100.46,0,129,Grocery,NetBanking,Desktop,Hyderabad
+2023-02-06 17:22:00,81.84,0,46,Utilities,Credit Card,Mobile,Mumbai
+2023-02-06 17:54:00,33.95,0,308,Health,Debit Card,Desktop,Chennai
+2023-02-06 21:32:00,249.25,0,1851,Entertainment,UPI,POS,Mumbai
+2023-02-06 23:46:00,180.73,0,1655,Electronics,Credit Card,POS,Kolkata
+2023-02-07 01:24:00,29.31,0,636,Fashion,Debit Card,POS,Bengaluru
+2023-02-07 02:16:00,17.52,0,31,Grocery,PayPal,POS,Mumbai
+2023-02-07 09:00:00,34.85,0,129,Grocery,NetBanking,Desktop,Kolkata
+2023-02-07 10:50:00,13.19,0,1467,Electronics,PayPal,POS,Bengaluru
+2023-02-07 13:11:00,10.0,0,563,Fashion,NetBanking,Desktop,Kolkata
+2023-02-07 13:42:00,270.62,0,624,Grocery,NetBanking,Mobile,Kolkata
+2023-02-07 19:34:00,18.55,0,1727,Food,UPI,Mobile,Pune
+2023-02-07 19:39:00,195.57,0,1133,Fashion,PayPal,Desktop,Bengaluru
+2023-02-07 19:48:00,89.39,1,662,Entertainment,NetBanking,POS,Mumbai
+2023-02-07 21:42:00,18.01,0,1436,Food,NetBanking,Desktop,Pune
+2023-02-08 03:10:00,150.77,0,1688,Entertainment,UPI,POS,Chennai
+2023-02-08 05:10:00,294.45,0,257,Entertainment,Debit Card,Desktop,Kolkata
+2023-02-08 05:24:00,4.63,0,1714,Entertainment,Credit Card,Desktop,Kolkata
+2023-02-08 06:41:00,83.9,0,250,Travel,NetBanking,Mobile,Delhi
+2023-02-08 07:54:00,26.82,0,949,Utilities,Credit Card,Desktop,Pune
+2023-02-08 12:46:00,62.91,0,1724,Travel,Credit Card,Desktop,Bengaluru
+2023-02-08 13:22:00,27.9,0,454,Grocery,UPI,Desktop,Pune
+2023-02-08 14:32:00,146.54,0,896,Utilities,NetBanking,Mobile,Delhi
+2023-02-08 14:36:00,27.79,0,585,Travel,NetBanking,Desktop,Delhi
+2023-02-08 17:22:00,139.89,0,354,Travel,UPI,Mobile,Delhi
+2023-02-08 20:31:00,273.56,0,1855,Entertainment,Debit Card,Desktop,Hyderabad
+2023-02-08 23:52:00,3.33,0,611,Travel,UPI,Desktop,Kolkata
+2023-02-09 00:32:00,90.59,0,1741,Grocery,PayPal,Mobile,Pune
+2023-02-09 03:56:00,162.16,0,1538,Utilities,PayPal,Mobile,Mumbai
+2023-02-09 08:56:00,4.79,0,1163,Health,NetBanking,Desktop,Bengaluru
+2023-02-09 10:27:00,78.1,0,1924,Food,UPI,POS,Delhi
+2023-02-09 13:11:00,57.7,0,403,Travel,UPI,Mobile,Delhi
+2023-02-09 16:24:00,128.72,0,1374,Health,PayPal,POS,Chennai
+2023-02-09 19:20:00,98.68,0,242,Entertainment,Credit Card,Mobile,Bengaluru
+2023-02-09 19:24:00,193.46,0,1139,Health,PayPal,Mobile,Delhi
+2023-02-09 22:39:00,66.3,0,1961,Fashion,NetBanking,Desktop,Pune
+2023-02-09 22:45:00,1.66,0,1992,Travel,Credit Card,Desktop,Pune
+2023-02-10 03:00:00,48.74,0,1805,Grocery,UPI,Desktop,Hyderabad
+2023-02-10 05:55:00,83.94,0,925,Health,NetBanking,POS,Hyderabad
+2023-02-10 06:05:00,182.67,1,1942,Electronics,UPI,Mobile,Pune
+2023-02-10 06:19:00,296.43,0,571,Utilities,Credit Card,POS,Delhi
+2023-02-10 08:26:00,40.49,0,1141,Electronics,UPI,Desktop,Kolkata
+2023-02-10 10:28:00,6.55,0,1271,Travel,UPI,POS,Chennai
+2023-02-10 15:03:00,2.34,1,724,Food,Credit Card,POS,Delhi
+2023-02-10 16:40:00,345.24,0,1076,Food,NetBanking,Mobile,Chennai
+2023-02-10 18:14:00,201.27,0,932,Electronics,Credit Card,POS,Mumbai
+2023-02-10 21:41:00,24.91,1,177,Utilities,NetBanking,Mobile,Delhi
+2023-02-10 22:15:00,54.47,0,1252,Electronics,NetBanking,POS,Bengaluru
+2023-02-11 01:05:00,94.98,0,838,Health,Debit Card,Desktop,Bengaluru
+2023-02-11 02:00:00,9.61,0,624,Health,NetBanking,Mobile,Bengaluru
+2023-02-11 02:33:00,163.63,0,168,Utilities,NetBanking,Desktop,Kolkata
+2023-02-11 03:42:00,10.12,0,175,Health,Debit Card,Desktop,Delhi
+2023-02-11 05:02:00,15.99,0,485,Electronics,PayPal,Desktop,Pune
+2023-02-11 09:27:00,63.69,0,1768,Fashion,NetBanking,Desktop,Pune
+2023-02-11 10:00:00,37.3,0,771,Fashion,UPI,Mobile,Pune
+2023-02-11 14:55:00,18.42,0,207,Food,Debit Card,POS,Kolkata
+2023-02-11 16:34:00,7.49,1,624,Grocery,NetBanking,POS,Mumbai
+2023-02-11 17:17:00,136.63,0,1844,Travel,UPI,Mobile,Hyderabad
+2023-02-12 00:34:00,112.01,0,1311,Grocery,UPI,POS,Pune
+2023-02-12 02:33:00,174.49,0,1103,Food,UPI,Mobile,Mumbai
+2023-02-12 02:36:00,54.43,0,73,Grocery,Credit Card,Desktop,Mumbai
+2023-02-12 09:15:00,14.9,0,1576,Food,UPI,POS,Mumbai
+2023-02-12 12:20:00,29.72,0,1895,Grocery,Debit Card,Mobile,Kolkata
+2023-02-12 12:57:00,35.34,0,378,Food,NetBanking,Mobile,Delhi
+2023-02-12 15:22:00,162.28,0,1475,Travel,Debit Card,POS,Chennai
+2023-02-12 17:02:00,20.51,0,203,Entertainment,Credit Card,POS,Bengaluru
+2023-02-12 19:03:00,127.68,0,281,Health,PayPal,POS,Pune
+2023-02-12 22:20:00,14.66,0,804,Travel,NetBanking,Mobile,Hyderabad
+2023-02-13 02:16:00,8.84,0,1464,Fashion,Debit Card,Mobile,Mumbai
+2023-02-13 05:13:00,7.08,0,476,Fashion,PayPal,Mobile,Kolkata
+2023-02-13 07:06:00,56.65,0,1146,Entertainment,UPI,Mobile,Chennai
+2023-02-13 11:15:00,216.49,0,891,Health,UPI,POS,Kolkata
+2023-02-13 12:26:00,200.32,0,597,Utilities,PayPal,Mobile,Pune
+2023-02-13 12:46:00,1.04,0,1634,Electronics,NetBanking,POS,Hyderabad
+2023-02-13 15:03:00,85.94,0,349,Travel,NetBanking,Desktop,Pune
+2023-02-13 16:47:00,40.13,0,711,Utilities,UPI,Desktop,Hyderabad
+2023-02-13 17:01:00,33.87,0,1729,Grocery,UPI,Desktop,Mumbai
+2023-02-13 18:16:00,233.46,0,213,Travel,Credit Card,POS,Delhi
+2023-02-13 20:00:00,10.22,0,662,Grocery,Credit Card,Desktop,Bengaluru
+2023-02-13 20:07:00,14.01,1,58,Utilities,NetBanking,Mobile,Bengaluru
+2023-02-14 00:27:00,104.35,0,69,Entertainment,NetBanking,Mobile,Chennai
+2023-02-14 01:22:00,28.63,0,86,Health,NetBanking,POS,Delhi
+2023-02-14 02:30:00,106.12,0,1064,Health,NetBanking,Mobile,Bengaluru
+2023-02-14 06:13:00,7.28,0,561,Utilities,NetBanking,Desktop,Hyderabad
+2023-02-14 10:02:00,29.17,0,1666,Health,Debit Card,Mobile,Chennai
+2023-02-14 12:01:00,77.96,0,244,Entertainment,UPI,Desktop,Kolkata
+2023-02-14 13:13:00,2.8,0,1100,Travel,NetBanking,Mobile,Mumbai
+2023-02-14 14:59:00,96.88,0,206,Fashion,NetBanking,Desktop,Bengaluru
+2023-02-14 15:40:00,36.78,0,1753,Electronics,NetBanking,Mobile,Hyderabad
+2023-02-14 15:54:00,2.43,0,1439,Health,Credit Card,POS,Pune
+2023-02-14 16:32:00,151.36,0,1896,Food,NetBanking,Desktop,Delhi
+2023-02-14 17:20:00,58.39,0,926,Grocery,NetBanking,POS,Kolkata
+2023-02-14 21:27:00,94.35,0,821,Food,PayPal,Mobile,Pune
+2023-02-15 04:46:00,72.68,0,222,Utilities,Debit Card,POS,Chennai
+2023-02-15 04:54:00,19.93,0,1115,Utilities,NetBanking,Mobile,Bengaluru
+2023-02-15 05:30:00,90.92,0,509,Electronics,UPI,Desktop,Kolkata
+2023-02-15 07:30:00,32.46,0,1115,Entertainment,NetBanking,Desktop,Bengaluru
+2023-02-15 09:47:00,93.57,0,680,Fashion,Credit Card,POS,Delhi
+2023-02-15 13:18:00,71.5,0,1880,Food,PayPal,POS,Pune
+2023-02-15 14:47:00,27.55,0,33,Utilities,Debit Card,POS,Chennai
+2023-02-15 16:56:00,104.21,0,1871,Utilities,NetBanking,POS,Kolkata
+2023-02-15 22:00:00,113.93,0,1926,Food,PayPal,Mobile,Kolkata
+2023-02-16 11:39:00,52.77,0,1113,Grocery,Credit Card,Mobile,Mumbai
+2023-02-16 12:10:00,131.42,0,1809,Travel,NetBanking,Mobile,Mumbai
+2023-02-16 13:32:00,55.86,0,286,Health,NetBanking,Mobile,Bengaluru
+2023-02-16 14:46:00,19.36,0,492,Electronics,PayPal,Desktop,Kolkata
+2023-02-16 17:44:00,25.22,0,1766,Entertainment,NetBanking,POS,Chennai
+2023-02-16 18:35:00,146.11,0,668,Entertainment,PayPal,Mobile,Chennai
+2023-02-16 19:24:00,6.31,0,1594,Electronics,Debit Card,Desktop,Kolkata
+2023-02-16 22:05:00,104.22,0,890,Food,Credit Card,Mobile,Bengaluru
+2023-02-17 04:45:00,77.51,0,1466,Utilities,Debit Card,Desktop,Delhi
+2023-02-17 07:58:00,94.98,0,330,Food,NetBanking,Mobile,Kolkata
+2023-02-17 09:43:00,8.6,0,526,Food,NetBanking,Desktop,Kolkata
+2023-02-17 10:27:00,14.73,0,191,Food,PayPal,Desktop,Chennai
+2023-02-17 10:35:00,126.47,0,411,Health,PayPal,Desktop,Chennai
+2023-02-17 11:25:00,15.42,0,1497,Entertainment,Credit Card,Desktop,Chennai
+2023-02-17 11:43:00,70.1,1,733,Fashion,UPI,Mobile,Kolkata
+2023-02-17 15:03:00,62.51,0,1828,Grocery,UPI,Desktop,Hyderabad
+2023-02-17 15:04:00,47.45,0,1437,Grocery,Credit Card,Mobile,Chennai
+2023-02-17 16:06:00,12.93,0,322,Electronics,PayPal,Mobile,Mumbai
+2023-02-17 17:07:00,30.49,1,85,Health,UPI,POS,Chennai
+2023-02-17 17:15:00,19.13,0,1993,Fashion,UPI,Desktop,Bengaluru
+2023-02-17 18:09:00,95.45,0,73,Entertainment,PayPal,Mobile,Mumbai
+2023-02-17 21:26:00,120.06,0,1590,Grocery,Credit Card,Desktop,Hyderabad
+2023-02-17 21:46:00,101.57,0,720,Utilities,Credit Card,Mobile,Bengaluru
+2023-02-17 21:55:00,43.32,1,948,Entertainment,Credit Card,Desktop,Mumbai
+2023-02-18 05:56:00,21.28,0,1174,Entertainment,UPI,Desktop,Delhi
+2023-02-18 06:05:00,15.44,0,583,Fashion,Debit Card,Desktop,Hyderabad
+2023-02-18 07:15:00,136.06,0,663,Fashion,NetBanking,POS,Hyderabad
+2023-02-18 10:05:00,16.44,0,1766,Electronics,UPI,POS,Bengaluru
+2023-02-18 11:15:00,45.36,0,385,Utilities,Credit Card,POS,Delhi
+2023-02-18 14:20:00,47.42,0,1596,Travel,NetBanking,Mobile,Delhi
+2023-02-18 16:46:00,78.3,0,395,Fashion,NetBanking,POS,Hyderabad
+2023-02-18 22:34:00,66.85,0,1975,Fashion,Credit Card,Desktop,Delhi
+2023-02-19 01:58:00,34.37,0,1159,Entertainment,UPI,Mobile,Kolkata
+2023-02-19 03:33:00,13.37,0,943,Travel,NetBanking,POS,Kolkata
+2023-02-19 06:58:00,100.16,0,519,Travel,UPI,POS,Hyderabad
+2023-02-19 11:19:00,45.54,0,1975,Grocery,Debit Card,Desktop,Bengaluru
+2023-02-19 13:01:00,6.82,0,218,Fashion,NetBanking,Mobile,Delhi
+2023-02-19 13:03:00,87.21,0,122,Entertainment,Credit Card,POS,Bengaluru
+2023-02-19 14:04:00,11.49,0,1563,Health,NetBanking,POS,Chennai
+2023-02-19 16:17:00,34.01,0,132,Health,NetBanking,Mobile,Mumbai
+2023-02-19 16:37:00,181.51,0,686,Grocery,Credit Card,Desktop,Bengaluru
+2023-02-19 19:51:00,93.78,0,1376,Electronics,PayPal,Mobile,Pune
+2023-02-19 20:29:00,0.71,0,624,Travel,PayPal,Mobile,Mumbai
+2023-02-19 21:01:00,99.96,0,1529,Fashion,Credit Card,Desktop,Chennai
+2023-02-19 21:42:00,58.29,0,1272,Fashion,Credit Card,POS,Pune
+2023-02-19 22:59:00,30.99,0,368,Food,PayPal,POS,Chennai
+2023-02-19 23:47:00,176.59,0,311,Utilities,NetBanking,Desktop,Mumbai
+2023-02-20 00:42:00,27.92,0,978,Health,Credit Card,Desktop,Bengaluru
+2023-02-20 00:57:00,188.56,0,751,Health,UPI,Desktop,Chennai
+2023-02-20 01:52:00,6.68,0,1430,Grocery,UPI,POS,Bengaluru
+2023-02-20 02:59:00,73.43,0,1827,Health,Credit Card,Mobile,Bengaluru
+2023-02-20 05:10:00,12.86,0,1268,Travel,PayPal,Desktop,Chennai
+2023-02-20 09:38:00,2.99,0,616,Electronics,NetBanking,Mobile,Kolkata
+2023-02-20 11:51:00,53.69,0,1553,Utilities,PayPal,POS,Hyderabad
+2023-02-20 15:51:00,1.05,0,197,Food,Debit Card,Mobile,Hyderabad
+2023-02-20 16:09:00,264.23,0,967,Entertainment,PayPal,Desktop,Mumbai
+2023-02-20 17:10:00,33.01,0,1396,Electronics,NetBanking,POS,Pune
+2023-02-20 18:53:00,39.69,0,181,Entertainment,Credit Card,Mobile,Hyderabad
+2023-02-20 19:03:00,5.14,0,718,Health,UPI,Mobile,Hyderabad
+2023-02-20 20:36:00,1.17,0,121,Electronics,Debit Card,Mobile,Hyderabad
+2023-02-20 20:36:00,134.55,0,1636,Electronics,UPI,Desktop,Bengaluru
+2023-02-20 23:51:00,265.1,0,770,Electronics,UPI,Mobile,Bengaluru
+2023-02-20 23:54:00,263.73,0,1140,Fashion,PayPal,Mobile,Chennai
+2023-02-21 00:12:00,15.08,0,229,Grocery,UPI,POS,Hyderabad
+2023-02-21 00:30:00,49.21,0,1469,Electronics,PayPal,POS,Pune
+2023-02-21 03:47:00,138.25,0,1895,Electronics,UPI,Desktop,Mumbai
+2023-02-21 03:59:00,10.7,0,1341,Food,Credit Card,POS,Mumbai
+2023-02-21 05:02:00,128.78,0,206,Food,Credit Card,Mobile,Delhi
+2023-02-21 10:44:00,130.82,0,1698,Fashion,UPI,Desktop,Bengaluru
+2023-02-21 15:05:00,14.06,0,1278,Grocery,Debit Card,Mobile,Chennai
+2023-02-21 17:07:00,33.1,0,1632,Travel,NetBanking,Mobile,Delhi
+2023-02-21 17:55:00,16.4,0,307,Health,NetBanking,Mobile,Delhi
+2023-02-21 18:20:00,167.78,0,1449,Health,NetBanking,POS,Delhi
+2023-02-21 18:29:00,86.7,0,1175,Food,PayPal,Mobile,Hyderabad
+2023-02-21 18:43:00,169.67,0,626,Health,UPI,POS,Kolkata
+2023-02-22 04:54:00,26.27,0,1710,Entertainment,PayPal,Mobile,Delhi
+2023-02-22 07:15:00,95.56,0,1687,Health,PayPal,Mobile,Pune
+2023-02-22 09:34:00,27.72,0,257,Travel,Debit Card,Mobile,Delhi
+2023-02-22 10:34:00,23.25,0,1003,Grocery,Debit Card,Desktop,Mumbai
+2023-02-22 14:32:00,95.27,0,1038,Travel,PayPal,POS,Delhi
+2023-02-22 15:07:00,66.06,0,672,Entertainment,NetBanking,POS,Chennai
+2023-02-22 15:15:00,17.48,0,1641,Fashion,Debit Card,Desktop,Pune
+2023-02-22 15:17:00,10.52,0,795,Electronics,Debit Card,Mobile,Kolkata
+2023-02-22 18:39:00,46.27,0,584,Electronics,NetBanking,POS,Delhi
+2023-02-22 20:05:00,19.93,0,1338,Fashion,UPI,Mobile,Hyderabad
+2023-02-22 21:25:00,13.46,0,922,Travel,PayPal,POS,Bengaluru
+2023-02-23 05:41:00,35.64,0,864,Fashion,PayPal,POS,Hyderabad
+2023-02-23 06:34:00,20.55,0,1495,Electronics,Credit Card,POS,Hyderabad
+2023-02-23 07:57:00,17.46,0,1574,Food,Debit Card,POS,Kolkata
+2023-02-23 08:49:00,160.54,0,91,Health,PayPal,Desktop,Chennai
+2023-02-23 09:39:00,44.63,0,368,Utilities,UPI,Mobile,Mumbai
+2023-02-23 10:57:00,104.5,0,393,Health,Credit Card,Mobile,Hyderabad
+2023-02-23 12:54:00,14.8,0,1186,Fashion,Credit Card,Mobile,Pune
+2023-02-23 15:05:00,53.69,0,155,Utilities,NetBanking,Desktop,Mumbai
+2023-02-23 15:17:00,252.91,0,1874,Electronics,Debit Card,POS,Bengaluru
+2023-02-23 15:59:00,25.94,0,853,Travel,Debit Card,Mobile,Mumbai
+2023-02-23 17:10:00,63.74,0,1520,Food,Credit Card,Desktop,Bengaluru
+2023-02-23 17:43:00,297.96,0,1159,Electronics,Credit Card,Mobile,Kolkata
+2023-02-23 23:58:00,28.48,1,1044,Health,UPI,POS,Kolkata
+2023-02-24 00:18:00,150.13,0,756,Travel,NetBanking,Desktop,Bengaluru
+2023-02-24 01:33:00,351.64,0,585,Entertainment,PayPal,Desktop,Delhi
+2023-02-24 03:35:00,18.93,0,1754,Electronics,PayPal,POS,Hyderabad
+2023-02-24 09:41:00,29.9,0,513,Electronics,Debit Card,Mobile,Hyderabad
+2023-02-24 09:47:00,17.82,0,753,Entertainment,UPI,Desktop,Chennai
+2023-02-24 11:15:00,5.55,0,1622,Health,Credit Card,Mobile,Kolkata
+2023-02-24 13:32:00,391.25,0,460,Food,NetBanking,Mobile,Mumbai
+2023-02-24 14:48:00,55.15,0,543,Grocery,Debit Card,Mobile,Delhi
+2023-02-24 14:49:00,84.27,0,573,Food,Credit Card,Desktop,Kolkata
+2023-02-24 17:22:00,119.85,0,1437,Grocery,UPI,Mobile,Kolkata
+2023-02-24 17:52:00,114.54,0,1971,Electronics,Credit Card,Desktop,Delhi
+2023-02-24 19:19:00,13.59,0,70,Fashion,NetBanking,POS,Bengaluru
+2023-02-24 20:42:00,76.39,0,1431,Grocery,UPI,Mobile,Mumbai
+2023-02-24 22:13:00,12.75,0,1988,Grocery,Credit Card,Mobile,Mumbai
+2023-02-25 00:21:00,38.31,0,1055,Utilities,PayPal,Desktop,Mumbai
+2023-02-25 00:26:00,10.35,0,1436,Travel,Credit Card,POS,Bengaluru
+2023-02-25 02:04:00,163.96,0,1987,Electronics,NetBanking,Desktop,Bengaluru
+2023-02-25 03:52:00,22.2,0,494,Entertainment,Debit Card,Desktop,Pune
+2023-02-25 07:10:00,58.15,0,817,Health,NetBanking,Desktop,Hyderabad
+2023-02-25 07:39:00,28.22,0,437,Food,Credit Card,Desktop,Bengaluru
+2023-02-25 09:03:00,178.46,0,1412,Grocery,Credit Card,Desktop,Hyderabad
+2023-02-25 09:49:00,132.81,1,617,Entertainment,Credit Card,Desktop,Delhi
+2023-02-25 12:47:00,34.54,0,1716,Electronics,NetBanking,Mobile,Delhi
+2023-02-25 13:35:00,50.59,0,1281,Food,UPI,Desktop,Hyderabad
+2023-02-25 15:44:00,226.13,0,1647,Fashion,PayPal,Desktop,Delhi
+2023-02-25 16:01:00,3.22,1,1758,Fashion,PayPal,POS,Hyderabad
+2023-02-25 19:33:00,104.63,0,553,Travel,UPI,Desktop,Pune
+2023-02-25 21:29:00,54.2,0,983,Fashion,PayPal,Desktop,Hyderabad
+2023-02-25 22:11:00,128.76,0,222,Fashion,NetBanking,Desktop,Chennai
+2023-02-25 23:25:00,33.74,1,1399,Electronics,Debit Card,POS,Delhi
+2023-02-26 02:00:00,29.94,0,1387,Travel,Debit Card,POS,Chennai
+2023-02-26 03:06:00,64.87,0,567,Grocery,UPI,Desktop,Mumbai
+2023-02-26 03:49:00,75.4,0,1595,Electronics,PayPal,POS,Kolkata
+2023-02-26 04:15:00,2.04,0,1520,Food,UPI,Mobile,Delhi
+2023-02-26 05:12:00,15.8,0,1216,Grocery,PayPal,Desktop,Kolkata
+2023-02-26 06:20:00,177.21,0,813,Grocery,Debit Card,Mobile,Bengaluru
+2023-02-26 09:57:00,32.92,0,1810,Entertainment,NetBanking,Mobile,Pune
+2023-02-26 13:39:00,224.41,0,467,Health,Credit Card,Mobile,Delhi
+2023-02-26 13:46:00,12.56,0,1307,Food,PayPal,POS,Delhi
+2023-02-26 17:33:00,41.29,0,1130,Utilities,Credit Card,Mobile,Mumbai
+2023-02-26 20:03:00,113.09,0,610,Travel,NetBanking,POS,Hyderabad
+2023-02-26 22:18:00,20.27,0,1392,Entertainment,Credit Card,POS,Delhi
+2023-02-26 23:10:00,175.43,0,636,Electronics,Debit Card,POS,Hyderabad
+2023-02-27 01:06:00,117.89,0,99,Electronics,PayPal,POS,Pune
+2023-02-27 02:26:00,41.88,0,870,Food,UPI,POS,Bengaluru
+2023-02-27 06:51:00,9.81,1,374,Food,Credit Card,Mobile,Mumbai
+2023-02-27 07:28:00,58.52,0,1112,Fashion,Credit Card,Mobile,Hyderabad
+2023-02-27 07:42:00,94.33,0,154,Fashion,UPI,Mobile,Kolkata
+2023-02-27 08:23:00,29.28,0,1453,Food,Credit Card,Desktop,Kolkata
+2023-02-27 10:15:00,93.92,0,317,Food,PayPal,POS,Mumbai
+2023-02-27 11:42:00,40.67,0,803,Grocery,NetBanking,Mobile,Chennai
+2023-02-27 14:15:00,58.56,0,1745,Grocery,NetBanking,Mobile,Chennai
+2023-02-27 20:46:00,24.11,0,1265,Fashion,PayPal,POS,Chennai
+2023-02-27 23:15:00,133.09,0,1464,Fashion,Credit Card,Mobile,Pune
+2023-02-28 00:53:00,31.23,0,1014,Food,Debit Card,Desktop,Pune
+2023-02-28 02:07:00,38.52,1,409,Electronics,UPI,Mobile,Chennai
+2023-02-28 02:24:00,76.54,0,813,Food,Credit Card,POS,Mumbai
+2023-02-28 05:56:00,125.95,0,464,Electronics,UPI,Desktop,Bengaluru
+2023-02-28 10:11:00,74.56,1,1544,Health,UPI,Desktop,Mumbai
+2023-02-28 10:12:00,18.08,0,738,Fashion,Credit Card,POS,Chennai
+2023-02-28 11:21:00,92.24,1,843,Health,PayPal,Desktop,Chennai
+2023-02-28 13:14:00,110.29,0,1963,Travel,PayPal,Mobile,Hyderabad
+2023-02-28 18:57:00,100.65,0,1063,Electronics,PayPal,Desktop,Bengaluru
+2023-02-28 19:28:00,8.79,0,1634,Grocery,UPI,Desktop,Pune
+2023-02-28 20:04:00,74.66,0,1405,Travel,UPI,Desktop,Delhi
+2023-02-28 21:20:00,34.76,0,1862,Food,Credit Card,Mobile,Chennai
+2023-02-28 23:20:00,129.96,0,1757,Fashion,Credit Card,Desktop,Pune
+2023-03-01 04:27:00,16.51,0,302,Entertainment,NetBanking,Mobile,Hyderabad
+2023-03-01 05:52:00,4.27,0,759,Grocery,NetBanking,POS,Delhi
+2023-03-01 06:37:00,39.09,1,1668,Grocery,NetBanking,Mobile,Pune
+2023-03-01 07:16:00,22.71,0,908,Fashion,Credit Card,POS,Bengaluru
+2023-03-01 08:29:00,13.84,0,93,Electronics,UPI,POS,Kolkata
+2023-03-01 10:37:00,37.28,1,1733,Travel,PayPal,POS,Pune
+2023-03-01 13:17:00,37.23,0,94,Health,PayPal,Mobile,Hyderabad
+2023-03-01 14:26:00,315.98,0,1265,Fashion,Credit Card,Mobile,Bengaluru
+2023-03-01 16:33:00,76.95,0,1061,Grocery,UPI,POS,Chennai
+2023-03-01 16:35:00,123.04,0,1603,Utilities,Debit Card,Mobile,Delhi
+2023-03-01 18:10:00,17.38,0,1211,Travel,Credit Card,POS,Kolkata
+2023-03-01 21:45:00,127.77,0,1589,Electronics,PayPal,Mobile,Bengaluru
+2023-03-01 22:20:00,5.52,0,1214,Entertainment,UPI,Mobile,Pune
+2023-03-01 23:28:00,64.0,0,1275,Grocery,PayPal,POS,Pune
+2023-03-02 01:09:00,39.13,0,1427,Entertainment,Credit Card,POS,Delhi
+2023-03-02 03:54:00,129.72,0,875,Health,NetBanking,POS,Pune
+2023-03-02 05:10:00,14.88,0,220,Grocery,UPI,POS,Hyderabad
+2023-03-02 05:22:00,43.0,0,1162,Food,NetBanking,Desktop,Kolkata
+2023-03-02 05:26:00,238.04,0,1819,Health,PayPal,Mobile,Pune
+2023-03-02 05:37:00,6.29,0,1813,Grocery,NetBanking,Desktop,Chennai
+2023-03-02 06:26:00,119.42,0,1295,Electronics,Credit Card,POS,Delhi
+2023-03-02 09:31:00,30.3,0,946,Electronics,Debit Card,Mobile,Pune
+2023-03-02 11:59:00,317.67,0,1033,Health,PayPal,Mobile,Hyderabad
+2023-03-02 12:31:00,101.65,1,925,Fashion,PayPal,Mobile,Kolkata
+2023-03-02 14:37:00,39.3,0,552,Health,PayPal,POS,Pune
+2023-03-02 14:37:00,127.85,0,1674,Electronics,Credit Card,Mobile,Bengaluru
+2023-03-02 15:40:00,45.25,0,1190,Entertainment,UPI,POS,Kolkata
+2023-03-02 18:46:00,81.19,0,586,Travel,Credit Card,POS,Hyderabad
+2023-03-02 22:24:00,187.6,0,650,Food,UPI,POS,Delhi
+2023-03-03 00:05:00,126.06,0,180,Fashion,Debit Card,Desktop,Kolkata
+2023-03-03 02:02:00,66.39,0,657,Food,Debit Card,POS,Chennai
+2023-03-03 04:26:00,17.35,0,289,Fashion,Debit Card,POS,Chennai
+2023-03-03 04:37:00,4.83,0,1254,Grocery,UPI,POS,Delhi
+2023-03-03 06:24:00,25.39,0,673,Grocery,Debit Card,Mobile,Hyderabad
+2023-03-03 09:46:00,34.48,0,1806,Entertainment,Credit Card,Mobile,Hyderabad
+2023-03-03 11:51:00,67.68,0,862,Health,NetBanking,Mobile,Chennai
+2023-03-03 23:32:00,11.15,0,1531,Entertainment,Credit Card,POS,Hyderabad
+2023-03-04 01:11:00,133.68,0,774,Electronics,Debit Card,Mobile,Bengaluru
+2023-03-04 01:20:00,54.73,0,1547,Utilities,Debit Card,Mobile,Kolkata
+2023-03-04 09:38:00,6.75,0,491,Food,NetBanking,Desktop,Chennai
+2023-03-04 14:22:00,27.97,0,1280,Electronics,Debit Card,Mobile,Bengaluru
+2023-03-04 14:23:00,44.84,1,383,Grocery,UPI,Mobile,Pune
+2023-03-04 16:33:00,26.7,0,954,Entertainment,Debit Card,Mobile,Hyderabad
+2023-03-04 18:10:00,106.07,0,211,Fashion,Credit Card,Mobile,Pune
+2023-03-04 20:08:00,39.44,0,131,Entertainment,PayPal,Desktop,Hyderabad
+2023-03-04 20:44:00,33.49,0,1566,Health,PayPal,Mobile,Pune
+2023-03-04 23:22:00,22.08,0,398,Fashion,PayPal,Mobile,Mumbai
+2023-03-05 00:48:00,82.14,0,1500,Entertainment,Credit Card,Desktop,Mumbai
+2023-03-05 01:57:00,100.74,0,1000,Electronics,PayPal,Mobile,Hyderabad
+2023-03-05 08:33:00,40.77,0,1073,Food,PayPal,Desktop,Delhi
+2023-03-05 08:46:00,71.95,0,712,Electronics,Credit Card,POS,Delhi
+2023-03-05 10:12:00,26.75,0,231,Food,NetBanking,Desktop,Delhi
+2023-03-05 10:43:00,7.29,0,1957,Health,Credit Card,POS,Pune
+2023-03-05 11:38:00,58.62,0,1443,Utilities,PayPal,POS,Kolkata
+2023-03-05 12:06:00,55.84,0,225,Food,UPI,Desktop,Mumbai
+2023-03-05 17:13:00,1.0,0,1194,Utilities,NetBanking,Mobile,Mumbai
+2023-03-05 18:05:00,83.7,0,1278,Electronics,PayPal,POS,Kolkata
+2023-03-05 20:34:00,113.84,0,1752,Health,Credit Card,Mobile,Bengaluru
+2023-03-05 21:12:00,73.16,0,1063,Grocery,Credit Card,Mobile,Bengaluru
+2023-03-05 21:27:00,13.55,0,1115,Travel,UPI,Desktop,Bengaluru
+2023-03-05 22:34:00,126.1,0,1026,Health,NetBanking,POS,Pune
+2023-03-05 22:37:00,4.76,0,915,Electronics,Credit Card,Desktop,Hyderabad
+2023-03-06 00:42:00,30.4,0,1830,Travel,UPI,Mobile,Pune
+2023-03-06 00:55:00,137.49,0,736,Health,UPI,Mobile,Chennai
+2023-03-06 01:01:00,0.73,0,1623,Electronics,PayPal,Mobile,Delhi
+2023-03-06 02:56:00,41.06,0,1979,Entertainment,PayPal,Mobile,Pune
+2023-03-06 05:15:00,60.45,0,1561,Food,NetBanking,POS,Chennai
+2023-03-06 07:20:00,45.35,1,345,Health,NetBanking,Desktop,Kolkata
+2023-03-06 08:31:00,60.39,0,824,Entertainment,PayPal,Mobile,Kolkata
+2023-03-06 09:19:00,257.09,0,678,Grocery,PayPal,POS,Bengaluru
+2023-03-06 15:17:00,22.84,0,1704,Grocery,NetBanking,POS,Mumbai
+2023-03-06 16:02:00,114.81,0,1954,Entertainment,UPI,Desktop,Pune
+2023-03-06 16:25:00,15.0,0,521,Entertainment,Credit Card,Desktop,Delhi
+2023-03-06 20:09:00,73.53,0,500,Travel,Debit Card,POS,Chennai
+2023-03-06 20:15:00,98.86,0,1050,Travel,UPI,Mobile,Delhi
+2023-03-06 21:24:00,38.3,0,1378,Grocery,PayPal,Desktop,Pune
+2023-03-07 01:05:00,26.49,0,422,Grocery,PayPal,Desktop,Delhi
+2023-03-07 01:23:00,85.41,0,967,Electronics,Credit Card,Mobile,Pune
+2023-03-07 05:20:00,12.3,0,688,Electronics,PayPal,Desktop,Delhi
+2023-03-07 09:10:00,51.32,0,947,Utilities,UPI,Mobile,Bengaluru
+2023-03-07 09:45:00,132.91,0,1438,Grocery,NetBanking,Desktop,Kolkata
+2023-03-07 16:14:00,182.59,0,749,Food,PayPal,Mobile,Hyderabad
+2023-03-07 17:19:00,102.62,0,1950,Food,Credit Card,Mobile,Hyderabad
+2023-03-07 23:28:00,12.13,0,1564,Entertainment,NetBanking,Mobile,Bengaluru
+2023-03-08 02:40:00,141.42,0,400,Health,PayPal,POS,Kolkata
+2023-03-08 05:21:00,55.47,0,894,Food,Credit Card,Desktop,Hyderabad
+2023-03-08 05:51:00,49.05,0,1222,Fashion,PayPal,POS,Bengaluru
+2023-03-08 11:41:00,7.21,1,897,Electronics,Debit Card,POS,Mumbai
+2023-03-08 12:35:00,132.12,0,385,Grocery,PayPal,Desktop,Kolkata
+2023-03-08 13:29:00,8.65,0,1841,Health,Credit Card,Mobile,Bengaluru
+2023-03-08 17:53:00,263.59,0,1668,Entertainment,UPI,POS,Delhi
+2023-03-08 19:53:00,139.76,1,1482,Travel,PayPal,POS,Delhi
+2023-03-08 20:01:00,32.95,0,1850,Health,UPI,POS,Pune
+2023-03-08 20:59:00,116.6,0,1700,Health,NetBanking,Mobile,Pune
+2023-03-09 01:40:00,78.38,0,1915,Food,UPI,Desktop,Delhi
+2023-03-09 01:43:00,105.82,0,1563,Utilities,UPI,POS,Bengaluru
+2023-03-09 01:57:00,4.21,0,1885,Food,Debit Card,Mobile,Kolkata
+2023-03-09 05:52:00,22.17,0,38,Utilities,NetBanking,Mobile,Mumbai
+2023-03-09 08:35:00,49.67,0,1114,Utilities,PayPal,POS,Bengaluru
+2023-03-09 09:23:00,132.59,0,1146,Grocery,Credit Card,Desktop,Bengaluru
+2023-03-09 10:33:00,324.75,0,1885,Travel,NetBanking,POS,Mumbai
+2023-03-09 12:47:00,3.4,1,449,Fashion,NetBanking,Mobile,Hyderabad
+2023-03-09 13:50:00,129.97,0,122,Grocery,Credit Card,POS,Bengaluru
+2023-03-09 15:43:00,8.81,0,1197,Entertainment,Credit Card,Mobile,Bengaluru
+2023-03-09 16:59:00,49.06,0,529,Electronics,PayPal,Mobile,Hyderabad
+2023-03-09 18:34:00,251.98,0,399,Utilities,Credit Card,Desktop,Kolkata
+2023-03-09 21:37:00,38.49,0,881,Fashion,PayPal,Desktop,Chennai
+2023-03-10 00:01:00,58.4,1,1380,Travel,UPI,POS,Chennai
+2023-03-10 05:37:00,46.26,0,1831,Travel,Credit Card,Desktop,Pune
+2023-03-10 06:14:00,3.2,0,720,Entertainment,UPI,POS,Pune
+2023-03-10 08:41:00,31.03,0,1418,Grocery,NetBanking,Desktop,Hyderabad
+2023-03-10 16:01:00,3.3,0,967,Health,UPI,Mobile,Hyderabad
+2023-03-10 20:57:00,8.83,0,1057,Fashion,PayPal,POS,Delhi
+2023-03-10 22:33:00,165.91,0,1088,Electronics,Credit Card,Mobile,Chennai
+2023-03-10 22:36:00,56.37,0,1603,Utilities,NetBanking,Mobile,Hyderabad
+2023-03-11 00:33:00,166.92,0,455,Electronics,Debit Card,POS,Kolkata
+2023-03-11 02:44:00,70.47,0,1179,Food,UPI,POS,Delhi
+2023-03-11 08:16:00,108.47,0,1318,Fashion,NetBanking,Mobile,Bengaluru
+2023-03-11 08:19:00,22.12,0,532,Health,Debit Card,Desktop,Kolkata
+2023-03-11 14:04:00,9.3,0,1034,Travel,UPI,Desktop,Delhi
+2023-03-11 16:38:00,217.97,0,182,Grocery,NetBanking,Desktop,Mumbai
+2023-03-11 18:38:00,40.22,0,517,Electronics,Debit Card,POS,Mumbai
+2023-03-11 20:03:00,32.55,0,461,Food,Credit Card,Mobile,Hyderabad
+2023-03-11 20:44:00,118.79,0,1220,Travel,UPI,POS,Delhi
+2023-03-11 21:23:00,10.99,0,182,Health,NetBanking,POS,Mumbai
+2023-03-12 01:45:00,13.65,0,215,Food,PayPal,Mobile,Mumbai
+2023-03-12 02:00:00,36.42,0,1757,Fashion,Debit Card,Desktop,Mumbai
+2023-03-12 02:50:00,225.98,0,1118,Food,Debit Card,Mobile,Pune
+2023-03-12 03:00:00,99.76,1,730,Utilities,Debit Card,Mobile,Kolkata
+2023-03-12 05:26:00,5.7,0,1232,Food,UPI,Desktop,Kolkata
+2023-03-12 05:34:00,23.71,0,407,Entertainment,Debit Card,Mobile,Delhi
+2023-03-12 05:48:00,7.47,0,131,Fashion,UPI,Mobile,Delhi
+2023-03-12 05:50:00,36.77,0,1279,Utilities,UPI,POS,Kolkata
+2023-03-12 13:06:00,25.81,0,86,Grocery,Credit Card,POS,Bengaluru
+2023-03-12 15:07:00,41.12,0,270,Food,NetBanking,Desktop,Pune
+2023-03-12 16:12:00,58.81,0,586,Health,Debit Card,Desktop,Mumbai
+2023-03-12 17:32:00,544.46,0,1608,Entertainment,NetBanking,Desktop,Pune
+2023-03-12 18:25:00,173.78,0,337,Fashion,Credit Card,Mobile,Pune
+2023-03-12 20:20:00,122.29,0,657,Travel,Debit Card,Desktop,Mumbai
+2023-03-12 20:46:00,37.85,0,218,Entertainment,PayPal,Desktop,Kolkata
+2023-03-13 00:09:00,60.79,0,995,Utilities,PayPal,Mobile,Hyderabad
+2023-03-13 01:05:00,37.1,0,1151,Entertainment,PayPal,POS,Kolkata
+2023-03-13 01:39:00,8.66,0,1507,Electronics,UPI,Mobile,Delhi
+2023-03-13 02:47:00,128.27,0,925,Health,PayPal,Mobile,Delhi
+2023-03-13 05:08:00,297.93,1,1925,Travel,PayPal,POS,Chennai
+2023-03-13 05:14:00,180.57,0,1998,Fashion,NetBanking,Mobile,Hyderabad
+2023-03-13 07:13:00,132.65,0,317,Health,UPI,Mobile,Mumbai
+2023-03-13 10:05:00,41.85,0,889,Food,UPI,Desktop,Delhi
+2023-03-13 14:57:00,66.65,0,583,Electronics,NetBanking,POS,Pune
+2023-03-14 00:59:00,14.21,0,1539,Utilities,Debit Card,Desktop,Chennai
+2023-03-14 01:37:00,169.36,0,857,Fashion,UPI,POS,Bengaluru
+2023-03-14 04:06:00,60.62,1,65,Utilities,PayPal,Desktop,Pune
+2023-03-14 07:17:00,11.37,0,1990,Utilities,Credit Card,Mobile,Pune
+2023-03-14 08:53:00,24.96,0,877,Grocery,PayPal,POS,Chennai
+2023-03-14 10:17:00,209.42,0,1157,Grocery,Credit Card,Desktop,Delhi
+2023-03-14 11:47:00,0.46,0,1332,Travel,UPI,Mobile,Pune
+2023-03-14 13:59:00,16.87,0,578,Grocery,UPI,Mobile,Kolkata
+2023-03-14 17:04:00,62.87,0,617,Grocery,Credit Card,Desktop,Hyderabad
+2023-03-14 19:55:00,28.21,0,1863,Grocery,Debit Card,Desktop,Mumbai
+2023-03-14 22:28:00,9.15,0,519,Fashion,PayPal,Desktop,Delhi
+2023-03-15 04:23:00,3.55,0,1903,Grocery,PayPal,POS,Chennai
+2023-03-15 05:27:00,11.15,0,1530,Electronics,Debit Card,Mobile,Kolkata
+2023-03-15 09:55:00,184.98,0,1275,Utilities,UPI,Mobile,Mumbai
+2023-03-15 12:23:00,47.31,0,1554,Food,PayPal,Mobile,Pune
+2023-03-15 17:57:00,88.16,0,786,Utilities,Debit Card,POS,Pune
+2023-03-15 19:17:00,30.9,0,686,Food,Debit Card,Desktop,Chennai
+2023-03-15 20:47:00,62.59,0,1929,Entertainment,PayPal,POS,Delhi
+2023-03-15 23:25:00,52.8,0,82,Grocery,UPI,Mobile,Kolkata
+2023-03-16 07:55:00,19.16,0,895,Utilities,NetBanking,Desktop,Mumbai
+2023-03-16 08:54:00,99.87,1,706,Grocery,Debit Card,Desktop,Hyderabad
+2023-03-16 10:05:00,25.12,0,347,Grocery,NetBanking,POS,Delhi
+2023-03-16 13:34:00,123.68,0,1287,Electronics,UPI,POS,Pune
+2023-03-16 17:37:00,4.07,0,1699,Travel,Credit Card,POS,Delhi
+2023-03-16 18:21:00,47.49,0,307,Travel,Credit Card,Mobile,Mumbai
+2023-03-16 20:08:00,30.19,0,909,Fashion,Credit Card,Desktop,Chennai
+2023-03-17 00:53:00,58.1,0,373,Fashion,Debit Card,POS,Pune
+2023-03-17 03:08:00,11.55,0,1284,Food,Credit Card,Mobile,Chennai
+2023-03-17 03:59:00,1.16,0,821,Utilities,Debit Card,Mobile,Bengaluru
+2023-03-17 04:18:00,4.98,0,1050,Food,PayPal,Mobile,Pune
+2023-03-17 07:22:00,94.89,0,1396,Utilities,Debit Card,Desktop,Bengaluru
+2023-03-17 09:52:00,132.19,0,1328,Electronics,UPI,Mobile,Bengaluru
+2023-03-17 10:19:00,130.18,0,1116,Utilities,Debit Card,POS,Kolkata
+2023-03-17 11:00:00,7.14,0,100,Food,UPI,Desktop,Mumbai
+2023-03-17 11:02:00,218.11,0,1280,Grocery,Credit Card,POS,Bengaluru
+2023-03-17 14:00:00,26.39,1,104,Fashion,Debit Card,Mobile,Bengaluru
+2023-03-17 15:04:00,89.86,0,328,Health,UPI,Desktop,Chennai
+2023-03-17 15:13:00,58.38,1,1801,Food,PayPal,Mobile,Pune
+2023-03-17 15:35:00,3.43,0,1160,Entertainment,NetBanking,Desktop,Delhi
+2023-03-17 18:34:00,54.86,0,1951,Utilities,UPI,Mobile,Delhi
+2023-03-17 18:41:00,119.2,0,1125,Food,NetBanking,Mobile,Pune
+2023-03-17 18:51:00,25.36,0,320,Utilities,PayPal,Desktop,Mumbai
+2023-03-17 21:11:00,17.48,0,1474,Grocery,Credit Card,Mobile,Mumbai
+2023-03-17 21:12:00,31.28,0,1225,Grocery,NetBanking,Mobile,Pune
+2023-03-17 23:52:00,43.26,0,343,Grocery,PayPal,Mobile,Pune
+2023-03-18 00:05:00,257.78,0,1188,Health,PayPal,Desktop,Hyderabad
+2023-03-18 00:17:00,79.88,0,1746,Grocery,UPI,Desktop,Bengaluru
+2023-03-18 03:23:00,25.53,0,321,Travel,UPI,Mobile,Chennai
+2023-03-18 06:45:00,97.7,0,1988,Food,Credit Card,POS,Hyderabad
+2023-03-18 08:04:00,18.08,0,1270,Entertainment,UPI,Mobile,Pune
+2023-03-18 08:53:00,129.64,0,150,Food,UPI,POS,Kolkata
+2023-03-18 09:19:00,55.28,0,690,Grocery,UPI,POS,Delhi
+2023-03-18 10:52:00,48.52,0,563,Electronics,Debit Card,Mobile,Delhi
+2023-03-18 13:33:00,94.92,0,1895,Food,Credit Card,Mobile,Pune
+2023-03-18 15:56:00,74.33,0,558,Food,UPI,Mobile,Hyderabad
+2023-03-18 19:21:00,44.25,0,1881,Utilities,NetBanking,POS,Kolkata
+2023-03-18 22:02:00,20.68,0,980,Fashion,Credit Card,POS,Bengaluru
+2023-03-18 22:34:00,20.5,0,1727,Health,PayPal,Desktop,Delhi
+2023-03-19 02:50:00,154.14,0,1435,Fashion,Debit Card,Desktop,Mumbai
+2023-03-19 04:19:00,33.34,0,569,Grocery,UPI,Mobile,Kolkata
+2023-03-19 05:11:00,41.25,0,1238,Travel,NetBanking,Desktop,Chennai
+2023-03-19 05:29:00,76.42,0,363,Electronics,Debit Card,POS,Delhi
+2023-03-19 05:58:00,118.14,0,869,Health,Debit Card,POS,Bengaluru
+2023-03-19 09:32:00,16.85,0,1655,Food,NetBanking,Desktop,Mumbai
+2023-03-19 09:56:00,23.68,0,297,Electronics,Debit Card,Desktop,Chennai
+2023-03-19 18:10:00,7.65,0,502,Entertainment,PayPal,Desktop,Pune
+2023-03-19 20:17:00,35.72,0,162,Health,Debit Card,POS,Bengaluru
+2023-03-19 23:34:00,186.15,0,595,Food,PayPal,POS,Bengaluru
+2023-03-20 01:57:00,85.87,1,610,Travel,Credit Card,Desktop,Delhi
+2023-03-20 02:26:00,24.2,0,283,Entertainment,NetBanking,Desktop,Kolkata
+2023-03-20 07:21:00,5.72,0,576,Electronics,NetBanking,POS,Bengaluru
+2023-03-20 09:46:00,79.82,0,530,Travel,UPI,Desktop,Pune
+2023-03-20 10:09:00,57.29,0,1351,Food,Debit Card,POS,Bengaluru
+2023-03-20 13:14:00,167.42,0,1394,Fashion,Debit Card,Mobile,Bengaluru
+2023-03-20 18:00:00,328.68,0,135,Utilities,Debit Card,Mobile,Hyderabad
+2023-03-20 20:06:00,94.9,0,1485,Electronics,Credit Card,Mobile,Chennai
+2023-03-20 20:20:00,21.12,0,542,Utilities,PayPal,Desktop,Chennai
+2023-03-20 21:09:00,73.31,0,1334,Health,Debit Card,Mobile,Chennai
+2023-03-21 05:09:00,117.72,0,675,Entertainment,Credit Card,Desktop,Chennai
+2023-03-21 07:19:00,13.02,0,807,Grocery,Credit Card,POS,Pune
+2023-03-21 11:37:00,40.73,1,495,Food,UPI,POS,Hyderabad
+2023-03-21 14:16:00,54.27,0,1662,Travel,Debit Card,POS,Bengaluru
+2023-03-21 22:57:00,7.68,0,1386,Grocery,Debit Card,Mobile,Kolkata
+2023-03-21 22:59:00,328.46,0,1955,Grocery,UPI,POS,Mumbai
+2023-03-21 23:14:00,16.78,0,971,Health,Credit Card,Mobile,Chennai
+2023-03-22 00:32:00,137.4,0,266,Fashion,Debit Card,Mobile,Bengaluru
+2023-03-22 01:48:00,34.53,0,358,Grocery,UPI,Desktop,Hyderabad
+2023-03-22 02:43:00,5.46,0,377,Fashion,PayPal,Mobile,Pune
+2023-03-22 02:55:00,14.62,1,1055,Fashion,UPI,Desktop,Delhi
+2023-03-22 04:57:00,70.32,0,1661,Food,NetBanking,POS,Kolkata
+2023-03-22 05:31:00,102.49,0,808,Fashion,Credit Card,POS,Mumbai
+2023-03-22 07:41:00,34.32,0,1988,Entertainment,PayPal,Mobile,Delhi
+2023-03-22 07:41:00,42.64,0,1575,Travel,UPI,POS,Hyderabad
+2023-03-22 08:33:00,3.18,0,1893,Utilities,NetBanking,Desktop,Pune
+2023-03-22 08:44:00,61.84,0,626,Food,PayPal,Desktop,Mumbai
+2023-03-22 11:17:00,41.14,0,333,Grocery,Credit Card,Mobile,Kolkata
+2023-03-22 11:39:00,31.66,0,1504,Electronics,NetBanking,Desktop,Hyderabad
+2023-03-22 12:28:00,10.28,0,802,Utilities,UPI,POS,Pune
+2023-03-22 13:55:00,10.62,1,1952,Travel,NetBanking,Mobile,Bengaluru
+2023-03-22 17:21:00,106.22,0,387,Electronics,NetBanking,POS,Kolkata
+2023-03-22 19:07:00,490.31,0,437,Utilities,Debit Card,POS,Hyderabad
+2023-03-22 19:53:00,256.67,0,1378,Entertainment,PayPal,Mobile,Delhi
+2023-03-22 20:26:00,34.32,0,1482,Health,NetBanking,Desktop,Bengaluru
+2023-03-22 20:33:00,38.68,0,838,Food,Credit Card,Desktop,Hyderabad
+2023-03-22 22:59:00,43.36,0,670,Food,UPI,Mobile,Hyderabad
+2023-03-22 23:35:00,49.81,0,1360,Food,PayPal,Mobile,Pune
+2023-03-22 23:43:00,3.53,0,1185,Utilities,PayPal,Mobile,Kolkata
+2023-03-23 01:15:00,55.2,0,51,Food,UPI,Desktop,Mumbai
+2023-03-23 08:47:00,80.94,0,585,Grocery,PayPal,Desktop,Pune
+2023-03-23 08:59:00,196.78,0,1186,Grocery,PayPal,Desktop,Delhi
+2023-03-23 09:06:00,93.71,0,670,Utilities,UPI,POS,Kolkata
+2023-03-23 17:44:00,32.66,0,32,Utilities,Credit Card,Desktop,Mumbai
+2023-03-23 19:22:00,73.68,0,1286,Food,Debit Card,Desktop,Kolkata
+2023-03-23 23:04:00,102.45,0,1471,Fashion,Debit Card,POS,Kolkata
+2023-03-23 23:41:00,40.38,0,946,Health,PayPal,POS,Hyderabad
+2023-03-24 00:12:00,18.61,0,1151,Health,UPI,POS,Delhi
+2023-03-24 00:12:00,41.23,0,883,Fashion,Debit Card,POS,Chennai
+2023-03-24 02:13:00,22.94,0,1843,Fashion,Credit Card,POS,Hyderabad
+2023-03-24 04:44:00,2.37,0,182,Fashion,PayPal,Desktop,Mumbai
+2023-03-24 06:50:00,318.16,0,305,Fashion,PayPal,Desktop,Delhi
+2023-03-24 07:55:00,34.04,0,1059,Entertainment,PayPal,Mobile,Bengaluru
+2023-03-24 10:17:00,54.87,0,1310,Utilities,PayPal,POS,Kolkata
+2023-03-24 11:37:00,19.26,0,924,Fashion,NetBanking,Desktop,Bengaluru
+2023-03-24 12:06:00,89.11,0,1527,Fashion,Credit Card,Mobile,Kolkata
+2023-03-24 14:03:00,2.57,0,1150,Entertainment,UPI,Desktop,Hyderabad
+2023-03-24 14:24:00,28.31,0,1335,Travel,Debit Card,POS,Pune
+2023-03-24 16:14:00,63.52,0,1778,Food,PayPal,Mobile,Chennai
+2023-03-24 20:01:00,11.04,0,839,Electronics,NetBanking,Desktop,Kolkata
+2023-03-24 20:14:00,16.43,0,1785,Grocery,PayPal,POS,Mumbai
+2023-03-24 21:28:00,40.41,0,700,Entertainment,Debit Card,POS,Bengaluru
+2023-03-25 00:14:00,31.64,0,1959,Entertainment,UPI,Desktop,Kolkata
+2023-03-25 00:27:00,197.27,0,660,Utilities,Credit Card,Desktop,Chennai
+2023-03-25 05:55:00,202.91,0,1022,Fashion,Debit Card,POS,Pune
+2023-03-25 07:28:00,7.87,0,613,Fashion,Debit Card,Desktop,Chennai
+2023-03-25 07:56:00,46.82,0,439,Electronics,PayPal,Mobile,Chennai
+2023-03-25 09:38:00,94.38,0,1017,Utilities,UPI,Desktop,Pune
+2023-03-25 10:18:00,233.13,0,471,Health,UPI,Desktop,Pune
+2023-03-25 10:57:00,0.01,0,1966,Travel,NetBanking,Desktop,Delhi
+2023-03-25 11:38:00,5.14,0,353,Grocery,UPI,POS,Delhi
+2023-03-25 12:44:00,85.52,0,857,Health,NetBanking,Mobile,Kolkata
+2023-03-25 13:29:00,18.69,0,57,Travel,NetBanking,Mobile,Mumbai
+2023-03-25 13:52:00,7.73,0,239,Electronics,PayPal,Desktop,Hyderabad
+2023-03-25 15:32:00,157.71,0,1042,Food,NetBanking,Desktop,Kolkata
+2023-03-25 16:15:00,146.28,0,1246,Health,NetBanking,Desktop,Hyderabad
+2023-03-25 17:01:00,7.03,0,1444,Travel,PayPal,Mobile,Pune
+2023-03-26 01:05:00,240.4,0,1104,Travel,PayPal,Mobile,Pune
+2023-03-26 03:28:00,21.97,0,1858,Electronics,UPI,Desktop,Delhi
+2023-03-26 03:59:00,6.91,0,1382,Entertainment,PayPal,Desktop,Mumbai
+2023-03-26 07:03:00,57.16,1,918,Utilities,UPI,Mobile,Hyderabad
+2023-03-26 07:26:00,22.52,0,557,Utilities,UPI,Mobile,Delhi
+2023-03-26 08:11:00,35.07,0,990,Food,NetBanking,Mobile,Mumbai
+2023-03-26 11:16:00,57.88,0,909,Entertainment,PayPal,Desktop,Kolkata
+2023-03-26 13:12:00,160.9,0,216,Fashion,Debit Card,Mobile,Delhi
+2023-03-26 15:10:00,6.62,0,407,Fashion,Credit Card,Mobile,Pune
+2023-03-26 15:50:00,45.04,1,1202,Electronics,Debit Card,Desktop,Pune
+2023-03-26 18:11:00,65.71,0,1184,Health,UPI,Mobile,Delhi
+2023-03-26 22:06:00,99.93,0,1442,Fashion,PayPal,Mobile,Pune
+2023-03-27 01:58:00,33.36,0,682,Health,Credit Card,POS,Pune
+2023-03-27 10:14:00,36.85,0,1017,Health,Debit Card,Desktop,Chennai
+2023-03-27 16:07:00,197.29,0,295,Electronics,NetBanking,POS,Hyderabad
+2023-03-27 17:17:00,14.3,0,1670,Food,Credit Card,Desktop,Pune
+2023-03-27 18:04:00,105.67,0,1203,Food,NetBanking,Mobile,Delhi
+2023-03-27 18:37:00,270.12,0,687,Utilities,PayPal,POS,Mumbai
+2023-03-28 00:39:00,136.47,0,1645,Electronics,PayPal,Mobile,Delhi
+2023-03-28 04:09:00,56.29,0,1354,Electronics,NetBanking,POS,Mumbai
+2023-03-28 05:10:00,214.77,0,1739,Grocery,UPI,Desktop,Chennai
+2023-03-28 05:12:00,37.55,0,564,Fashion,Debit Card,Desktop,Mumbai
+2023-03-28 05:29:00,44.96,0,1517,Fashion,UPI,Mobile,Bengaluru
+2023-03-28 06:57:00,72.52,0,198,Travel,UPI,Desktop,Delhi
+2023-03-28 15:19:00,106.25,0,1228,Entertainment,Debit Card,Mobile,Hyderabad
+2023-03-28 16:13:00,156.62,0,1041,Entertainment,PayPal,Mobile,Bengaluru
+2023-03-28 16:44:00,69.17,0,1270,Utilities,PayPal,Mobile,Bengaluru
+2023-03-28 19:10:00,278.97,0,1788,Utilities,NetBanking,Desktop,Hyderabad
+2023-03-28 21:42:00,71.88,0,868,Travel,NetBanking,POS,Mumbai
+2023-03-29 00:11:00,73.79,0,815,Electronics,PayPal,Desktop,Delhi
+2023-03-29 06:05:00,11.04,0,1117,Entertainment,Credit Card,POS,Mumbai
+2023-03-29 07:14:00,27.75,0,1867,Utilities,Credit Card,POS,Pune
+2023-03-29 10:44:00,21.14,0,199,Fashion,PayPal,Desktop,Pune
+2023-03-29 15:42:00,49.08,0,1480,Fashion,Credit Card,Mobile,Kolkata
+2023-03-29 17:04:00,57.16,0,660,Electronics,Credit Card,Mobile,Hyderabad
+2023-03-30 05:50:00,22.68,0,813,Travel,Debit Card,Desktop,Pune
+2023-03-30 07:37:00,164.17,0,1462,Grocery,PayPal,Mobile,Kolkata
+2023-03-30 11:09:00,30.02,0,658,Fashion,UPI,POS,Chennai
+2023-03-30 15:35:00,216.16,0,530,Entertainment,PayPal,Desktop,Chennai
+2023-03-30 15:57:00,14.29,0,486,Fashion,Credit Card,Mobile,Pune
+2023-03-30 22:17:00,43.48,0,1118,Fashion,UPI,Desktop,Chennai
+2023-03-30 23:17:00,91.53,0,1997,Entertainment,PayPal,POS,Kolkata
+2023-03-31 00:14:00,18.83,0,1917,Utilities,Debit Card,Desktop,Mumbai
+2023-03-31 00:54:00,75.68,0,439,Grocery,Debit Card,POS,Pune
+2023-03-31 03:10:00,39.87,1,210,Utilities,Credit Card,Desktop,Hyderabad
+2023-03-31 04:01:00,239.6,0,110,Utilities,UPI,Desktop,Kolkata
+2023-03-31 04:48:00,234.6,0,414,Entertainment,NetBanking,Mobile,Pune
+2023-03-31 09:23:00,28.52,0,845,Grocery,PayPal,Mobile,Chennai
+2023-03-31 09:25:00,93.46,0,1308,Entertainment,NetBanking,Desktop,Delhi
+2023-03-31 14:41:00,17.49,0,958,Entertainment,Credit Card,POS,Mumbai
+2023-03-31 17:11:00,103.56,0,1560,Health,Debit Card,POS,Hyderabad
+2023-03-31 17:41:00,88.35,0,308,Electronics,Debit Card,POS,Bengaluru
+2023-03-31 20:40:00,22.87,0,1120,Health,UPI,POS,Mumbai
+2023-03-31 23:12:00,5.07,1,1286,Entertainment,NetBanking,POS,Mumbai
+2023-04-01 00:32:00,85.55,0,1763,Travel,NetBanking,Mobile,Bengaluru
+2023-04-01 06:59:00,142.05,0,234,Entertainment,NetBanking,POS,Pune
+2023-04-01 07:08:00,8.22,0,928,Health,Credit Card,Mobile,Hyderabad
+2023-04-01 11:18:00,105.51,0,248,Electronics,Debit Card,POS,Kolkata
+2023-04-01 13:59:00,35.73,0,421,Utilities,Debit Card,Desktop,Delhi
+2023-04-01 15:55:00,3.27,0,790,Travel,Debit Card,POS,Mumbai
+2023-04-01 22:01:00,66.52,0,1514,Grocery,PayPal,Mobile,Mumbai
+2023-04-01 22:59:00,31.46,0,88,Health,UPI,POS,Pune
+2023-04-02 02:32:00,17.42,0,1212,Grocery,Credit Card,Mobile,Bengaluru
+2023-04-02 03:21:00,58.54,0,639,Food,UPI,Desktop,Chennai
+2023-04-02 05:06:00,18.79,0,519,Travel,Credit Card,Desktop,Mumbai
+2023-04-02 06:00:00,20.6,1,1467,Fashion,PayPal,Desktop,Delhi
+2023-04-02 06:17:00,33.5,0,1843,Food,PayPal,POS,Mumbai
+2023-04-02 10:36:00,272.53,0,299,Grocery,NetBanking,POS,Hyderabad
+2023-04-02 11:37:00,89.42,0,813,Travel,Debit Card,POS,Delhi
+2023-04-02 13:38:00,3.7,0,39,Electronics,Debit Card,POS,Chennai
+2023-04-02 14:57:00,39.79,0,77,Entertainment,Debit Card,POS,Mumbai
+2023-04-02 16:10:00,80.84,0,515,Electronics,UPI,POS,Kolkata
+2023-04-02 20:41:00,148.29,0,1335,Electronics,Credit Card,POS,Bengaluru
+2023-04-02 21:01:00,25.4,0,1957,Health,Debit Card,Mobile,Chennai
+2023-04-02 21:30:00,128.24,0,852,Health,Debit Card,Desktop,Chennai
+2023-04-02 22:08:00,1.91,0,673,Electronics,PayPal,Mobile,Bengaluru
+2023-04-02 23:34:00,52.29,0,682,Entertainment,UPI,POS,Pune
+2023-04-02 23:59:00,22.03,0,458,Entertainment,Debit Card,Mobile,Pune
+2023-04-03 06:52:00,78.96,0,1837,Food,Credit Card,POS,Bengaluru
+2023-04-03 12:18:00,49.84,0,873,Entertainment,Credit Card,Mobile,Bengaluru
+2023-04-03 12:58:00,13.83,0,657,Travel,UPI,POS,Hyderabad
+2023-04-03 17:32:00,2.14,0,296,Grocery,UPI,POS,Chennai
+2023-04-03 18:43:00,26.92,0,573,Entertainment,UPI,Desktop,Pune
+2023-04-04 03:08:00,106.05,0,1047,Travel,UPI,POS,Kolkata
+2023-04-04 05:59:00,39.47,0,745,Fashion,NetBanking,POS,Pune
+2023-04-04 06:52:00,37.58,0,39,Utilities,Debit Card,Mobile,Bengaluru
+2023-04-04 08:07:00,20.25,0,1303,Entertainment,Debit Card,Mobile,Chennai
+2023-04-04 13:41:00,1.15,0,1229,Health,Debit Card,POS,Bengaluru
+2023-04-04 14:14:00,53.53,0,511,Food,UPI,Desktop,Hyderabad
+2023-04-04 19:45:00,222.84,0,601,Entertainment,UPI,Mobile,Bengaluru
+2023-04-04 23:43:00,117.97,1,1435,Travel,Credit Card,Desktop,Delhi
+2023-04-05 00:52:00,43.5,0,815,Entertainment,PayPal,Desktop,Bengaluru
+2023-04-05 01:55:00,111.31,0,1884,Fashion,PayPal,POS,Chennai
+2023-04-05 03:01:00,2.47,0,287,Grocery,PayPal,Desktop,Mumbai
+2023-04-05 04:06:00,52.45,0,336,Food,UPI,POS,Pune
+2023-04-05 04:44:00,33.47,1,1172,Grocery,PayPal,Desktop,Chennai
+2023-04-05 06:39:00,138.16,0,1435,Fashion,Credit Card,Mobile,Delhi
+2023-04-05 07:06:00,28.92,0,1481,Utilities,Debit Card,Desktop,Kolkata
+2023-04-05 12:34:00,182.56,0,442,Food,Debit Card,POS,Bengaluru
+2023-04-05 13:03:00,17.32,0,1398,Entertainment,Debit Card,Mobile,Mumbai
+2023-04-05 16:07:00,19.02,1,328,Grocery,UPI,Desktop,Bengaluru
+2023-04-05 16:29:00,89.37,1,360,Grocery,UPI,Desktop,Hyderabad
+2023-04-05 16:54:00,35.3,0,1211,Electronics,PayPal,POS,Delhi
+2023-04-05 17:53:00,51.92,0,1078,Grocery,NetBanking,Desktop,Hyderabad
+2023-04-05 18:01:00,71.92,0,638,Grocery,PayPal,Desktop,Delhi
+2023-04-05 22:06:00,238.9,0,260,Grocery,PayPal,Mobile,Hyderabad
+2023-04-05 22:38:00,2.88,0,1241,Food,Credit Card,POS,Mumbai
+2023-04-05 23:28:00,129.97,0,903,Electronics,UPI,Desktop,Hyderabad
+2023-04-06 02:47:00,20.98,0,209,Travel,UPI,Mobile,Mumbai
+2023-04-06 03:22:00,72.52,0,1503,Health,Debit Card,Mobile,Chennai
+2023-04-06 04:12:00,224.5,0,1309,Travel,UPI,Mobile,Delhi
+2023-04-06 06:47:00,35.47,0,598,Fashion,PayPal,Mobile,Pune
+2023-04-06 07:09:00,19.92,0,1650,Health,PayPal,POS,Bengaluru
+2023-04-06 07:29:00,280.05,0,107,Entertainment,NetBanking,Desktop,Kolkata
+2023-04-06 07:59:00,42.26,0,1420,Grocery,Credit Card,POS,Pune
+2023-04-06 08:11:00,1.96,0,1963,Food,UPI,Desktop,Delhi
+2023-04-06 09:16:00,8.73,0,337,Entertainment,Debit Card,POS,Kolkata
+2023-04-06 11:21:00,149.03,0,804,Health,UPI,Mobile,Kolkata
+2023-04-06 12:10:00,71.96,0,1433,Utilities,Credit Card,Mobile,Mumbai
+2023-04-06 14:15:00,80.94,0,1243,Fashion,Debit Card,Mobile,Delhi
+2023-04-06 16:03:00,86.35,0,103,Grocery,Credit Card,Mobile,Hyderabad
+2023-04-06 16:48:00,97.02,0,404,Fashion,NetBanking,Mobile,Pune
+2023-04-06 17:02:00,12.89,0,1192,Food,PayPal,Mobile,Bengaluru
+2023-04-06 19:24:00,79.86,0,1208,Utilities,Credit Card,Desktop,Pune
+2023-04-06 20:10:00,20.62,1,1486,Food,Debit Card,Desktop,Kolkata
+2023-04-06 21:19:00,75.44,0,1186,Food,PayPal,POS,Pune
+2023-04-07 00:53:00,6.47,0,1120,Electronics,NetBanking,Desktop,Chennai
+2023-04-07 02:45:00,73.69,0,977,Grocery,Debit Card,Desktop,Chennai
+2023-04-07 06:09:00,14.65,0,1137,Grocery,Debit Card,Desktop,Mumbai
+2023-04-07 06:19:00,19.43,0,155,Fashion,Credit Card,Mobile,Chennai
+2023-04-07 06:19:00,11.21,0,1447,Electronics,PayPal,Desktop,Pune
+2023-04-07 12:23:00,36.09,0,290,Grocery,UPI,POS,Pune
+2023-04-07 15:30:00,35.93,0,1989,Fashion,UPI,Desktop,Hyderabad
+2023-04-07 15:49:00,66.75,0,1866,Utilities,UPI,POS,Kolkata
+2023-04-07 15:57:00,15.95,0,652,Entertainment,Debit Card,Mobile,Bengaluru
+2023-04-07 16:25:00,129.8,1,543,Entertainment,Debit Card,POS,Bengaluru
+2023-04-07 17:33:00,26.82,0,906,Electronics,PayPal,POS,Pune
+2023-04-07 22:41:00,72.38,0,1848,Travel,Credit Card,Mobile,Mumbai
+2023-04-07 22:52:00,39.26,0,697,Travel,PayPal,Desktop,Hyderabad
+2023-04-08 07:09:00,55.95,0,1991,Travel,Debit Card,Desktop,Kolkata
+2023-04-08 07:17:00,3.05,0,456,Grocery,UPI,Mobile,Bengaluru
+2023-04-08 10:16:00,88.46,1,989,Utilities,Debit Card,Mobile,Delhi
+2023-04-08 11:22:00,41.44,0,437,Utilities,NetBanking,Mobile,Bengaluru
+2023-04-08 12:14:00,4.79,0,1891,Grocery,Debit Card,Mobile,Delhi
+2023-04-08 13:30:00,175.95,0,725,Electronics,UPI,POS,Bengaluru
+2023-04-08 14:33:00,88.97,0,810,Grocery,NetBanking,Desktop,Bengaluru
+2023-04-08 16:07:00,88.1,0,57,Utilities,PayPal,POS,Bengaluru
+2023-04-08 17:19:00,107.11,0,1574,Travel,Debit Card,Mobile,Mumbai
+2023-04-08 17:58:00,150.73,0,44,Entertainment,Credit Card,POS,Hyderabad
+2023-04-08 18:30:00,5.67,0,1432,Grocery,Debit Card,Desktop,Pune
+2023-04-09 05:06:00,83.64,1,959,Electronics,NetBanking,Mobile,Delhi
+2023-04-09 08:43:00,25.58,1,151,Food,PayPal,Mobile,Hyderabad
+2023-04-09 11:19:00,85.54,0,703,Travel,UPI,Mobile,Chennai
+2023-04-09 13:13:00,67.5,0,1543,Travel,PayPal,POS,Pune
+2023-04-09 13:29:00,19.31,0,1665,Food,PayPal,Mobile,Pune
+2023-04-09 14:49:00,42.48,0,1682,Electronics,Debit Card,POS,Hyderabad
+2023-04-09 16:56:00,80.06,1,1144,Health,Credit Card,POS,Bengaluru
+2023-04-09 18:44:00,178.11,0,1721,Health,Debit Card,POS,Hyderabad
+2023-04-09 19:22:00,264.0,0,251,Utilities,Debit Card,Mobile,Kolkata
+2023-04-10 00:38:00,37.66,0,1775,Food,PayPal,Mobile,Mumbai
+2023-04-10 02:10:00,136.23,0,1427,Utilities,NetBanking,Desktop,Bengaluru
+2023-04-10 04:25:00,16.03,0,1619,Fashion,UPI,POS,Chennai
+2023-04-10 07:17:00,50.98,0,861,Fashion,PayPal,Mobile,Chennai
+2023-04-10 10:54:00,73.02,1,1487,Grocery,Credit Card,POS,Mumbai
+2023-04-10 12:30:00,21.14,0,983,Food,NetBanking,Mobile,Hyderabad
+2023-04-10 13:43:00,80.61,0,1009,Electronics,Debit Card,POS,Chennai
+2023-04-10 18:34:00,335.22,0,572,Travel,Credit Card,POS,Mumbai
+2023-04-10 20:07:00,178.27,1,742,Fashion,PayPal,Desktop,Chennai
+2023-04-11 01:29:00,6.29,0,930,Food,Credit Card,Mobile,Chennai
+2023-04-11 05:22:00,50.4,0,154,Entertainment,PayPal,Mobile,Hyderabad
+2023-04-11 07:22:00,12.45,0,1716,Grocery,PayPal,Desktop,Bengaluru
+2023-04-11 07:32:00,23.01,0,1594,Travel,PayPal,Mobile,Delhi
+2023-04-11 12:01:00,55.51,0,1113,Electronics,Debit Card,Desktop,Bengaluru
+2023-04-11 16:59:00,16.38,0,1439,Utilities,NetBanking,Mobile,Hyderabad
+2023-04-11 21:06:00,148.97,0,1216,Utilities,Credit Card,Desktop,Pune
+2023-04-12 01:05:00,103.16,0,922,Entertainment,Credit Card,Mobile,Kolkata
+2023-04-12 01:31:00,80.43,0,1548,Food,UPI,Mobile,Chennai
+2023-04-12 05:23:00,9.92,0,1792,Entertainment,NetBanking,Mobile,Delhi
+2023-04-12 07:28:00,47.86,1,554,Electronics,Debit Card,POS,Mumbai
+2023-04-12 09:44:00,35.31,0,311,Entertainment,Credit Card,Mobile,Bengaluru
+2023-04-12 12:44:00,71.9,1,1460,Electronics,PayPal,POS,Kolkata
+2023-04-12 14:01:00,1.92,0,140,Travel,Credit Card,Desktop,Mumbai
+2023-04-12 15:31:00,74.98,0,850,Travel,Debit Card,Desktop,Delhi
+2023-04-12 20:40:00,56.83,0,297,Utilities,UPI,Mobile,Hyderabad
+2023-04-13 01:27:00,2.53,0,1182,Utilities,Credit Card,POS,Delhi
+2023-04-13 02:23:00,72.95,0,1342,Travel,Debit Card,Desktop,Chennai
+2023-04-13 05:43:00,208.71,0,993,Travel,Debit Card,Mobile,Delhi
+2023-04-13 06:03:00,24.68,1,548,Fashion,UPI,Desktop,Pune
+2023-04-13 08:54:00,32.27,0,1648,Electronics,NetBanking,Mobile,Kolkata
+2023-04-13 10:33:00,89.27,0,1363,Food,Credit Card,POS,Pune
+2023-04-13 11:19:00,28.91,0,1480,Fashion,PayPal,Mobile,Pune
+2023-04-13 11:21:00,96.89,1,1071,Health,Credit Card,POS,Pune
+2023-04-13 11:31:00,198.62,1,1152,Fashion,Credit Card,Mobile,Pune
+2023-04-13 16:43:00,66.89,0,1703,Travel,Credit Card,Desktop,Kolkata
+2023-04-13 19:20:00,51.37,0,1796,Fashion,PayPal,Mobile,Pune
+2023-04-13 20:01:00,243.03,0,252,Electronics,NetBanking,Mobile,Delhi
+2023-04-13 21:52:00,36.68,0,1169,Fashion,Debit Card,Desktop,Chennai
+2023-04-13 21:56:00,103.39,0,562,Entertainment,UPI,Desktop,Delhi
+2023-04-13 23:42:00,10.28,0,257,Fashion,UPI,Mobile,Mumbai
+2023-04-14 03:40:00,31.83,0,119,Grocery,Debit Card,Desktop,Hyderabad
+2023-04-14 10:25:00,14.66,0,796,Health,Credit Card,POS,Mumbai
+2023-04-14 12:01:00,98.27,0,820,Health,Credit Card,Desktop,Chennai
+2023-04-14 16:28:00,96.48,0,646,Food,Debit Card,Desktop,Pune
+2023-04-14 17:02:00,159.34,0,1414,Electronics,PayPal,Desktop,Pune
+2023-04-14 22:21:00,23.94,0,1088,Electronics,PayPal,Mobile,Bengaluru
+2023-04-14 22:51:00,89.0,0,654,Grocery,UPI,Desktop,Pune
+2023-04-14 23:22:00,70.67,0,930,Fashion,Credit Card,Desktop,Mumbai
+2023-04-14 23:59:00,136.79,0,1880,Utilities,Debit Card,Mobile,Kolkata
+2023-04-15 02:06:00,53.49,0,89,Electronics,Credit Card,POS,Mumbai
+2023-04-15 05:53:00,15.25,0,1035,Entertainment,UPI,Desktop,Chennai
+2023-04-15 06:49:00,112.92,0,1584,Grocery,PayPal,Desktop,Pune
+2023-04-15 08:11:00,26.35,0,1679,Electronics,PayPal,Desktop,Delhi
+2023-04-15 08:12:00,210.84,0,1676,Electronics,PayPal,Desktop,Mumbai
+2023-04-15 08:13:00,341.5,0,865,Food,Credit Card,POS,Hyderabad
+2023-04-15 10:19:00,230.65,0,1053,Health,NetBanking,POS,Chennai
+2023-04-15 17:14:00,119.52,0,123,Fashion,Debit Card,Desktop,Chennai
+2023-04-15 17:32:00,208.36,0,94,Travel,NetBanking,Mobile,Chennai
+2023-04-15 22:13:00,12.08,0,1040,Travel,NetBanking,Desktop,Kolkata
+2023-04-15 23:09:00,44.62,0,938,Health,Debit Card,Desktop,Delhi
+2023-04-16 00:09:00,10.25,0,545,Fashion,Debit Card,POS,Delhi
+2023-04-16 02:19:00,25.15,0,1015,Food,NetBanking,Desktop,Kolkata
+2023-04-16 02:55:00,4.58,0,1601,Entertainment,NetBanking,POS,Mumbai
+2023-04-16 03:35:00,74.73,0,1324,Health,NetBanking,Desktop,Bengaluru
+2023-04-16 08:04:00,280.2,0,134,Electronics,Debit Card,Desktop,Chennai
+2023-04-16 14:23:00,14.65,0,786,Health,UPI,Desktop,Kolkata
+2023-04-16 14:44:00,82.98,0,1477,Electronics,Credit Card,Desktop,Kolkata
+2023-04-16 17:28:00,55.17,0,705,Fashion,NetBanking,Desktop,Delhi
+2023-04-16 17:46:00,85.18,1,110,Health,Credit Card,Desktop,Kolkata
+2023-04-16 18:06:00,5.67,1,599,Food,UPI,Mobile,Hyderabad
+2023-04-16 21:54:00,413.81,0,1461,Utilities,Credit Card,Mobile,Bengaluru
+2023-04-16 23:21:00,111.34,0,1162,Utilities,Debit Card,Mobile,Pune
+2023-04-17 01:34:00,17.44,0,1178,Electronics,UPI,Mobile,Chennai
+2023-04-17 02:33:00,82.38,0,140,Grocery,PayPal,POS,Pune
+2023-04-17 04:11:00,44.66,0,100,Food,Debit Card,Desktop,Kolkata
+2023-04-17 07:52:00,119.38,0,1281,Entertainment,Credit Card,POS,Kolkata
+2023-04-17 09:05:00,20.36,0,919,Health,NetBanking,Mobile,Delhi
+2023-04-17 09:47:00,67.82,0,552,Food,Credit Card,Mobile,Chennai
+2023-04-17 10:32:00,94.25,1,1780,Food,Debit Card,Mobile,Kolkata
+2023-04-17 13:15:00,77.42,0,1695,Fashion,PayPal,POS,Kolkata
+2023-04-17 13:16:00,186.19,0,695,Grocery,Credit Card,POS,Chennai
+2023-04-17 13:51:00,39.28,0,1522,Utilities,Credit Card,Desktop,Pune
+2023-04-17 14:09:00,189.46,0,1167,Health,Debit Card,Desktop,Pune
+2023-04-17 19:04:00,5.5,0,390,Electronics,Debit Card,Mobile,Delhi
+2023-04-18 01:28:00,114.36,0,641,Travel,NetBanking,Desktop,Bengaluru
+2023-04-18 05:58:00,0.94,0,828,Entertainment,UPI,POS,Mumbai
+2023-04-18 06:17:00,117.63,0,224,Utilities,Credit Card,Mobile,Pune
+2023-04-18 06:26:00,42.35,0,318,Grocery,Debit Card,Desktop,Kolkata
+2023-04-18 11:12:00,95.3,0,106,Food,NetBanking,Desktop,Pune
+2023-04-18 16:38:00,46.69,1,809,Food,Credit Card,Mobile,Bengaluru
+2023-04-18 20:46:00,63.27,0,1198,Grocery,UPI,Desktop,Mumbai
+2023-04-18 22:00:00,81.54,0,710,Fashion,UPI,Desktop,Bengaluru
+2023-04-18 22:35:00,16.32,0,1496,Food,Debit Card,Mobile,Chennai
+2023-04-18 23:14:00,170.22,0,944,Electronics,UPI,Mobile,Pune
+2023-04-18 23:59:00,77.85,0,180,Utilities,UPI,POS,Kolkata
+2023-04-19 01:44:00,21.05,0,1474,Grocery,Credit Card,Mobile,Pune
+2023-04-19 04:13:00,121.61,1,1329,Utilities,Debit Card,Mobile,Kolkata
+2023-04-19 06:11:00,103.6,0,1719,Entertainment,PayPal,POS,Delhi
+2023-04-19 07:29:00,10.45,0,1402,Electronics,NetBanking,Desktop,Hyderabad
+2023-04-19 17:56:00,15.63,0,907,Food,Credit Card,Mobile,Hyderabad
+2023-04-19 19:02:00,13.27,0,410,Food,NetBanking,Mobile,Chennai
+2023-04-19 23:07:00,86.72,0,1977,Fashion,PayPal,Desktop,Mumbai
+2023-04-19 23:46:00,13.35,0,691,Electronics,PayPal,Mobile,Pune
+2023-04-19 23:54:00,22.16,0,1596,Fashion,Credit Card,POS,Pune
+2023-04-20 03:06:00,89.89,1,1912,Electronics,NetBanking,Desktop,Pune
+2023-04-20 04:25:00,394.88,0,1837,Travel,NetBanking,POS,Delhi
+2023-04-20 04:43:00,267.01,0,1573,Grocery,NetBanking,Desktop,Mumbai
+2023-04-20 04:53:00,200.99,0,275,Travel,PayPal,Mobile,Kolkata
+2023-04-20 05:27:00,40.05,0,1223,Grocery,NetBanking,Mobile,Bengaluru
+2023-04-20 05:34:00,3.87,0,410,Entertainment,Debit Card,Mobile,Delhi
+2023-04-20 06:19:00,88.5,1,539,Entertainment,PayPal,Mobile,Mumbai
+2023-04-20 07:23:00,70.27,0,417,Food,PayPal,Mobile,Hyderabad
+2023-04-20 12:29:00,32.93,0,63,Health,Credit Card,Mobile,Hyderabad
+2023-04-20 21:09:00,196.66,1,853,Fashion,NetBanking,Desktop,Delhi
+2023-04-20 21:27:00,19.1,0,359,Entertainment,Credit Card,POS,Chennai
+2023-04-21 04:40:00,66.56,0,1136,Entertainment,PayPal,POS,Mumbai
+2023-04-21 06:03:00,0.56,0,1255,Travel,Credit Card,POS,Hyderabad
+2023-04-21 06:44:00,62.6,0,611,Electronics,Debit Card,Desktop,Kolkata
+2023-04-21 09:12:00,70.02,0,234,Electronics,Debit Card,POS,Pune
+2023-04-21 10:02:00,444.93,0,1897,Grocery,Debit Card,Mobile,Kolkata
+2023-04-21 14:57:00,47.63,0,1342,Electronics,UPI,Mobile,Delhi
+2023-04-21 17:48:00,20.42,0,1686,Food,Credit Card,Mobile,Mumbai
+2023-04-21 22:03:00,8.53,0,302,Food,Credit Card,POS,Bengaluru
+2023-04-21 22:25:00,158.45,0,1073,Fashion,NetBanking,Desktop,Kolkata
+2023-04-21 23:38:00,53.27,0,295,Travel,UPI,Desktop,Delhi
+2023-04-22 00:51:00,28.46,0,1337,Health,NetBanking,POS,Delhi
+2023-04-22 01:16:00,140.11,0,767,Entertainment,Credit Card,POS,Mumbai
+2023-04-22 08:01:00,64.48,0,1826,Electronics,NetBanking,Mobile,Mumbai
+2023-04-22 08:43:00,64.36,1,1198,Utilities,PayPal,Desktop,Kolkata
+2023-04-22 13:55:00,165.86,1,1540,Electronics,PayPal,Mobile,Chennai
+2023-04-22 15:30:00,38.6,0,1999,Food,UPI,Mobile,Pune
+2023-04-22 19:20:00,47.35,0,711,Utilities,Credit Card,Desktop,Delhi
+2023-04-22 20:40:00,33.56,0,139,Fashion,PayPal,Mobile,Kolkata
+2023-04-23 09:06:00,115.69,0,526,Entertainment,Credit Card,Mobile,Chennai
+2023-04-23 10:26:00,59.23,0,765,Food,Debit Card,Mobile,Bengaluru
+2023-04-23 10:39:00,39.74,0,1025,Electronics,PayPal,Mobile,Pune
+2023-04-23 11:06:00,93.19,0,587,Entertainment,Debit Card,Desktop,Chennai
+2023-04-23 11:14:00,39.95,0,1196,Entertainment,Debit Card,Mobile,Kolkata
+2023-04-23 12:53:00,87.3,0,1962,Food,Credit Card,POS,Hyderabad
+2023-04-23 13:23:00,82.12,0,641,Travel,UPI,POS,Bengaluru
+2023-04-23 16:11:00,59.58,1,1428,Grocery,Credit Card,Mobile,Delhi
+2023-04-23 18:19:00,4.3,0,869,Electronics,UPI,Desktop,Chennai
+2023-04-23 22:28:00,22.86,0,1107,Electronics,Credit Card,POS,Mumbai
+2023-04-24 01:43:00,65.91,0,1263,Food,Credit Card,Mobile,Mumbai
+2023-04-24 02:53:00,14.08,0,456,Travel,Debit Card,POS,Chennai
+2023-04-24 03:10:00,89.63,0,955,Fashion,UPI,Desktop,Kolkata
+2023-04-24 03:49:00,15.52,0,99,Entertainment,Debit Card,POS,Delhi
+2023-04-24 05:09:00,29.42,0,1468,Food,Credit Card,POS,Bengaluru
+2023-04-24 07:51:00,36.02,0,1994,Fashion,NetBanking,Mobile,Chennai
+2023-04-24 10:42:00,0.67,0,1056,Fashion,UPI,Mobile,Hyderabad
+2023-04-24 10:43:00,49.88,0,788,Utilities,UPI,POS,Delhi
+2023-04-24 11:49:00,49.51,0,280,Travel,Credit Card,Desktop,Bengaluru
+2023-04-24 13:09:00,2.09,0,833,Fashion,Debit Card,POS,Pune
+2023-04-24 14:32:00,44.61,0,1345,Fashion,PayPal,Mobile,Bengaluru
+2023-04-24 15:33:00,220.1,0,836,Grocery,Debit Card,POS,Bengaluru
+2023-04-24 20:06:00,293.2,0,1962,Utilities,PayPal,Desktop,Pune
+2023-04-24 21:35:00,37.51,0,738,Food,UPI,POS,Delhi
+2023-04-25 04:15:00,387.63,0,279,Grocery,UPI,POS,Mumbai
+2023-04-25 06:30:00,30.15,0,1070,Grocery,Credit Card,Desktop,Delhi
+2023-04-25 07:45:00,13.05,0,1391,Entertainment,Debit Card,Desktop,Mumbai
+2023-04-25 08:56:00,2.74,0,1729,Entertainment,Debit Card,Mobile,Pune
+2023-04-25 09:36:00,14.52,1,144,Travel,PayPal,Desktop,Mumbai
+2023-04-25 10:57:00,6.2,1,168,Grocery,UPI,Desktop,Hyderabad
+2023-04-25 15:12:00,105.46,0,1723,Entertainment,UPI,Desktop,Chennai
+2023-04-25 16:11:00,25.7,0,68,Travel,UPI,Mobile,Mumbai
+2023-04-25 18:01:00,67.02,1,1426,Health,NetBanking,Mobile,Kolkata
+2023-04-25 23:08:00,54.28,0,725,Grocery,NetBanking,POS,Delhi
+2023-04-25 23:57:00,78.02,0,1775,Grocery,Debit Card,Desktop,Pune
+2023-04-26 03:19:00,29.18,0,1541,Travel,Credit Card,Mobile,Chennai
+2023-04-26 04:14:00,78.81,0,1612,Grocery,NetBanking,POS,Delhi
+2023-04-26 06:14:00,33.29,0,1520,Food,NetBanking,Desktop,Mumbai
+2023-04-26 09:52:00,67.91,0,716,Utilities,Debit Card,Mobile,Delhi
+2023-04-26 10:55:00,209.52,0,1045,Travel,Debit Card,POS,Mumbai
+2023-04-26 11:10:00,396.55,0,1747,Health,Credit Card,POS,Bengaluru
+2023-04-26 13:15:00,177.06,0,1807,Health,Debit Card,Mobile,Pune
+2023-04-26 16:25:00,0.08,0,1496,Fashion,UPI,POS,Kolkata
+2023-04-26 17:12:00,67.85,0,653,Travel,PayPal,Desktop,Mumbai
+2023-04-26 20:38:00,156.35,0,1574,Grocery,UPI,Mobile,Hyderabad
+2023-04-26 22:32:00,83.83,0,351,Grocery,NetBanking,Mobile,Hyderabad
+2023-04-26 23:01:00,44.43,0,1196,Grocery,UPI,Desktop,Kolkata
+2023-04-27 01:07:00,9.47,1,1437,Health,Credit Card,Mobile,Hyderabad
+2023-04-27 01:11:00,128.08,0,407,Grocery,UPI,Desktop,Pune
+2023-04-27 01:12:00,0.26,0,1693,Travel,UPI,POS,Hyderabad
+2023-04-27 02:04:00,16.05,0,1578,Grocery,UPI,Desktop,Chennai
+2023-04-27 11:42:00,38.2,0,1996,Electronics,NetBanking,Desktop,Kolkata
+2023-04-27 11:44:00,115.79,0,1015,Grocery,Debit Card,Mobile,Bengaluru
+2023-04-27 11:59:00,14.28,0,1059,Health,Credit Card,POS,Hyderabad
+2023-04-27 18:23:00,105.66,0,1853,Food,Credit Card,Mobile,Mumbai
+2023-04-27 18:49:00,184.42,0,1932,Entertainment,PayPal,Desktop,Chennai
+2023-04-27 20:57:00,54.85,0,1450,Food,Credit Card,POS,Hyderabad
+2023-04-28 01:15:00,10.36,0,1751,Grocery,Credit Card,POS,Mumbai
+2023-04-28 04:02:00,133.61,1,283,Health,UPI,Desktop,Mumbai
+2023-04-28 10:02:00,9.23,0,137,Travel,Credit Card,Desktop,Delhi
+2023-04-28 10:16:00,114.99,0,65,Grocery,PayPal,POS,Kolkata
+2023-04-28 10:18:00,77.28,0,603,Food,Debit Card,POS,Pune
+2023-04-28 17:41:00,107.37,0,1891,Grocery,Credit Card,Desktop,Mumbai
+2023-04-28 18:45:00,111.49,0,1936,Utilities,UPI,Mobile,Bengaluru
+2023-04-28 19:01:00,18.85,0,1110,Food,UPI,Mobile,Pune
+2023-04-28 21:26:00,72.21,0,718,Health,Credit Card,POS,Bengaluru
+2023-04-28 22:03:00,49.27,0,1803,Travel,Credit Card,POS,Hyderabad
+2023-04-28 23:44:00,26.37,0,1480,Entertainment,NetBanking,Mobile,Mumbai
+2023-04-29 00:58:00,217.89,0,1982,Grocery,PayPal,Mobile,Delhi
+2023-04-29 02:42:00,273.21,1,380,Electronics,Credit Card,Mobile,Delhi
+2023-04-29 04:10:00,65.61,0,643,Food,Credit Card,POS,Bengaluru
+2023-04-29 05:29:00,15.73,0,1061,Health,Credit Card,Desktop,Delhi
+2023-04-29 06:24:00,78.54,0,555,Electronics,Debit Card,POS,Chennai
+2023-04-29 08:51:00,18.26,0,1259,Utilities,Debit Card,POS,Delhi
+2023-04-29 09:04:00,80.04,0,1448,Fashion,Debit Card,Mobile,Kolkata
+2023-04-29 11:56:00,34.55,0,791,Grocery,Credit Card,Desktop,Delhi
+2023-04-29 12:21:00,209.5,0,1035,Fashion,PayPal,POS,Bengaluru
+2023-04-29 21:38:00,3.21,0,1489,Electronics,NetBanking,Desktop,Pune
+2023-04-30 00:35:00,20.55,0,723,Food,UPI,POS,Chennai
+2023-04-30 01:10:00,41.23,0,1231,Utilities,PayPal,POS,Bengaluru
+2023-04-30 05:37:00,42.77,0,1446,Utilities,Debit Card,Mobile,Bengaluru
+2023-04-30 06:57:00,81.99,0,1438,Travel,Debit Card,Desktop,Delhi
+2023-04-30 06:59:00,116.98,0,1983,Food,PayPal,Mobile,Mumbai
+2023-04-30 07:15:00,131.36,0,1391,Travel,NetBanking,Desktop,Pune
+2023-04-30 07:51:00,342.71,0,276,Health,NetBanking,Desktop,Chennai
+2023-04-30 08:12:00,89.61,0,643,Utilities,Debit Card,Desktop,Bengaluru
+2023-04-30 08:14:00,77.43,0,1841,Electronics,UPI,POS,Pune
+2023-04-30 11:15:00,35.16,1,749,Fashion,PayPal,Mobile,Kolkata
+2023-04-30 14:57:00,5.91,0,894,Entertainment,Credit Card,Mobile,Chennai
+2023-04-30 19:37:00,0.09,1,1852,Entertainment,PayPal,POS,Hyderabad
+2023-05-01 02:51:00,18.43,0,1699,Travel,PayPal,POS,Pune
+2023-05-01 03:15:00,6.41,0,161,Health,NetBanking,POS,Kolkata
+2023-05-01 04:22:00,38.6,0,1564,Electronics,Debit Card,Desktop,Kolkata
+2023-05-01 07:03:00,66.45,0,1296,Grocery,NetBanking,POS,Kolkata
+2023-05-01 09:25:00,95.63,0,586,Entertainment,Debit Card,Mobile,Mumbai
+2023-05-01 12:35:00,69.09,0,1610,Grocery,Credit Card,POS,Mumbai
+2023-05-01 16:31:00,81.16,0,1801,Utilities,UPI,POS,Delhi
+2023-05-01 17:36:00,110.35,0,1375,Entertainment,Debit Card,POS,Hyderabad
+2023-05-01 18:18:00,22.01,0,1649,Electronics,UPI,POS,Hyderabad
+2023-05-01 18:36:00,9.04,0,1577,Food,PayPal,Mobile,Pune
+2023-05-01 19:45:00,54.26,0,1049,Health,PayPal,POS,Pune
+2023-05-01 19:55:00,1.79,0,473,Entertainment,PayPal,Desktop,Delhi
+2023-05-01 21:15:00,68.95,1,328,Health,NetBanking,Desktop,Mumbai
+2023-05-01 23:26:00,105.0,0,726,Fashion,UPI,Mobile,Delhi
+2023-05-02 03:41:00,2.06,0,1799,Travel,Debit Card,Desktop,Chennai
+2023-05-02 03:53:00,10.08,0,1688,Health,UPI,Mobile,Bengaluru
+2023-05-02 06:18:00,1.56,0,1019,Health,NetBanking,POS,Chennai
+2023-05-02 06:27:00,6.48,1,1671,Health,PayPal,Desktop,Hyderabad
+2023-05-02 07:14:00,147.7,0,855,Entertainment,UPI,POS,Chennai
+2023-05-02 07:30:00,150.17,0,1523,Entertainment,Credit Card,POS,Chennai
+2023-05-02 08:00:00,26.56,0,171,Travel,PayPal,Desktop,Pune
+2023-05-02 10:23:00,46.99,1,1621,Utilities,PayPal,POS,Hyderabad
+2023-05-02 11:31:00,84.44,0,1905,Fashion,Credit Card,Mobile,Kolkata
+2023-05-02 12:39:00,23.04,0,299,Fashion,PayPal,Mobile,Bengaluru
+2023-05-02 12:53:00,47.25,0,1835,Fashion,Debit Card,POS,Delhi
+2023-05-02 14:52:00,126.71,0,1624,Travel,Credit Card,Desktop,Chennai
+2023-05-02 14:58:00,35.84,0,609,Entertainment,Credit Card,POS,Chennai
+2023-05-02 15:27:00,68.0,0,1989,Food,Credit Card,Desktop,Bengaluru
+2023-05-02 16:03:00,76.81,0,1963,Food,UPI,Desktop,Kolkata
+2023-05-02 17:09:00,82.6,0,1953,Travel,Debit Card,POS,Kolkata
+2023-05-02 19:41:00,72.44,0,518,Utilities,PayPal,Mobile,Delhi
+2023-05-03 00:19:00,10.15,0,341,Travel,NetBanking,Desktop,Delhi
+2023-05-03 00:39:00,82.47,0,799,Fashion,PayPal,POS,Bengaluru
+2023-05-03 02:12:00,351.53,0,1863,Electronics,UPI,Mobile,Delhi
+2023-05-03 04:34:00,134.73,0,392,Utilities,UPI,Desktop,Pune
+2023-05-03 05:57:00,141.13,0,771,Utilities,Debit Card,POS,Hyderabad
+2023-05-03 06:56:00,471.34,0,190,Health,NetBanking,Mobile,Kolkata
+2023-05-03 08:37:00,86.19,0,68,Health,UPI,Desktop,Mumbai
+2023-05-03 08:58:00,40.15,0,1438,Utilities,Debit Card,Desktop,Hyderabad
+2023-05-03 09:47:00,132.37,0,1391,Fashion,Debit Card,Desktop,Bengaluru
+2023-05-03 11:18:00,2.55,0,581,Food,UPI,POS,Pune
+2023-05-03 13:33:00,56.34,0,1403,Travel,NetBanking,Desktop,Bengaluru
+2023-05-03 15:13:00,36.94,0,621,Electronics,NetBanking,Mobile,Delhi
+2023-05-03 21:57:00,127.78,0,436,Food,NetBanking,Desktop,Kolkata
+2023-05-04 06:51:00,19.84,0,1364,Fashion,Debit Card,POS,Mumbai
+2023-05-04 08:26:00,85.46,0,894,Fashion,Credit Card,POS,Kolkata
+2023-05-04 11:05:00,192.13,0,1807,Entertainment,PayPal,POS,Chennai
+2023-05-04 13:31:00,52.82,0,1268,Electronics,Credit Card,Desktop,Chennai
+2023-05-04 13:53:00,72.56,0,139,Health,Credit Card,Mobile,Bengaluru
+2023-05-04 14:29:00,39.35,0,917,Grocery,UPI,POS,Bengaluru
+2023-05-04 15:31:00,67.84,0,1705,Food,Credit Card,Mobile,Hyderabad
+2023-05-04 15:55:00,96.58,0,1132,Fashion,UPI,Desktop,Kolkata
+2023-05-04 16:31:00,65.51,0,1905,Food,NetBanking,Desktop,Hyderabad
+2023-05-04 17:01:00,141.64,0,916,Electronics,PayPal,POS,Chennai
+2023-05-04 21:48:00,65.11,0,1777,Utilities,PayPal,Desktop,Delhi
+2023-05-04 22:05:00,41.07,0,844,Travel,Credit Card,POS,Hyderabad
+2023-05-05 01:03:00,62.43,0,1331,Fashion,PayPal,Desktop,Mumbai
+2023-05-05 01:28:00,79.0,0,113,Utilities,NetBanking,Mobile,Kolkata
+2023-05-05 02:10:00,5.6,0,1721,Travel,Credit Card,POS,Hyderabad
+2023-05-05 02:24:00,22.52,1,1467,Travel,Debit Card,Mobile,Bengaluru
+2023-05-05 02:58:00,136.31,0,136,Electronics,UPI,Desktop,Chennai
+2023-05-05 06:21:00,14.1,0,1432,Food,PayPal,Desktop,Kolkata
+2023-05-05 06:44:00,6.81,0,814,Food,Debit Card,POS,Delhi
+2023-05-05 16:56:00,87.14,0,607,Food,Debit Card,Mobile,Mumbai
+2023-05-05 21:50:00,160.83,0,155,Fashion,PayPal,Mobile,Bengaluru
+2023-05-05 22:49:00,211.45,0,1449,Utilities,Credit Card,POS,Pune
+2023-05-05 23:47:00,76.73,0,1873,Health,UPI,POS,Pune
+2023-05-06 00:10:00,69.43,0,353,Travel,NetBanking,Mobile,Kolkata
+2023-05-06 01:55:00,201.45,0,1309,Food,PayPal,Desktop,Pune
+2023-05-06 02:35:00,0.79,0,531,Grocery,NetBanking,Desktop,Mumbai
+2023-05-06 03:33:00,163.2,0,615,Utilities,PayPal,Desktop,Kolkata
+2023-05-06 03:55:00,47.6,1,1433,Electronics,Debit Card,Desktop,Bengaluru
+2023-05-06 09:13:00,86.04,0,1074,Fashion,Debit Card,Mobile,Bengaluru
+2023-05-06 09:41:00,101.48,1,1965,Travel,PayPal,POS,Mumbai
+2023-05-06 10:04:00,11.82,0,836,Health,NetBanking,POS,Kolkata
+2023-05-06 13:38:00,94.23,1,698,Food,UPI,POS,Pune
+2023-05-06 14:40:00,96.84,0,1979,Food,Debit Card,POS,Mumbai
+2023-05-06 22:23:00,79.09,0,932,Food,UPI,POS,Hyderabad
+2023-05-07 00:06:00,167.95,0,1198,Health,UPI,Mobile,Delhi
+2023-05-07 02:28:00,36.28,0,721,Health,UPI,Desktop,Delhi
+2023-05-07 02:50:00,61.42,0,1977,Utilities,Debit Card,Mobile,Kolkata
+2023-05-07 05:44:00,63.25,0,1781,Health,Credit Card,POS,Kolkata
+2023-05-07 06:59:00,25.93,0,1583,Travel,PayPal,POS,Chennai
+2023-05-07 09:02:00,43.41,0,749,Grocery,UPI,POS,Kolkata
+2023-05-07 09:39:00,10.93,0,922,Utilities,UPI,Mobile,Mumbai
+2023-05-07 09:57:00,6.4,0,306,Fashion,Credit Card,Desktop,Hyderabad
+2023-05-07 14:03:00,38.96,0,1298,Entertainment,PayPal,Mobile,Kolkata
+2023-05-07 15:38:00,10.21,0,1809,Utilities,Credit Card,POS,Delhi
+2023-05-07 15:59:00,77.97,0,1977,Utilities,Credit Card,Desktop,Delhi
+2023-05-07 16:01:00,15.33,0,1648,Food,UPI,Desktop,Hyderabad
+2023-05-07 19:33:00,30.95,1,533,Food,Credit Card,Mobile,Bengaluru
+2023-05-07 19:52:00,57.43,0,860,Health,NetBanking,Mobile,Hyderabad
+2023-05-07 20:37:00,314.45,1,1240,Electronics,UPI,Mobile,Kolkata
+2023-05-07 20:49:00,143.0,0,1014,Electronics,Debit Card,Desktop,Chennai
+2023-05-07 22:28:00,29.43,0,1362,Utilities,NetBanking,POS,Delhi
+2023-05-07 22:58:00,0.62,0,601,Food,NetBanking,Desktop,Kolkata
+2023-05-07 23:28:00,74.47,0,1753,Fashion,PayPal,Mobile,Bengaluru
+2023-05-08 05:31:00,86.63,1,322,Entertainment,PayPal,Desktop,Bengaluru
+2023-05-08 07:51:00,4.12,0,1718,Grocery,Debit Card,Desktop,Delhi
+2023-05-08 11:09:00,64.72,0,1743,Food,UPI,Mobile,Pune
+2023-05-08 12:40:00,202.9,0,1454,Utilities,PayPal,POS,Delhi
+2023-05-08 15:45:00,187.68,0,1770,Utilities,UPI,Mobile,Delhi
+2023-05-08 19:26:00,14.09,0,701,Utilities,UPI,Desktop,Pune
+2023-05-08 21:42:00,169.34,0,1229,Utilities,NetBanking,Mobile,Mumbai
+2023-05-08 22:04:00,158.32,0,1165,Health,NetBanking,Desktop,Bengaluru
+2023-05-08 22:19:00,15.58,0,838,Electronics,NetBanking,POS,Chennai
+2023-05-09 03:26:00,9.9,0,1268,Travel,PayPal,Desktop,Kolkata
+2023-05-09 09:34:00,92.82,0,605,Electronics,NetBanking,POS,Pune
+2023-05-09 10:51:00,23.87,0,919,Health,Debit Card,POS,Kolkata
+2023-05-09 13:03:00,21.76,0,1113,Entertainment,UPI,Desktop,Hyderabad
+2023-05-09 13:17:00,48.41,0,677,Fashion,Debit Card,POS,Delhi
+2023-05-09 14:34:00,12.35,0,937,Electronics,Credit Card,POS,Chennai
+2023-05-09 15:21:00,83.18,0,236,Grocery,UPI,POS,Pune
+2023-05-09 18:00:00,32.2,0,621,Travel,Credit Card,Desktop,Pune
+2023-05-09 19:47:00,49.59,0,1817,Health,UPI,Desktop,Chennai
+2023-05-09 21:21:00,9.2,0,1524,Grocery,Debit Card,Desktop,Hyderabad
+2023-05-09 22:35:00,105.41,0,1239,Entertainment,PayPal,POS,Bengaluru
+2023-05-09 23:01:00,162.36,0,329,Fashion,Debit Card,Mobile,Delhi
+2023-05-10 01:20:00,31.48,1,1763,Fashion,Debit Card,POS,Bengaluru
+2023-05-10 03:09:00,0.91,0,554,Entertainment,Credit Card,Desktop,Bengaluru
+2023-05-10 05:14:00,126.85,0,1286,Utilities,UPI,Desktop,Mumbai
+2023-05-10 05:49:00,222.4,0,1974,Food,Credit Card,Desktop,Delhi
+2023-05-10 06:29:00,79.85,1,1593,Health,Debit Card,Desktop,Bengaluru
+2023-05-10 08:19:00,113.52,0,610,Utilities,UPI,Mobile,Hyderabad
+2023-05-10 09:13:00,14.74,0,1113,Entertainment,UPI,Desktop,Mumbai
+2023-05-10 09:33:00,23.71,0,948,Utilities,Credit Card,POS,Kolkata
+2023-05-10 11:41:00,46.19,0,1331,Health,NetBanking,POS,Delhi
+2023-05-10 13:31:00,73.35,0,165,Fashion,PayPal,POS,Chennai
+2023-05-10 14:49:00,59.09,0,664,Fashion,UPI,Mobile,Kolkata
+2023-05-10 15:40:00,118.6,0,1915,Utilities,Credit Card,Desktop,Kolkata
+2023-05-10 16:16:00,9.39,0,489,Entertainment,PayPal,Mobile,Pune
+2023-05-10 18:50:00,220.95,1,139,Grocery,UPI,POS,Delhi
+2023-05-10 22:17:00,138.12,0,461,Food,Credit Card,Mobile,Hyderabad
+2023-05-11 04:44:00,84.51,0,1574,Electronics,UPI,Desktop,Mumbai
+2023-05-11 06:43:00,68.74,0,505,Health,NetBanking,Mobile,Pune
+2023-05-11 07:47:00,68.87,0,1337,Entertainment,NetBanking,Desktop,Chennai
+2023-05-11 10:23:00,72.74,0,461,Health,PayPal,POS,Pune
+2023-05-11 10:36:00,94.19,0,1816,Health,Credit Card,Desktop,Kolkata
+2023-05-11 12:04:00,22.65,0,1903,Grocery,Credit Card,Desktop,Delhi
+2023-05-11 15:31:00,211.86,0,1054,Health,Debit Card,Mobile,Delhi
+2023-05-11 15:34:00,31.65,0,247,Fashion,PayPal,Desktop,Kolkata
+2023-05-11 19:19:00,81.87,0,1791,Utilities,PayPal,Mobile,Kolkata
+2023-05-11 21:05:00,62.88,0,908,Food,Debit Card,POS,Bengaluru
+2023-05-12 03:28:00,105.22,1,546,Entertainment,PayPal,POS,Delhi
+2023-05-12 03:50:00,73.49,0,1500,Electronics,NetBanking,Desktop,Delhi
+2023-05-12 04:52:00,1.83,0,1417,Electronics,PayPal,POS,Pune
+2023-05-12 07:14:00,0.8,0,87,Electronics,Debit Card,Desktop,Delhi
+2023-05-12 08:17:00,178.86,0,1442,Fashion,Credit Card,Desktop,Pune
+2023-05-12 08:17:00,291.36,0,91,Entertainment,Credit Card,Desktop,Bengaluru
+2023-05-12 09:40:00,41.82,0,1752,Food,PayPal,Mobile,Kolkata
+2023-05-12 09:54:00,148.74,0,701,Utilities,Debit Card,POS,Hyderabad
+2023-05-12 10:57:00,49.17,0,889,Entertainment,PayPal,Mobile,Kolkata
+2023-05-12 11:19:00,20.57,0,1039,Grocery,Debit Card,Mobile,Chennai
+2023-05-12 16:38:00,196.08,0,432,Entertainment,NetBanking,Desktop,Delhi
+2023-05-12 18:16:00,38.29,0,1692,Entertainment,UPI,POS,Chennai
+2023-05-12 22:24:00,56.17,0,34,Electronics,Debit Card,POS,Pune
+2023-05-13 05:57:00,146.2,0,1325,Utilities,Debit Card,Mobile,Chennai
+2023-05-13 06:56:00,36.75,1,1295,Travel,PayPal,Mobile,Delhi
+2023-05-13 09:34:00,28.82,0,268,Food,Credit Card,Desktop,Hyderabad
+2023-05-13 09:38:00,7.89,0,1718,Utilities,Credit Card,POS,Delhi
+2023-05-13 09:43:00,196.55,0,1079,Grocery,Credit Card,Desktop,Mumbai
+2023-05-13 10:28:00,4.27,0,88,Food,Debit Card,Mobile,Pune
+2023-05-13 10:57:00,119.46,0,1179,Health,Credit Card,Desktop,Delhi
+2023-05-13 12:58:00,21.26,0,1084,Grocery,Debit Card,Desktop,Bengaluru
+2023-05-13 13:08:00,90.28,0,1688,Utilities,Debit Card,POS,Bengaluru
+2023-05-13 13:50:00,249.02,0,1371,Fashion,Credit Card,POS,Chennai
+2023-05-13 13:58:00,52.81,0,787,Grocery,Debit Card,POS,Hyderabad
+2023-05-13 16:32:00,275.85,0,249,Utilities,NetBanking,Desktop,Chennai
+2023-05-13 20:58:00,77.68,0,314,Electronics,UPI,Desktop,Bengaluru
+2023-05-13 21:35:00,95.74,0,142,Food,NetBanking,Mobile,Delhi
+2023-05-13 22:33:00,51.56,0,1298,Travel,Debit Card,Desktop,Kolkata
+2023-05-14 00:18:00,19.75,0,539,Utilities,PayPal,Mobile,Delhi
+2023-05-14 04:57:00,63.55,0,651,Grocery,NetBanking,Mobile,Mumbai
+2023-05-14 05:54:00,56.89,1,1717,Health,Debit Card,Desktop,Kolkata
+2023-05-14 06:54:00,10.32,0,1752,Food,Debit Card,POS,Chennai
+2023-05-14 08:49:00,163.15,0,899,Electronics,NetBanking,POS,Mumbai
+2023-05-14 09:58:00,45.14,0,1399,Entertainment,Debit Card,Desktop,Bengaluru
+2023-05-14 11:43:00,190.05,0,350,Fashion,PayPal,Mobile,Chennai
+2023-05-14 12:24:00,40.6,0,716,Electronics,UPI,POS,Kolkata
+2023-05-14 13:58:00,82.07,0,113,Grocery,Debit Card,POS,Chennai
+2023-05-14 14:09:00,2.15,0,301,Utilities,NetBanking,Mobile,Mumbai
+2023-05-14 18:31:00,159.86,0,335,Travel,NetBanking,Desktop,Mumbai
+2023-05-14 21:07:00,102.48,0,171,Fashion,NetBanking,POS,Mumbai
+2023-05-14 22:14:00,75.53,0,890,Fashion,Credit Card,Mobile,Pune
+2023-05-15 04:10:00,368.85,0,1426,Food,Credit Card,Mobile,Delhi
+2023-05-15 07:01:00,17.78,1,442,Entertainment,Credit Card,POS,Pune
+2023-05-15 08:24:00,5.91,0,909,Health,UPI,Desktop,Kolkata
+2023-05-15 11:11:00,10.11,0,1917,Food,Credit Card,POS,Hyderabad
+2023-05-15 12:39:00,434.66,0,50,Entertainment,Credit Card,Mobile,Delhi
+2023-05-15 15:43:00,11.75,0,900,Entertainment,Debit Card,POS,Pune
+2023-05-15 18:25:00,82.9,0,537,Travel,PayPal,Mobile,Mumbai
+2023-05-15 18:50:00,95.58,0,1349,Fashion,Debit Card,Desktop,Bengaluru
+2023-05-15 21:35:00,104.41,0,1004,Electronics,Credit Card,Mobile,Chennai
+2023-05-16 03:06:00,10.8,0,376,Utilities,UPI,Desktop,Delhi
+2023-05-16 03:52:00,231.64,0,778,Grocery,Debit Card,Mobile,Chennai
+2023-05-16 04:40:00,65.14,0,1979,Health,Debit Card,Mobile,Mumbai
+2023-05-16 06:56:00,65.63,0,833,Grocery,UPI,Desktop,Pune
+2023-05-16 10:02:00,67.57,0,1341,Utilities,Credit Card,POS,Bengaluru
+2023-05-16 11:23:00,62.01,0,817,Health,Credit Card,POS,Hyderabad
+2023-05-16 14:54:00,18.54,0,425,Travel,NetBanking,Desktop,Delhi
+2023-05-16 15:56:00,72.16,0,676,Food,PayPal,Mobile,Bengaluru
+2023-05-16 19:01:00,17.37,0,1369,Utilities,Credit Card,Mobile,Kolkata
+2023-05-16 20:37:00,35.73,0,238,Travel,PayPal,Desktop,Bengaluru
+2023-05-16 21:09:00,5.77,0,1739,Travel,UPI,Desktop,Delhi
+2023-05-16 22:12:00,41.1,0,719,Electronics,PayPal,Desktop,Chennai
+2023-05-17 00:31:00,61.18,0,225,Fashion,Credit Card,Desktop,Mumbai
+2023-05-17 01:26:00,104.81,0,867,Travel,UPI,Desktop,Chennai
+2023-05-17 02:15:00,19.94,1,1406,Grocery,Debit Card,POS,Mumbai
+2023-05-17 03:47:00,52.63,0,204,Grocery,UPI,Mobile,Chennai
+2023-05-17 07:29:00,202.94,0,1010,Entertainment,Credit Card,Mobile,Bengaluru
+2023-05-17 08:09:00,157.37,1,1815,Entertainment,PayPal,Mobile,Mumbai
+2023-05-17 17:28:00,24.55,0,1416,Grocery,Credit Card,Desktop,Kolkata
+2023-05-17 19:45:00,74.01,0,122,Entertainment,NetBanking,POS,Mumbai
+2023-05-17 22:17:00,23.35,0,859,Electronics,NetBanking,POS,Pune
+2023-05-17 22:47:00,323.74,1,226,Travel,Debit Card,Mobile,Hyderabad
+2023-05-18 03:54:00,39.24,0,1961,Electronics,Debit Card,POS,Mumbai
+2023-05-18 06:02:00,364.55,0,1067,Food,PayPal,Desktop,Mumbai
+2023-05-18 06:56:00,110.38,0,1404,Electronics,NetBanking,POS,Delhi
+2023-05-18 06:57:00,22.89,0,306,Fashion,UPI,Desktop,Kolkata
+2023-05-18 07:49:00,30.12,0,791,Grocery,Debit Card,Desktop,Kolkata
+2023-05-18 08:32:00,0.88,0,1790,Electronics,UPI,POS,Pune
+2023-05-18 09:20:00,65.39,0,156,Utilities,UPI,Desktop,Bengaluru
+2023-05-18 09:53:00,10.73,0,175,Grocery,NetBanking,Mobile,Pune
+2023-05-18 12:50:00,39.68,0,632,Grocery,PayPal,Desktop,Bengaluru
+2023-05-18 14:55:00,166.16,0,1365,Entertainment,Debit Card,Desktop,Hyderabad
+2023-05-18 20:27:00,38.79,1,955,Food,Credit Card,POS,Kolkata
+2023-05-18 22:53:00,114.43,0,1892,Electronics,PayPal,POS,Hyderabad
+2023-05-18 23:42:00,134.47,0,86,Travel,Credit Card,POS,Pune
+2023-05-19 00:05:00,10.91,0,1652,Food,Credit Card,Mobile,Mumbai
+2023-05-19 00:18:00,31.9,0,1665,Electronics,UPI,POS,Delhi
+2023-05-19 04:34:00,127.14,0,1498,Travel,Credit Card,Mobile,Chennai
+2023-05-19 08:13:00,72.01,0,526,Food,Credit Card,Mobile,Pune
+2023-05-19 09:39:00,94.72,0,1854,Entertainment,UPI,Mobile,Kolkata
+2023-05-19 09:59:00,70.73,0,1789,Entertainment,Credit Card,Desktop,Bengaluru
+2023-05-19 15:59:00,3.81,0,193,Health,Debit Card,POS,Bengaluru
+2023-05-19 18:04:00,215.72,0,1154,Utilities,Credit Card,Desktop,Delhi
+2023-05-19 18:12:00,16.5,0,1189,Travel,NetBanking,Mobile,Bengaluru
+2023-05-19 21:48:00,15.78,0,41,Health,Debit Card,Desktop,Mumbai
+2023-05-20 03:36:00,103.88,0,802,Travel,NetBanking,Mobile,Pune
+2023-05-20 06:51:00,10.41,1,1593,Utilities,NetBanking,Mobile,Chennai
+2023-05-20 12:11:00,16.48,0,1479,Health,PayPal,Mobile,Kolkata
+2023-05-20 14:24:00,9.31,0,1827,Health,Credit Card,Desktop,Delhi
+2023-05-20 14:34:00,94.65,0,1291,Entertainment,UPI,POS,Hyderabad
+2023-05-20 18:45:00,9.64,0,333,Fashion,NetBanking,POS,Chennai
+2023-05-20 19:08:00,25.3,1,1016,Travel,Debit Card,Mobile,Kolkata
+2023-05-20 19:40:00,43.77,0,978,Utilities,NetBanking,Desktop,Kolkata
+2023-05-20 22:58:00,209.58,0,720,Fashion,Debit Card,POS,Kolkata
+2023-05-21 01:31:00,12.15,0,1143,Electronics,UPI,Mobile,Bengaluru
+2023-05-21 01:46:00,58.44,0,37,Entertainment,NetBanking,Mobile,Hyderabad
+2023-05-21 03:55:00,10.87,0,244,Food,PayPal,Desktop,Mumbai
+2023-05-21 05:09:00,126.37,0,811,Utilities,PayPal,Desktop,Mumbai
+2023-05-21 05:31:00,92.13,0,1888,Health,PayPal,Desktop,Bengaluru
+2023-05-21 07:56:00,5.16,0,1474,Travel,NetBanking,Desktop,Delhi
+2023-05-21 13:01:00,86.7,0,1339,Health,PayPal,POS,Kolkata
+2023-05-21 13:34:00,28.12,0,1469,Entertainment,PayPal,Desktop,Kolkata
+2023-05-21 13:42:00,83.81,0,764,Entertainment,NetBanking,POS,Chennai
+2023-05-21 20:59:00,21.9,0,1423,Health,PayPal,Mobile,Kolkata
+2023-05-22 00:23:00,53.81,0,606,Travel,Credit Card,Mobile,Bengaluru
+2023-05-22 04:20:00,48.03,0,324,Travel,Credit Card,Desktop,Chennai
+2023-05-22 05:35:00,6.72,0,1448,Fashion,UPI,POS,Mumbai
+2023-05-22 06:01:00,57.36,0,1671,Travel,Credit Card,POS,Delhi
+2023-05-22 07:44:00,494.58,0,1154,Grocery,Credit Card,Desktop,Mumbai
+2023-05-22 08:59:00,137.72,0,153,Grocery,PayPal,Mobile,Hyderabad
+2023-05-22 10:17:00,47.88,1,1535,Food,NetBanking,POS,Chennai
+2023-05-22 11:58:00,18.05,1,251,Utilities,UPI,Desktop,Chennai
+2023-05-22 13:27:00,5.6,1,974,Grocery,Debit Card,Mobile,Pune
+2023-05-22 14:01:00,26.46,0,1815,Electronics,Credit Card,Mobile,Kolkata
+2023-05-22 21:14:00,11.77,0,670,Food,Credit Card,POS,Pune
+2023-05-23 01:00:00,10.25,0,1815,Entertainment,Debit Card,Desktop,Chennai
+2023-05-23 02:14:00,145.86,0,1599,Fashion,NetBanking,Mobile,Delhi
+2023-05-23 04:55:00,87.5,0,1446,Food,NetBanking,Desktop,Chennai
+2023-05-23 05:34:00,21.63,0,163,Food,NetBanking,Desktop,Chennai
+2023-05-23 07:22:00,125.13,0,1150,Utilities,NetBanking,Mobile,Chennai
+2023-05-23 12:43:00,59.79,0,866,Electronics,NetBanking,Mobile,Bengaluru
+2023-05-23 14:55:00,39.11,0,802,Travel,PayPal,Desktop,Mumbai
+2023-05-23 16:08:00,24.53,0,1005,Travel,UPI,Desktop,Delhi
+2023-05-23 16:28:00,134.92,0,1189,Food,Credit Card,POS,Delhi
+2023-05-23 16:52:00,26.4,0,916,Travel,PayPal,Mobile,Mumbai
+2023-05-23 17:20:00,128.08,0,762,Food,Credit Card,POS,Mumbai
+2023-05-23 17:28:00,157.36,0,704,Entertainment,UPI,Mobile,Chennai
+2023-05-23 23:02:00,134.09,0,347,Grocery,NetBanking,Mobile,Bengaluru
+2023-05-24 00:10:00,9.37,0,1270,Entertainment,Debit Card,Mobile,Hyderabad
+2023-05-24 00:21:00,38.12,0,121,Electronics,NetBanking,POS,Bengaluru
+2023-05-24 01:38:00,130.55,0,520,Travel,PayPal,Mobile,Chennai
+2023-05-24 02:26:00,487.72,0,1299,Health,PayPal,Desktop,Kolkata
+2023-05-24 03:21:00,33.92,0,1176,Food,PayPal,Desktop,Delhi
+2023-05-24 04:29:00,67.66,0,464,Grocery,Debit Card,Mobile,Chennai
+2023-05-24 04:52:00,180.39,1,570,Fashion,PayPal,Mobile,Pune
+2023-05-24 06:23:00,97.3,0,452,Health,NetBanking,Desktop,Bengaluru
+2023-05-24 12:12:00,108.38,0,605,Fashion,UPI,POS,Delhi
+2023-05-24 12:52:00,74.51,0,207,Food,Debit Card,Desktop,Delhi
+2023-05-24 13:05:00,130.16,0,502,Electronics,PayPal,POS,Mumbai
+2023-05-24 13:50:00,124.74,0,1657,Food,NetBanking,Mobile,Kolkata
+2023-05-24 23:37:00,8.91,0,902,Health,PayPal,POS,Mumbai
+2023-05-25 00:10:00,87.2,0,292,Electronics,UPI,Desktop,Hyderabad
+2023-05-25 00:38:00,146.06,0,1478,Entertainment,NetBanking,Desktop,Pune
+2023-05-25 02:25:00,30.31,0,461,Health,NetBanking,POS,Hyderabad
+2023-05-25 02:29:00,0.51,0,855,Utilities,Debit Card,POS,Hyderabad
+2023-05-25 02:45:00,48.99,0,1423,Health,Credit Card,Desktop,Delhi
+2023-05-25 03:26:00,116.73,1,1025,Travel,UPI,Mobile,Mumbai
+2023-05-25 04:55:00,117.08,0,972,Fashion,UPI,Mobile,Chennai
+2023-05-25 11:53:00,38.36,0,1561,Food,UPI,Mobile,Kolkata
+2023-05-25 12:24:00,92.56,0,1955,Electronics,NetBanking,POS,Pune
+2023-05-25 13:20:00,186.28,0,828,Health,Debit Card,POS,Mumbai
+2023-05-25 13:47:00,91.21,0,1175,Health,PayPal,Mobile,Pune
+2023-05-25 14:22:00,41.33,0,35,Entertainment,NetBanking,POS,Delhi
+2023-05-25 20:45:00,129.15,0,1472,Food,UPI,Desktop,Chennai
+2023-05-25 20:47:00,138.01,0,70,Utilities,NetBanking,POS,Mumbai
+2023-05-25 23:33:00,49.68,0,724,Utilities,NetBanking,Mobile,Delhi
+2023-05-25 23:41:00,98.17,0,1486,Fashion,NetBanking,Desktop,Chennai
+2023-05-26 07:13:00,20.71,0,926,Electronics,Debit Card,Desktop,Chennai
+2023-05-26 15:06:00,139.46,0,436,Travel,Credit Card,POS,Pune
+2023-05-26 15:10:00,368.1,1,1123,Health,PayPal,POS,Pune
+2023-05-26 16:52:00,84.95,0,317,Utilities,NetBanking,Mobile,Kolkata
+2023-05-26 22:23:00,94.34,0,127,Health,PayPal,Desktop,Delhi
+2023-05-26 23:54:00,163.54,0,1689,Fashion,PayPal,POS,Mumbai
+2023-05-27 01:01:00,33.5,0,349,Health,NetBanking,POS,Hyderabad
+2023-05-27 01:31:00,71.8,0,91,Health,UPI,POS,Kolkata
+2023-05-27 02:28:00,108.27,0,730,Food,PayPal,POS,Delhi
+2023-05-27 02:48:00,16.31,0,656,Electronics,Credit Card,Mobile,Kolkata
+2023-05-27 03:43:00,87.5,0,470,Travel,NetBanking,POS,Hyderabad
+2023-05-27 05:05:00,13.12,0,1923,Utilities,Credit Card,Mobile,Pune
+2023-05-27 05:34:00,1.46,0,1974,Health,Credit Card,Desktop,Mumbai
+2023-05-27 06:53:00,8.93,0,655,Utilities,NetBanking,Desktop,Chennai
+2023-05-27 07:32:00,30.57,0,1805,Entertainment,NetBanking,Mobile,Hyderabad
+2023-05-27 08:55:00,34.84,0,465,Health,Credit Card,Mobile,Bengaluru
+2023-05-27 09:18:00,59.28,1,744,Grocery,PayPal,POS,Pune
+2023-05-27 09:19:00,98.4,1,1960,Travel,PayPal,POS,Kolkata
+2023-05-27 15:25:00,25.76,0,927,Fashion,Debit Card,POS,Bengaluru
+2023-05-27 18:52:00,98.32,0,1311,Health,NetBanking,Mobile,Pune
+2023-05-27 22:42:00,29.26,0,956,Health,UPI,Mobile,Bengaluru
+2023-05-27 23:10:00,158.08,0,1611,Grocery,Credit Card,Desktop,Delhi
+2023-05-28 02:00:00,49.35,0,354,Health,NetBanking,POS,Mumbai
+2023-05-28 06:14:00,42.37,0,371,Entertainment,NetBanking,Mobile,Bengaluru
+2023-05-28 06:36:00,113.28,1,1629,Fashion,Credit Card,Mobile,Bengaluru
+2023-05-28 06:42:00,90.2,0,1111,Electronics,PayPal,Desktop,Chennai
+2023-05-28 08:12:00,3.75,0,492,Grocery,UPI,POS,Pune
+2023-05-28 08:29:00,11.44,1,866,Fashion,Debit Card,POS,Mumbai
+2023-05-28 09:26:00,98.69,0,1728,Food,PayPal,Desktop,Chennai
+2023-05-28 10:24:00,39.66,0,305,Entertainment,PayPal,Mobile,Mumbai
+2023-05-28 11:17:00,431.19,0,1729,Fashion,NetBanking,Mobile,Mumbai
+2023-05-28 12:12:00,57.72,0,1148,Health,UPI,Desktop,Delhi
+2023-05-28 13:58:00,30.14,0,1114,Food,Credit Card,POS,Bengaluru
+2023-05-28 14:02:00,221.46,0,1229,Entertainment,Credit Card,POS,Hyderabad
+2023-05-28 14:16:00,2.93,0,1091,Food,Debit Card,Mobile,Pune
+2023-05-28 15:23:00,241.05,0,185,Grocery,NetBanking,POS,Mumbai
+2023-05-28 18:13:00,85.8,0,484,Utilities,Debit Card,POS,Pune
+2023-05-28 18:15:00,93.56,0,1240,Grocery,UPI,POS,Mumbai
+2023-05-28 18:40:00,11.22,0,1523,Electronics,PayPal,Desktop,Mumbai
+2023-05-28 21:29:00,80.93,0,1875,Travel,UPI,POS,Chennai
+2023-05-28 23:04:00,153.39,0,858,Utilities,PayPal,Mobile,Mumbai
+2023-05-28 23:33:00,62.37,0,1495,Electronics,PayPal,POS,Chennai
+2023-05-29 01:16:00,98.28,0,616,Utilities,PayPal,Mobile,Delhi
+2023-05-29 01:58:00,60.34,0,643,Travel,Debit Card,POS,Bengaluru
+2023-05-29 05:46:00,11.1,0,370,Food,Debit Card,Desktop,Bengaluru
+2023-05-29 05:57:00,20.5,0,1744,Electronics,Debit Card,Mobile,Chennai
+2023-05-29 07:51:00,455.59,0,740,Entertainment,Credit Card,Mobile,Mumbai
+2023-05-29 08:12:00,69.78,0,1877,Health,Debit Card,Mobile,Bengaluru
+2023-05-29 10:46:00,55.16,0,1809,Grocery,NetBanking,POS,Mumbai
+2023-05-29 16:17:00,24.02,0,1153,Health,Debit Card,POS,Kolkata
+2023-05-29 17:49:00,50.65,0,1640,Food,NetBanking,POS,Delhi
+2023-05-29 18:00:00,21.02,0,1339,Food,NetBanking,Mobile,Mumbai
+2023-05-29 18:45:00,222.53,0,1401,Food,UPI,POS,Pune
+2023-05-29 20:56:00,4.51,0,1202,Travel,Debit Card,Desktop,Bengaluru
+2023-05-29 22:56:00,73.89,0,775,Electronics,Debit Card,Mobile,Delhi
+2023-05-30 02:59:00,3.74,1,504,Food,NetBanking,Mobile,Bengaluru
+2023-05-30 07:16:00,10.35,0,1983,Electronics,PayPal,Mobile,Bengaluru
+2023-05-30 08:10:00,66.6,0,259,Entertainment,PayPal,Mobile,Chennai
+2023-05-30 08:47:00,71.58,0,1195,Fashion,NetBanking,POS,Mumbai
+2023-05-30 11:25:00,6.61,0,1123,Entertainment,Debit Card,Mobile,Hyderabad
+2023-05-30 15:33:00,97.67,0,417,Electronics,PayPal,Mobile,Delhi
+2023-05-30 16:24:00,30.36,0,892,Entertainment,Credit Card,Desktop,Hyderabad
+2023-05-30 17:25:00,220.18,0,1825,Grocery,PayPal,POS,Bengaluru
+2023-05-30 17:55:00,105.58,0,1743,Health,NetBanking,Mobile,Bengaluru
+2023-05-30 19:05:00,114.9,0,772,Electronics,PayPal,Mobile,Mumbai
+2023-05-30 23:41:00,3.68,0,1257,Entertainment,NetBanking,Mobile,Kolkata
+2023-05-31 01:01:00,2.08,0,696,Health,PayPal,Desktop,Mumbai
+2023-05-31 01:47:00,94.22,0,360,Entertainment,NetBanking,Mobile,Chennai
+2023-05-31 03:26:00,63.3,0,545,Travel,PayPal,Mobile,Kolkata
+2023-05-31 05:53:00,35.88,0,168,Health,Debit Card,Mobile,Delhi
+2023-05-31 06:23:00,149.9,0,1662,Health,UPI,Desktop,Mumbai
+2023-05-31 07:43:00,172.12,1,1847,Food,Credit Card,POS,Bengaluru
+2023-05-31 09:52:00,33.93,0,1332,Food,PayPal,Desktop,Hyderabad
+2023-05-31 10:00:00,47.18,0,600,Food,UPI,Desktop,Chennai
+2023-05-31 13:01:00,3.58,0,1911,Health,NetBanking,Mobile,Kolkata
+2023-05-31 14:08:00,24.08,0,998,Grocery,UPI,Desktop,Pune
+2023-05-31 14:35:00,151.47,0,358,Health,NetBanking,Desktop,Bengaluru
+2023-05-31 17:52:00,25.02,0,1726,Travel,NetBanking,Desktop,Mumbai
+2023-05-31 23:51:00,143.15,0,1654,Entertainment,PayPal,Desktop,Kolkata
+2023-06-01 08:13:00,191.93,0,1109,Entertainment,UPI,Desktop,Mumbai
+2023-06-01 08:18:00,15.85,0,241,Entertainment,Credit Card,POS,Pune
+2023-06-01 10:49:00,24.23,0,1182,Utilities,NetBanking,POS,Bengaluru
+2023-06-01 12:53:00,27.77,0,1455,Health,UPI,Mobile,Pune
+2023-06-01 13:26:00,134.05,0,155,Entertainment,NetBanking,POS,Chennai
+2023-06-01 13:32:00,62.42,0,1979,Entertainment,NetBanking,POS,Chennai
+2023-06-01 14:43:00,6.39,0,1173,Electronics,NetBanking,POS,Mumbai
+2023-06-01 16:54:00,62.74,0,313,Fashion,Debit Card,Desktop,Delhi
+2023-06-01 19:30:00,240.52,0,1476,Grocery,Credit Card,Mobile,Kolkata
+2023-06-01 21:45:00,26.13,0,955,Fashion,NetBanking,Mobile,Bengaluru
+2023-06-02 01:18:00,185.14,0,1236,Entertainment,Debit Card,Mobile,Bengaluru
+2023-06-02 01:47:00,14.24,0,1863,Health,PayPal,Desktop,Hyderabad
+2023-06-02 03:06:00,54.04,0,1017,Health,Debit Card,POS,Chennai
+2023-06-02 03:41:00,78.09,0,1945,Electronics,Debit Card,Mobile,Hyderabad
+2023-06-02 03:45:00,34.32,0,158,Utilities,Credit Card,Desktop,Hyderabad
+2023-06-02 05:08:00,71.22,0,212,Food,PayPal,Mobile,Chennai
+2023-06-02 06:55:00,41.35,0,710,Grocery,PayPal,Desktop,Delhi
+2023-06-02 07:49:00,132.83,0,1372,Travel,Debit Card,POS,Delhi
+2023-06-02 12:14:00,43.0,1,1137,Utilities,Credit Card,Mobile,Kolkata
+2023-06-02 14:31:00,24.04,0,463,Travel,UPI,POS,Delhi
+2023-06-02 17:24:00,24.07,0,829,Electronics,Debit Card,Desktop,Chennai
+2023-06-02 19:08:00,91.06,0,822,Entertainment,Debit Card,Desktop,Mumbai
+2023-06-02 19:55:00,36.08,0,1615,Food,PayPal,POS,Mumbai
+2023-06-02 21:52:00,214.75,0,757,Entertainment,Debit Card,POS,Chennai
+2023-06-02 22:40:00,136.06,0,575,Grocery,Debit Card,Desktop,Pune
+2023-06-02 22:53:00,45.96,0,349,Utilities,UPI,Desktop,Delhi
+2023-06-02 22:58:00,0.91,0,1720,Utilities,UPI,Desktop,Delhi
+2023-06-03 01:21:00,37.24,0,1288,Electronics,NetBanking,Mobile,Chennai
+2023-06-03 02:43:00,248.2,0,238,Entertainment,UPI,Mobile,Mumbai
+2023-06-03 08:34:00,17.94,0,846,Electronics,NetBanking,Mobile,Delhi
+2023-06-03 09:20:00,118.56,0,1505,Electronics,PayPal,Desktop,Delhi
+2023-06-03 11:08:00,121.32,0,1628,Travel,PayPal,POS,Kolkata
+2023-06-03 12:43:00,134.81,0,1872,Travel,Debit Card,Desktop,Hyderabad
+2023-06-03 13:35:00,42.71,0,337,Entertainment,Credit Card,Desktop,Delhi
+2023-06-03 13:46:00,9.64,0,911,Electronics,Credit Card,POS,Kolkata
+2023-06-03 16:26:00,169.04,0,913,Fashion,PayPal,Mobile,Kolkata
+2023-06-03 17:23:00,2.73,0,925,Entertainment,Debit Card,Desktop,Chennai
+2023-06-03 20:56:00,49.93,0,1033,Fashion,Credit Card,Mobile,Chennai
+2023-06-03 21:12:00,161.44,0,795,Health,NetBanking,Mobile,Pune
+2023-06-03 21:43:00,7.98,0,1358,Utilities,NetBanking,Desktop,Pune
+2023-06-04 09:55:00,45.26,0,283,Food,NetBanking,POS,Delhi
+2023-06-04 17:42:00,58.96,1,996,Electronics,Credit Card,POS,Delhi
+2023-06-04 18:11:00,378.36,0,603,Utilities,PayPal,Mobile,Delhi
+2023-06-04 21:51:00,6.41,0,283,Health,UPI,Desktop,Hyderabad
+2023-06-04 22:21:00,20.77,0,1033,Health,NetBanking,Mobile,Chennai
+2023-06-04 23:08:00,135.69,0,616,Travel,UPI,POS,Bengaluru
+2023-06-05 02:29:00,77.3,0,686,Travel,Debit Card,POS,Mumbai
+2023-06-05 11:15:00,12.73,0,474,Grocery,NetBanking,Desktop,Mumbai
+2023-06-05 11:38:00,49.55,0,329,Electronics,PayPal,POS,Delhi
+2023-06-05 16:30:00,169.83,0,714,Health,NetBanking,POS,Mumbai
+2023-06-05 17:45:00,278.17,0,1063,Travel,Credit Card,Desktop,Bengaluru
+2023-06-05 18:24:00,6.72,1,288,Fashion,UPI,POS,Hyderabad
+2023-06-05 21:16:00,38.45,0,263,Entertainment,Credit Card,POS,Chennai
+2023-06-06 06:05:00,309.46,0,1096,Utilities,UPI,Mobile,Chennai
+2023-06-06 07:00:00,2.7,0,690,Entertainment,Debit Card,POS,Mumbai
+2023-06-06 07:06:00,51.17,0,740,Utilities,Debit Card,POS,Kolkata
+2023-06-06 11:01:00,87.21,0,1092,Travel,Debit Card,Desktop,Chennai
+2023-06-06 12:59:00,136.68,0,1539,Health,NetBanking,POS,Delhi
+2023-06-06 13:36:00,2.53,0,687,Health,NetBanking,Mobile,Kolkata
+2023-06-06 14:06:00,12.3,0,852,Fashion,NetBanking,Mobile,Pune
+2023-06-06 14:52:00,32.67,0,254,Electronics,PayPal,Mobile,Pune
+2023-06-06 19:51:00,161.95,0,36,Grocery,UPI,Mobile,Pune
+2023-06-06 21:46:00,122.5,0,132,Grocery,UPI,Mobile,Chennai
+2023-06-06 23:40:00,129.45,0,910,Electronics,Credit Card,POS,Chennai
+2023-06-07 00:19:00,51.38,0,1012,Grocery,NetBanking,Mobile,Delhi
+2023-06-07 02:31:00,28.91,0,1942,Utilities,UPI,Desktop,Mumbai
+2023-06-07 04:29:00,70.89,0,1399,Fashion,PayPal,Desktop,Delhi
+2023-06-07 11:05:00,36.7,0,735,Utilities,NetBanking,Mobile,Hyderabad
+2023-06-07 13:02:00,2.76,0,133,Fashion,PayPal,Mobile,Mumbai
+2023-06-07 13:05:00,13.5,0,531,Health,UPI,POS,Kolkata
+2023-06-07 13:13:00,164.93,0,247,Grocery,NetBanking,Mobile,Chennai
+2023-06-07 17:31:00,23.12,0,1562,Utilities,UPI,Mobile,Delhi
+2023-06-07 18:31:00,99.92,0,254,Utilities,UPI,Mobile,Mumbai
+2023-06-07 19:37:00,40.74,0,1886,Entertainment,NetBanking,POS,Mumbai
+2023-06-07 19:44:00,27.65,0,1785,Food,UPI,POS,Delhi
+2023-06-07 23:05:00,162.37,0,1690,Grocery,Credit Card,POS,Hyderabad
+2023-06-07 23:33:00,66.62,0,1977,Electronics,NetBanking,POS,Chennai
+2023-06-08 01:04:00,108.98,0,1169,Utilities,NetBanking,POS,Kolkata
+2023-06-08 05:21:00,23.2,0,759,Travel,Credit Card,POS,Chennai
+2023-06-08 06:26:00,34.86,1,664,Health,NetBanking,POS,Mumbai
+2023-06-08 07:45:00,5.29,1,1140,Utilities,UPI,Desktop,Hyderabad
+2023-06-08 08:20:00,45.51,0,379,Entertainment,Credit Card,Desktop,Kolkata
+2023-06-08 08:53:00,104.45,0,149,Health,NetBanking,Desktop,Delhi
+2023-06-08 08:59:00,4.74,0,1037,Entertainment,PayPal,POS,Pune
+2023-06-08 09:23:00,69.82,0,1900,Utilities,NetBanking,Mobile,Bengaluru
+2023-06-08 16:23:00,182.57,0,1680,Entertainment,Credit Card,Desktop,Pune
+2023-06-08 18:10:00,43.39,0,1714,Grocery,Debit Card,Mobile,Kolkata
+2023-06-08 18:20:00,55.06,0,101,Travel,NetBanking,Mobile,Bengaluru
+2023-06-08 20:35:00,234.18,0,114,Fashion,Credit Card,Mobile,Pune
+2023-06-08 22:46:00,9.5,0,656,Electronics,NetBanking,POS,Mumbai
+2023-06-08 22:55:00,84.36,0,41,Grocery,UPI,POS,Chennai
+2023-06-08 23:59:00,106.44,0,1643,Travel,Debit Card,POS,Hyderabad
+2023-06-09 00:24:00,12.37,0,742,Food,NetBanking,POS,Delhi
+2023-06-09 01:03:00,33.96,1,150,Electronics,PayPal,Mobile,Chennai
+2023-06-09 01:42:00,43.83,0,1488,Health,Credit Card,Mobile,Pune
+2023-06-09 02:14:00,6.08,0,958,Health,UPI,Desktop,Pune
+2023-06-09 07:06:00,21.54,0,1607,Travel,NetBanking,Desktop,Hyderabad
+2023-06-09 08:48:00,54.47,1,645,Food,PayPal,Mobile,Kolkata
+2023-06-09 11:14:00,163.82,0,686,Food,NetBanking,Desktop,Mumbai
+2023-06-09 13:53:00,48.58,0,115,Utilities,UPI,Desktop,Hyderabad
+2023-06-09 20:34:00,28.53,0,1916,Fashion,PayPal,Desktop,Hyderabad
+2023-06-09 23:08:00,93.21,0,1107,Health,PayPal,POS,Hyderabad
+2023-06-09 23:18:00,29.43,0,35,Health,PayPal,POS,Pune
+2023-06-09 23:32:00,30.01,0,1508,Fashion,Debit Card,POS,Delhi
+2023-06-09 23:45:00,72.6,0,311,Fashion,Debit Card,Mobile,Kolkata
+2023-06-10 05:07:00,44.82,0,1392,Health,Debit Card,POS,Pune
+2023-06-10 05:14:00,59.29,0,574,Grocery,UPI,Desktop,Kolkata
+2023-06-10 05:16:00,34.67,0,480,Travel,Credit Card,Desktop,Chennai
+2023-06-10 05:54:00,23.48,0,646,Travel,Debit Card,Mobile,Hyderabad
+2023-06-10 07:00:00,16.39,0,725,Entertainment,Debit Card,Desktop,Delhi
+2023-06-10 07:27:00,33.93,0,1722,Fashion,Debit Card,POS,Bengaluru
+2023-06-10 08:05:00,7.14,0,852,Health,NetBanking,Mobile,Kolkata
+2023-06-10 08:53:00,83.49,0,1932,Electronics,PayPal,Desktop,Mumbai
+2023-06-10 09:49:00,26.39,0,1711,Electronics,PayPal,POS,Kolkata
+2023-06-10 10:03:00,175.28,0,810,Electronics,NetBanking,Mobile,Chennai
+2023-06-10 13:13:00,107.12,0,275,Grocery,PayPal,POS,Mumbai
+2023-06-10 15:31:00,105.64,0,1831,Fashion,NetBanking,POS,Delhi
+2023-06-10 16:03:00,169.08,0,390,Food,UPI,Mobile,Bengaluru
+2023-06-10 17:44:00,8.2,0,933,Food,UPI,Desktop,Bengaluru
+2023-06-10 18:12:00,104.39,0,224,Travel,Credit Card,POS,Chennai
+2023-06-10 19:57:00,54.92,0,1668,Food,UPI,Desktop,Hyderabad
+2023-06-11 00:30:00,43.27,0,1929,Utilities,NetBanking,Mobile,Delhi
+2023-06-11 03:44:00,118.38,0,673,Fashion,Credit Card,Desktop,Delhi
+2023-06-11 05:29:00,51.04,0,1155,Electronics,NetBanking,POS,Hyderabad
+2023-06-11 07:47:00,433.53,0,1709,Health,Credit Card,POS,Kolkata
+2023-06-11 08:12:00,243.29,0,1480,Fashion,Debit Card,Mobile,Bengaluru
+2023-06-11 11:17:00,104.14,0,1660,Entertainment,NetBanking,Mobile,Chennai
+2023-06-11 12:21:00,114.94,0,64,Electronics,Credit Card,Desktop,Kolkata
+2023-06-11 13:25:00,339.52,1,743,Health,NetBanking,POS,Chennai
+2023-06-11 13:29:00,148.82,0,1761,Grocery,Credit Card,POS,Chennai
+2023-06-11 14:22:00,17.72,0,1620,Grocery,PayPal,Mobile,Kolkata
+2023-06-11 15:24:00,4.39,0,1743,Utilities,UPI,Desktop,Pune
+2023-06-11 16:01:00,119.42,0,1624,Food,Credit Card,Desktop,Kolkata
+2023-06-11 16:12:00,7.88,0,758,Utilities,NetBanking,POS,Bengaluru
+2023-06-11 16:21:00,4.77,0,1154,Travel,PayPal,Mobile,Mumbai
+2023-06-11 18:08:00,163.68,0,947,Grocery,UPI,POS,Bengaluru
+2023-06-11 20:17:00,134.61,0,1112,Travel,Debit Card,POS,Kolkata
+2023-06-11 22:23:00,68.83,0,1610,Food,UPI,Mobile,Delhi
+2023-06-12 01:16:00,53.01,0,1737,Fashion,Debit Card,Desktop,Kolkata
+2023-06-12 01:24:00,20.52,0,1332,Electronics,UPI,POS,Delhi
+2023-06-12 01:57:00,65.43,0,1855,Health,Credit Card,Mobile,Kolkata
+2023-06-12 04:26:00,136.29,0,88,Health,UPI,POS,Bengaluru
+2023-06-12 10:15:00,14.45,0,1910,Utilities,NetBanking,Desktop,Delhi
+2023-06-12 19:24:00,19.11,0,359,Utilities,Debit Card,Mobile,Chennai
+2023-06-12 19:43:00,19.64,0,346,Health,Debit Card,Desktop,Delhi
+2023-06-12 19:55:00,55.87,0,353,Food,UPI,Desktop,Pune
+2023-06-12 23:23:00,91.21,0,870,Health,Credit Card,POS,Delhi
+2023-06-13 01:14:00,40.89,0,960,Health,PayPal,POS,Hyderabad
+2023-06-13 03:49:00,111.46,0,1346,Grocery,Credit Card,POS,Kolkata
+2023-06-13 07:15:00,128.22,0,1357,Food,UPI,Mobile,Kolkata
+2023-06-13 09:20:00,9.51,1,1611,Entertainment,Credit Card,POS,Chennai
+2023-06-13 10:46:00,165.35,0,72,Travel,Credit Card,Desktop,Delhi
+2023-06-13 11:17:00,2.37,0,1563,Entertainment,Credit Card,POS,Hyderabad
+2023-06-13 14:37:00,6.98,0,1988,Food,Credit Card,Mobile,Delhi
+2023-06-13 16:30:00,4.97,1,1818,Travel,NetBanking,Desktop,Bengaluru
+2023-06-13 18:42:00,42.39,0,209,Travel,PayPal,POS,Pune
+2023-06-13 20:11:00,102.82,0,1601,Electronics,Credit Card,POS,Chennai
+2023-06-13 20:12:00,41.78,1,1100,Electronics,PayPal,POS,Kolkata
+2023-06-13 23:06:00,4.7,0,374,Entertainment,UPI,POS,Kolkata
+2023-06-14 01:44:00,22.15,0,877,Entertainment,Credit Card,Mobile,Pune
+2023-06-14 02:16:00,152.99,0,1497,Travel,Credit Card,POS,Mumbai
+2023-06-14 02:18:00,19.0,1,1924,Grocery,UPI,POS,Hyderabad
+2023-06-14 03:20:00,12.25,0,825,Utilities,UPI,Desktop,Hyderabad
+2023-06-14 08:31:00,80.89,0,1425,Electronics,NetBanking,Desktop,Hyderabad
+2023-06-14 09:52:00,11.29,0,623,Grocery,Debit Card,Mobile,Chennai
+2023-06-14 10:00:00,19.17,0,64,Travel,Debit Card,POS,Mumbai
+2023-06-14 10:37:00,10.86,0,1052,Travel,NetBanking,Mobile,Chennai
+2023-06-14 13:36:00,15.81,0,699,Entertainment,Credit Card,Desktop,Pune
+2023-06-14 14:27:00,0.11,0,1735,Electronics,UPI,Desktop,Kolkata
+2023-06-14 16:11:00,41.88,0,277,Electronics,NetBanking,Mobile,Bengaluru
+2023-06-14 18:28:00,108.27,0,1098,Utilities,PayPal,Desktop,Chennai
+2023-06-14 21:15:00,457.03,0,1011,Fashion,NetBanking,POS,Bengaluru
+2023-06-14 21:51:00,106.71,0,798,Food,NetBanking,POS,Bengaluru
+2023-06-14 22:41:00,5.72,0,1648,Travel,UPI,Desktop,Mumbai
+2023-06-15 03:00:00,3.68,0,1624,Entertainment,Credit Card,Mobile,Delhi
+2023-06-15 03:10:00,151.96,1,1518,Food,UPI,Desktop,Pune
+2023-06-15 03:43:00,55.96,0,43,Grocery,Debit Card,POS,Hyderabad
+2023-06-15 03:51:00,15.13,0,1997,Travel,Credit Card,Mobile,Hyderabad
+2023-06-15 05:49:00,132.72,0,485,Fashion,UPI,Mobile,Hyderabad
+2023-06-15 06:58:00,4.96,0,1401,Entertainment,NetBanking,Mobile,Kolkata
+2023-06-15 07:16:00,44.3,0,582,Utilities,Debit Card,Desktop,Delhi
+2023-06-15 11:32:00,2.84,0,884,Entertainment,UPI,Mobile,Chennai
+2023-06-15 13:42:00,3.47,0,522,Entertainment,NetBanking,POS,Chennai
+2023-06-15 14:12:00,3.2,0,384,Utilities,Credit Card,POS,Hyderabad
+2023-06-15 15:22:00,0.55,0,1574,Grocery,Credit Card,Mobile,Pune
+2023-06-16 00:02:00,97.13,0,1737,Health,Credit Card,Desktop,Pune
+2023-06-16 00:32:00,1.99,0,716,Food,Credit Card,Mobile,Bengaluru
+2023-06-16 00:40:00,23.59,0,30,Entertainment,UPI,Desktop,Pune
+2023-06-16 08:07:00,51.13,0,38,Electronics,Debit Card,Desktop,Hyderabad
+2023-06-16 08:26:00,83.64,0,1297,Utilities,Credit Card,Desktop,Bengaluru
+2023-06-16 09:08:00,14.61,1,373,Grocery,Debit Card,Desktop,Pune
+2023-06-16 09:09:00,330.7,0,1819,Travel,PayPal,POS,Chennai
+2023-06-16 10:22:00,16.39,1,1442,Travel,Credit Card,Desktop,Chennai
+2023-06-16 10:27:00,13.9,0,1111,Electronics,PayPal,Desktop,Delhi
+2023-06-16 13:01:00,228.8,0,1012,Travel,Debit Card,POS,Hyderabad
+2023-06-16 15:56:00,75.93,0,88,Electronics,NetBanking,Mobile,Delhi
+2023-06-16 16:56:00,174.93,0,1476,Health,Debit Card,POS,Kolkata
+2023-06-16 17:04:00,35.98,0,152,Travel,Credit Card,Desktop,Chennai
+2023-06-16 19:52:00,144.62,0,468,Grocery,PayPal,Mobile,Bengaluru
+2023-06-16 21:43:00,131.05,1,1060,Grocery,UPI,POS,Bengaluru
+2023-06-17 02:25:00,37.36,0,1077,Utilities,NetBanking,POS,Mumbai
+2023-06-17 04:28:00,149.46,0,1914,Utilities,Credit Card,Desktop,Kolkata
+2023-06-17 15:09:00,50.97,0,843,Food,UPI,Mobile,Bengaluru
+2023-06-17 16:44:00,78.25,0,1170,Entertainment,Credit Card,Desktop,Bengaluru
+2023-06-17 17:09:00,204.6,0,1402,Electronics,Debit Card,Mobile,Hyderabad
+2023-06-17 18:12:00,116.23,0,1314,Food,UPI,Desktop,Hyderabad
+2023-06-17 19:13:00,191.97,1,988,Fashion,Credit Card,Desktop,Hyderabad
+2023-06-17 21:23:00,2.2,0,411,Food,Credit Card,POS,Delhi
+2023-06-18 01:14:00,15.96,1,1630,Grocery,NetBanking,Desktop,Pune
+2023-06-18 01:15:00,19.44,0,1418,Travel,Debit Card,Desktop,Hyderabad
+2023-06-18 04:02:00,112.27,0,1947,Fashion,NetBanking,Desktop,Delhi
+2023-06-18 04:04:00,18.5,0,859,Travel,Debit Card,Desktop,Hyderabad
+2023-06-18 04:34:00,130.24,0,1427,Grocery,Credit Card,POS,Mumbai
+2023-06-18 08:58:00,44.1,1,1992,Food,Debit Card,Mobile,Chennai
+2023-06-18 09:43:00,286.06,0,1987,Utilities,Debit Card,POS,Hyderabad
+2023-06-18 13:48:00,78.61,0,1058,Fashion,UPI,POS,Kolkata
+2023-06-18 17:46:00,74.0,0,1270,Travel,PayPal,POS,Mumbai
+2023-06-18 19:22:00,57.04,0,220,Utilities,Debit Card,Mobile,Delhi
+2023-06-18 19:35:00,11.96,0,1514,Electronics,NetBanking,POS,Kolkata
+2023-06-18 22:40:00,162.24,0,1768,Fashion,Debit Card,POS,Hyderabad
+2023-06-19 02:12:00,62.17,0,472,Utilities,UPI,POS,Mumbai
+2023-06-19 06:45:00,59.17,0,181,Travel,UPI,Desktop,Delhi
+2023-06-19 09:13:00,28.0,0,1960,Electronics,NetBanking,Desktop,Chennai
+2023-06-19 10:35:00,161.41,0,1272,Fashion,Debit Card,Mobile,Bengaluru
+2023-06-19 12:26:00,21.19,0,1805,Travel,UPI,Desktop,Hyderabad
+2023-06-19 13:21:00,279.42,0,1076,Fashion,NetBanking,Desktop,Hyderabad
+2023-06-19 13:52:00,40.8,0,780,Grocery,Credit Card,Mobile,Hyderabad
+2023-06-19 17:23:00,44.56,0,1595,Electronics,Credit Card,POS,Kolkata
+2023-06-20 00:47:00,68.81,1,114,Grocery,UPI,Desktop,Kolkata
+2023-06-20 01:45:00,46.35,0,386,Health,Debit Card,Desktop,Pune
+2023-06-20 05:02:00,33.24,0,1894,Utilities,Debit Card,Mobile,Hyderabad
+2023-06-20 06:52:00,2.15,0,1106,Fashion,Debit Card,POS,Bengaluru
+2023-06-20 07:56:00,100.34,0,896,Electronics,UPI,Desktop,Mumbai
+2023-06-20 09:11:00,40.98,0,331,Entertainment,PayPal,POS,Chennai
+2023-06-20 11:05:00,131.48,0,976,Food,PayPal,POS,Pune
+2023-06-20 19:53:00,10.96,0,1583,Grocery,UPI,Mobile,Chennai
+2023-06-20 20:53:00,89.05,0,1295,Entertainment,Debit Card,Desktop,Pune
+2023-06-20 22:04:00,193.18,0,908,Utilities,NetBanking,POS,Pune
+2023-06-20 22:15:00,3.06,0,1577,Fashion,UPI,POS,Chennai
+2023-06-20 22:32:00,278.69,0,331,Entertainment,Debit Card,POS,Pune
+2023-06-20 22:51:00,240.64,0,1080,Fashion,Debit Card,POS,Hyderabad
+2023-06-21 00:26:00,36.84,0,590,Grocery,Debit Card,Desktop,Chennai
+2023-06-21 05:40:00,145.13,1,857,Travel,NetBanking,Desktop,Delhi
+2023-06-21 06:04:00,2.05,0,584,Utilities,Credit Card,POS,Hyderabad
+2023-06-21 07:11:00,19.66,0,1325,Food,NetBanking,POS,Delhi
+2023-06-21 12:40:00,90.52,1,1317,Health,PayPal,Desktop,Hyderabad
+2023-06-21 12:45:00,102.65,0,1940,Electronics,Credit Card,Mobile,Mumbai
+2023-06-21 15:17:00,14.79,0,1447,Fashion,Debit Card,Desktop,Pune
+2023-06-21 15:41:00,9.95,0,140,Grocery,PayPal,Mobile,Kolkata
+2023-06-21 16:00:00,156.59,0,32,Travel,UPI,POS,Delhi
+2023-06-21 16:02:00,138.0,0,1285,Utilities,UPI,POS,Chennai
+2023-06-21 18:49:00,23.12,0,1029,Fashion,PayPal,Mobile,Delhi
+2023-06-21 23:39:00,8.71,0,542,Fashion,PayPal,POS,Delhi
+2023-06-21 23:48:00,4.69,0,841,Food,PayPal,Mobile,Hyderabad
+2023-06-22 00:26:00,8.91,0,1705,Food,UPI,Desktop,Chennai
+2023-06-22 04:06:00,233.67,0,607,Grocery,Credit Card,Mobile,Delhi
+2023-06-22 04:10:00,39.87,0,1426,Food,Debit Card,POS,Pune
+2023-06-22 04:49:00,113.74,1,645,Electronics,Credit Card,Desktop,Chennai
+2023-06-22 07:06:00,18.78,0,569,Health,PayPal,Desktop,Bengaluru
+2023-06-22 07:37:00,58.26,0,1526,Entertainment,PayPal,POS,Chennai
+2023-06-22 08:00:00,57.54,0,1619,Grocery,PayPal,POS,Pune
+2023-06-22 10:47:00,43.96,0,1137,Utilities,Debit Card,POS,Hyderabad
+2023-06-22 14:10:00,63.92,0,1809,Food,Debit Card,Mobile,Kolkata
+2023-06-22 15:44:00,45.51,1,574,Entertainment,NetBanking,Mobile,Bengaluru
+2023-06-22 18:06:00,33.16,0,1053,Utilities,Debit Card,Desktop,Kolkata
+2023-06-22 18:47:00,28.46,0,1651,Fashion,NetBanking,Desktop,Chennai
+2023-06-22 18:58:00,131.47,0,1823,Travel,UPI,Desktop,Mumbai
+2023-06-22 20:26:00,55.19,0,1988,Electronics,NetBanking,Mobile,Mumbai
+2023-06-22 22:31:00,125.45,0,1216,Food,Credit Card,Mobile,Pune
+2023-06-23 00:29:00,0.86,0,1591,Electronics,PayPal,Mobile,Bengaluru
+2023-06-23 01:18:00,385.89,1,580,Travel,NetBanking,POS,Mumbai
+2023-06-23 07:06:00,3.52,0,598,Fashion,Debit Card,Desktop,Chennai
+2023-06-23 10:04:00,302.86,0,1908,Food,PayPal,POS,Bengaluru
+2023-06-23 11:05:00,78.03,0,942,Fashion,NetBanking,POS,Chennai
+2023-06-23 12:39:00,163.64,1,1943,Fashion,Debit Card,Desktop,Pune
+2023-06-23 15:00:00,36.68,0,1640,Utilities,Credit Card,Mobile,Kolkata
+2023-06-23 17:52:00,9.04,0,1412,Travel,Credit Card,Mobile,Kolkata
+2023-06-23 21:22:00,30.02,0,1777,Health,UPI,Mobile,Kolkata
+2023-06-24 03:27:00,65.1,0,1965,Grocery,UPI,Mobile,Chennai
+2023-06-24 05:52:00,42.57,0,1038,Electronics,UPI,Mobile,Pune
+2023-06-24 09:01:00,66.08,0,1827,Fashion,NetBanking,POS,Bengaluru
+2023-06-24 16:07:00,76.63,0,1488,Travel,UPI,Mobile,Mumbai
+2023-06-24 19:34:00,69.58,1,728,Electronics,Debit Card,Desktop,Mumbai
+2023-06-24 23:46:00,74.44,0,497,Fashion,PayPal,Desktop,Pune
+2023-06-25 01:11:00,13.18,0,160,Food,UPI,Desktop,Delhi
+2023-06-25 04:37:00,13.36,0,1459,Health,NetBanking,Desktop,Kolkata
+2023-06-25 05:14:00,32.83,0,1234,Entertainment,PayPal,POS,Mumbai
+2023-06-25 12:25:00,51.28,1,124,Entertainment,NetBanking,POS,Bengaluru
+2023-06-25 12:36:00,8.55,0,486,Entertainment,NetBanking,Mobile,Pune
+2023-06-25 14:30:00,165.11,0,1648,Health,NetBanking,POS,Kolkata
+2023-06-25 15:00:00,15.3,0,1798,Food,Credit Card,Desktop,Chennai
+2023-06-25 21:14:00,40.46,0,1482,Utilities,PayPal,Desktop,Pune
+2023-06-26 01:27:00,14.55,0,1144,Entertainment,PayPal,POS,Pune
+2023-06-26 03:21:00,48.95,0,869,Utilities,UPI,POS,Delhi
+2023-06-26 05:16:00,9.87,0,1276,Grocery,PayPal,Mobile,Bengaluru
+2023-06-26 05:24:00,0.0,0,1061,Entertainment,Debit Card,Desktop,Chennai
+2023-06-26 05:57:00,5.85,0,1942,Electronics,PayPal,Mobile,Mumbai
+2023-06-26 09:21:00,43.05,0,864,Fashion,NetBanking,POS,Mumbai
+2023-06-26 09:28:00,117.49,0,216,Utilities,NetBanking,POS,Hyderabad
+2023-06-26 10:30:00,19.8,0,184,Grocery,UPI,POS,Delhi
+2023-06-26 11:08:00,0.92,0,1435,Utilities,NetBanking,Mobile,Delhi
+2023-06-26 18:35:00,74.87,0,981,Food,PayPal,POS,Delhi
+2023-06-26 18:56:00,31.47,0,313,Fashion,UPI,Desktop,Bengaluru
+2023-06-26 22:36:00,58.65,0,278,Electronics,UPI,Mobile,Hyderabad
+2023-06-27 00:23:00,14.11,0,815,Utilities,NetBanking,POS,Pune
+2023-06-27 00:58:00,6.01,0,1094,Fashion,Debit Card,Desktop,Chennai
+2023-06-27 02:03:00,19.94,0,1425,Grocery,PayPal,Mobile,Chennai
+2023-06-27 02:17:00,0.94,0,407,Utilities,Credit Card,POS,Chennai
+2023-06-27 03:59:00,146.16,0,523,Grocery,NetBanking,POS,Kolkata
+2023-06-27 05:27:00,194.76,0,1742,Health,UPI,Desktop,Chennai
+2023-06-27 06:53:00,276.72,0,693,Entertainment,PayPal,POS,Hyderabad
+2023-06-27 07:14:00,12.34,0,1937,Electronics,Credit Card,Mobile,Chennai
+2023-06-27 09:13:00,75.9,0,1010,Electronics,Debit Card,Mobile,Bengaluru
+2023-06-27 11:56:00,78.73,0,429,Grocery,NetBanking,POS,Chennai
+2023-06-27 12:06:00,98.5,0,1131,Grocery,Debit Card,Desktop,Mumbai
+2023-06-27 17:43:00,31.82,0,1146,Utilities,PayPal,Mobile,Delhi
+2023-06-27 19:53:00,15.22,1,1447,Fashion,Debit Card,Mobile,Chennai
+2023-06-27 23:47:00,134.73,0,1885,Electronics,NetBanking,Mobile,Chennai
+2023-06-28 00:07:00,116.03,0,781,Food,PayPal,POS,Kolkata
+2023-06-28 01:12:00,40.58,0,1598,Electronics,NetBanking,Mobile,Chennai
+2023-06-28 02:22:00,137.91,0,235,Grocery,UPI,Desktop,Hyderabad
+2023-06-28 04:19:00,7.94,0,65,Utilities,PayPal,POS,Pune
+2023-06-28 11:43:00,88.19,0,1981,Health,Credit Card,POS,Delhi
+2023-06-28 12:45:00,13.98,0,1743,Food,NetBanking,POS,Kolkata
+2023-06-28 13:29:00,12.76,0,1800,Grocery,UPI,Mobile,Delhi
+2023-06-28 14:31:00,206.9,0,1785,Fashion,NetBanking,Desktop,Chennai
+2023-06-29 00:12:00,108.11,0,1990,Fashion,UPI,POS,Kolkata
+2023-06-29 00:25:00,90.44,1,385,Food,NetBanking,Desktop,Mumbai
+2023-06-29 02:56:00,92.45,0,157,Electronics,UPI,Desktop,Bengaluru
+2023-06-29 12:11:00,221.12,0,1078,Entertainment,Debit Card,Desktop,Chennai
+2023-06-29 13:56:00,72.84,0,1070,Grocery,Debit Card,Desktop,Kolkata
+2023-06-29 17:53:00,28.02,0,834,Travel,UPI,POS,Pune
+2023-06-29 20:39:00,153.9,0,1891,Travel,Debit Card,POS,Hyderabad
+2023-06-29 21:45:00,280.29,0,1970,Electronics,NetBanking,Desktop,Bengaluru
+2023-06-30 00:55:00,77.6,0,1207,Food,PayPal,POS,Pune
+2023-06-30 00:56:00,48.15,0,537,Entertainment,UPI,Desktop,Mumbai
+2023-06-30 03:33:00,112.7,0,480,Food,Credit Card,POS,Kolkata
+2023-06-30 04:48:00,1.07,0,679,Fashion,UPI,Mobile,Pune
+2023-06-30 06:31:00,36.99,0,992,Health,NetBanking,POS,Chennai
+2023-06-30 06:55:00,51.14,1,471,Electronics,UPI,POS,Mumbai
+2023-06-30 08:11:00,53.26,0,1603,Food,Debit Card,Desktop,Kolkata
+2023-06-30 08:32:00,97.58,0,353,Fashion,Debit Card,POS,Mumbai
+2023-06-30 09:21:00,100.81,0,1452,Travel,Debit Card,Mobile,Kolkata
+2023-06-30 11:58:00,63.68,0,1031,Utilities,Credit Card,POS,Hyderabad
+2023-06-30 14:06:00,16.85,0,1110,Grocery,Debit Card,Mobile,Bengaluru
+2023-06-30 16:55:00,95.16,0,1629,Grocery,Debit Card,POS,Pune
+2023-06-30 21:16:00,74.03,0,859,Health,NetBanking,Desktop,Chennai
+2023-06-30 21:17:00,199.58,0,397,Entertainment,Credit Card,Desktop,Mumbai
+2023-07-01 01:31:00,47.8,0,1578,Entertainment,Debit Card,POS,Kolkata
+2023-07-01 09:45:00,151.75,0,1706,Utilities,UPI,POS,Mumbai
+2023-07-01 11:01:00,162.08,0,1442,Electronics,UPI,Desktop,Bengaluru
+2023-07-01 11:13:00,356.68,0,1723,Travel,Credit Card,POS,Kolkata
+2023-07-01 12:06:00,59.51,0,349,Entertainment,NetBanking,Desktop,Kolkata
+2023-07-01 13:38:00,8.95,0,106,Fashion,NetBanking,Desktop,Hyderabad
+2023-07-01 14:36:00,86.23,0,567,Health,UPI,Desktop,Mumbai
+2023-07-01 15:30:00,89.33,0,102,Food,NetBanking,Desktop,Bengaluru
+2023-07-01 20:03:00,39.79,1,660,Entertainment,Credit Card,POS,Hyderabad
+2023-07-01 20:05:00,158.46,0,400,Grocery,NetBanking,Mobile,Chennai
+2023-07-01 22:07:00,91.79,0,697,Fashion,Debit Card,Mobile,Kolkata
+2023-07-02 00:06:00,16.87,0,1570,Fashion,Credit Card,Mobile,Kolkata
+2023-07-02 00:10:00,64.25,0,798,Utilities,PayPal,POS,Mumbai
+2023-07-02 01:32:00,45.2,0,1920,Travel,NetBanking,POS,Hyderabad
+2023-07-02 03:02:00,11.3,0,427,Travel,PayPal,Desktop,Chennai
+2023-07-02 07:03:00,8.6,0,136,Food,UPI,Desktop,Delhi
+2023-07-02 07:43:00,111.67,0,566,Electronics,Debit Card,Mobile,Pune
+2023-07-02 07:56:00,48.18,0,88,Electronics,UPI,POS,Kolkata
+2023-07-02 09:04:00,9.55,0,622,Entertainment,NetBanking,Desktop,Chennai
+2023-07-02 09:32:00,269.92,0,1588,Grocery,UPI,Mobile,Pune
+2023-07-02 11:38:00,275.55,0,80,Entertainment,Debit Card,Desktop,Chennai
+2023-07-02 12:03:00,122.4,0,1365,Entertainment,PayPal,POS,Delhi
+2023-07-02 14:17:00,98.06,0,71,Utilities,Credit Card,Mobile,Kolkata
+2023-07-02 14:51:00,4.59,0,1336,Entertainment,NetBanking,Desktop,Chennai
+2023-07-02 16:48:00,65.2,0,1025,Utilities,NetBanking,Desktop,Hyderabad
+2023-07-02 21:56:00,117.33,0,1485,Grocery,UPI,Mobile,Delhi
+2023-07-02 22:44:00,175.68,0,1859,Travel,Debit Card,Desktop,Bengaluru
+2023-07-02 23:12:00,11.62,0,678,Health,NetBanking,Mobile,Pune
+2023-07-03 00:39:00,3.95,0,967,Electronics,NetBanking,Desktop,Mumbai
+2023-07-03 02:33:00,86.85,0,1064,Utilities,NetBanking,Mobile,Kolkata
+2023-07-03 05:52:00,183.06,0,256,Grocery,NetBanking,Mobile,Bengaluru
+2023-07-03 06:45:00,5.89,0,1956,Fashion,Debit Card,POS,Delhi
+2023-07-03 07:17:00,168.28,0,587,Electronics,PayPal,Mobile,Kolkata
+2023-07-03 07:46:00,312.84,0,1894,Entertainment,NetBanking,Mobile,Delhi
+2023-07-03 14:07:00,0.41,0,1034,Utilities,NetBanking,POS,Chennai
+2023-07-03 16:16:00,79.79,0,1693,Food,NetBanking,Mobile,Pune
+2023-07-03 16:26:00,6.42,1,470,Entertainment,PayPal,POS,Hyderabad
+2023-07-03 18:30:00,253.21,0,768,Entertainment,NetBanking,Desktop,Kolkata
+2023-07-03 20:30:00,98.23,0,1787,Grocery,Debit Card,Mobile,Mumbai
+2023-07-04 00:55:00,14.13,0,1495,Electronics,Debit Card,Desktop,Delhi
+2023-07-04 10:17:00,144.29,1,1464,Fashion,Debit Card,Mobile,Hyderabad
+2023-07-04 12:11:00,14.89,0,330,Entertainment,UPI,Desktop,Hyderabad
+2023-07-04 13:41:00,181.14,0,1841,Fashion,UPI,POS,Mumbai
+2023-07-04 13:47:00,306.64,0,1939,Travel,NetBanking,Desktop,Mumbai
+2023-07-04 14:44:00,117.57,0,452,Grocery,Credit Card,POS,Mumbai
+2023-07-04 15:06:00,13.69,0,567,Entertainment,Debit Card,Desktop,Bengaluru
+2023-07-04 15:40:00,1.81,0,1319,Electronics,Credit Card,Mobile,Hyderabad
+2023-07-04 16:47:00,1.94,0,1451,Travel,PayPal,POS,Chennai
+2023-07-04 18:16:00,24.04,0,947,Fashion,Debit Card,POS,Bengaluru
+2023-07-04 20:20:00,76.76,0,1520,Grocery,PayPal,POS,Mumbai
+2023-07-05 03:15:00,22.38,0,564,Grocery,Debit Card,Mobile,Mumbai
+2023-07-05 05:05:00,50.29,0,509,Travel,Credit Card,POS,Hyderabad
+2023-07-05 09:39:00,52.08,0,291,Entertainment,PayPal,Desktop,Bengaluru
+2023-07-05 11:05:00,122.51,0,965,Grocery,Credit Card,POS,Mumbai
+2023-07-05 18:54:00,74.87,0,117,Electronics,PayPal,Desktop,Hyderabad
+2023-07-05 21:05:00,49.0,0,842,Travel,Debit Card,POS,Chennai
+2023-07-05 22:10:00,171.59,0,1990,Electronics,UPI,POS,Mumbai
+2023-07-06 01:04:00,15.59,0,714,Entertainment,Credit Card,POS,Chennai
+2023-07-06 01:22:00,125.46,0,607,Travel,UPI,Mobile,Bengaluru
+2023-07-06 01:29:00,14.01,0,1697,Food,UPI,Mobile,Kolkata
+2023-07-06 01:52:00,61.98,0,1610,Food,Debit Card,Mobile,Mumbai
+2023-07-06 02:33:00,14.99,0,758,Travel,PayPal,POS,Bengaluru
+2023-07-06 02:53:00,170.2,0,1703,Travel,NetBanking,Mobile,Mumbai
+2023-07-06 05:56:00,8.68,1,1029,Health,NetBanking,Desktop,Bengaluru
+2023-07-06 09:08:00,49.41,0,767,Utilities,UPI,Desktop,Bengaluru
+2023-07-06 12:54:00,1.31,0,1582,Fashion,UPI,Mobile,Bengaluru
+2023-07-06 14:00:00,45.09,0,893,Food,Credit Card,Mobile,Chennai
+2023-07-06 16:18:00,1.48,0,1934,Health,NetBanking,Mobile,Kolkata
+2023-07-06 16:59:00,7.16,0,1856,Utilities,UPI,POS,Pune
+2023-07-06 17:29:00,268.25,0,695,Health,UPI,Desktop,Chennai
+2023-07-06 17:50:00,55.99,0,1093,Fashion,NetBanking,Desktop,Hyderabad
+2023-07-07 00:25:00,20.35,0,163,Utilities,Credit Card,Desktop,Hyderabad
+2023-07-07 03:01:00,95.19,0,93,Utilities,Credit Card,Mobile,Mumbai
+2023-07-07 05:05:00,34.43,0,657,Entertainment,Debit Card,POS,Hyderabad
+2023-07-07 05:37:00,8.96,0,1394,Food,Credit Card,Desktop,Bengaluru
+2023-07-07 09:47:00,118.67,0,1092,Utilities,Credit Card,POS,Hyderabad
+2023-07-07 18:20:00,81.95,0,801,Grocery,UPI,Mobile,Mumbai
+2023-07-07 18:35:00,422.4,0,651,Entertainment,NetBanking,Desktop,Hyderabad
+2023-07-07 18:53:00,14.5,0,837,Grocery,Credit Card,Mobile,Hyderabad
+2023-07-07 19:20:00,222.89,0,1152,Utilities,PayPal,Mobile,Hyderabad
+2023-07-07 21:40:00,90.82,0,778,Travel,PayPal,Desktop,Chennai
+2023-07-08 01:02:00,130.3,0,1703,Food,PayPal,Mobile,Hyderabad
+2023-07-08 03:26:00,29.27,0,1344,Travel,PayPal,POS,Mumbai
+2023-07-08 06:12:00,45.71,0,398,Food,PayPal,POS,Delhi
+2023-07-08 08:18:00,7.78,0,995,Electronics,Credit Card,Desktop,Hyderabad
+2023-07-08 10:38:00,38.66,0,700,Utilities,NetBanking,Mobile,Chennai
+2023-07-08 11:14:00,14.4,0,324,Entertainment,PayPal,Desktop,Pune
+2023-07-08 12:34:00,235.37,0,807,Utilities,PayPal,Desktop,Delhi
+2023-07-08 13:51:00,155.31,0,1359,Utilities,UPI,POS,Bengaluru
+2023-07-08 15:04:00,137.8,0,1237,Grocery,Debit Card,Mobile,Pune
+2023-07-08 15:09:00,40.78,0,1437,Grocery,Debit Card,POS,Hyderabad
+2023-07-08 15:37:00,43.75,0,642,Entertainment,Credit Card,Desktop,Mumbai
+2023-07-08 19:49:00,137.21,0,1933,Food,NetBanking,Mobile,Kolkata
+2023-07-08 19:54:00,42.0,0,1802,Travel,Credit Card,Mobile,Mumbai
+2023-07-08 19:57:00,40.21,0,753,Grocery,NetBanking,Mobile,Bengaluru
+2023-07-09 00:38:00,8.18,0,1036,Utilities,PayPal,POS,Delhi
+2023-07-09 03:30:00,54.68,0,951,Grocery,Debit Card,POS,Delhi
+2023-07-09 07:20:00,80.41,0,1892,Fashion,NetBanking,POS,Delhi
+2023-07-09 07:57:00,23.27,1,1475,Fashion,PayPal,Mobile,Hyderabad
+2023-07-09 08:18:00,174.38,1,1044,Travel,NetBanking,Mobile,Kolkata
+2023-07-09 11:42:00,13.94,0,1318,Electronics,UPI,POS,Mumbai
+2023-07-09 12:01:00,49.88,0,521,Fashion,PayPal,Desktop,Kolkata
+2023-07-09 13:08:00,107.13,1,946,Entertainment,PayPal,Mobile,Mumbai
+2023-07-09 17:36:00,22.17,0,1266,Entertainment,PayPal,POS,Chennai
+2023-07-09 18:42:00,80.83,0,310,Food,NetBanking,Mobile,Mumbai
+2023-07-09 18:48:00,131.79,0,1899,Entertainment,NetBanking,Desktop,Chennai
+2023-07-09 18:54:00,83.03,0,1244,Electronics,Credit Card,Mobile,Mumbai
+2023-07-09 21:28:00,8.26,0,1302,Health,Credit Card,POS,Hyderabad
+2023-07-09 22:47:00,71.91,0,112,Travel,Debit Card,Mobile,Kolkata
+2023-07-10 00:47:00,5.41,0,1857,Fashion,UPI,POS,Hyderabad
+2023-07-10 02:43:00,0.8,0,1420,Health,Debit Card,Desktop,Bengaluru
+2023-07-10 06:13:00,59.24,0,682,Entertainment,PayPal,Desktop,Pune
+2023-07-10 08:07:00,309.64,0,175,Grocery,PayPal,POS,Kolkata
+2023-07-10 10:02:00,89.29,0,557,Health,UPI,POS,Bengaluru
+2023-07-10 10:33:00,147.33,0,1523,Travel,NetBanking,POS,Kolkata
+2023-07-10 12:35:00,1.79,0,448,Utilities,Debit Card,POS,Delhi
+2023-07-10 15:51:00,301.09,0,1472,Health,PayPal,Desktop,Kolkata
+2023-07-10 19:46:00,6.06,0,1156,Utilities,Debit Card,Desktop,Pune
+2023-07-11 01:05:00,98.04,0,444,Food,UPI,POS,Bengaluru
+2023-07-11 01:55:00,87.85,0,846,Travel,UPI,Desktop,Mumbai
+2023-07-11 02:45:00,56.34,1,965,Grocery,Debit Card,Mobile,Delhi
+2023-07-11 05:01:00,1.55,0,1672,Electronics,UPI,Mobile,Bengaluru
+2023-07-11 05:23:00,215.9,0,169,Fashion,UPI,Mobile,Kolkata
+2023-07-11 05:35:00,18.94,1,1112,Grocery,PayPal,Mobile,Mumbai
+2023-07-11 07:45:00,16.0,0,905,Grocery,Debit Card,POS,Chennai
+2023-07-11 09:37:00,164.32,0,988,Health,NetBanking,Desktop,Bengaluru
+2023-07-11 10:24:00,135.92,0,254,Entertainment,Debit Card,Desktop,Pune
+2023-07-11 11:57:00,41.42,0,117,Entertainment,Debit Card,POS,Mumbai
+2023-07-11 14:06:00,58.56,0,646,Utilities,Debit Card,Mobile,Mumbai
+2023-07-11 19:14:00,8.45,0,853,Health,UPI,Desktop,Bengaluru
+2023-07-11 19:26:00,84.94,0,745,Health,UPI,Desktop,Pune
+2023-07-11 19:51:00,288.98,0,754,Utilities,Credit Card,POS,Kolkata
+2023-07-12 00:00:00,44.04,0,1252,Food,NetBanking,POS,Hyderabad
+2023-07-12 00:53:00,23.21,0,1365,Grocery,Credit Card,POS,Hyderabad
+2023-07-12 06:20:00,182.13,0,1113,Electronics,Debit Card,POS,Pune
+2023-07-12 08:01:00,76.03,0,786,Entertainment,UPI,Mobile,Mumbai
+2023-07-12 11:59:00,58.48,0,1288,Entertainment,PayPal,POS,Delhi
+2023-07-12 14:25:00,173.79,0,517,Travel,PayPal,Mobile,Chennai
+2023-07-12 18:21:00,165.48,0,1521,Travel,PayPal,Desktop,Bengaluru
+2023-07-12 18:37:00,181.66,0,1115,Health,Debit Card,Desktop,Delhi
+2023-07-12 21:24:00,39.98,0,1655,Grocery,PayPal,POS,Hyderabad
+2023-07-12 21:33:00,158.26,0,1622,Fashion,NetBanking,POS,Pune
+2023-07-12 22:25:00,24.03,0,1948,Food,PayPal,Desktop,Delhi
+2023-07-12 23:25:00,32.4,0,1700,Health,PayPal,Desktop,Kolkata
+2023-07-12 23:43:00,25.63,1,1931,Electronics,PayPal,Mobile,Hyderabad
+2023-07-13 01:14:00,289.18,0,214,Entertainment,Debit Card,Mobile,Bengaluru
+2023-07-13 03:40:00,55.1,0,904,Travel,Credit Card,Mobile,Mumbai
+2023-07-13 04:06:00,251.21,1,1561,Food,Debit Card,POS,Hyderabad
+2023-07-13 05:01:00,131.59,0,244,Travel,NetBanking,Mobile,Kolkata
+2023-07-13 05:25:00,231.24,0,1498,Entertainment,PayPal,Mobile,Delhi
+2023-07-13 05:33:00,11.63,0,352,Electronics,PayPal,Mobile,Chennai
+2023-07-13 06:12:00,68.18,0,85,Entertainment,UPI,Mobile,Pune
+2023-07-13 06:32:00,46.43,1,974,Health,Credit Card,Desktop,Delhi
+2023-07-13 06:51:00,14.97,0,570,Utilities,PayPal,POS,Pune
+2023-07-13 12:32:00,9.41,1,1116,Utilities,Debit Card,Desktop,Kolkata
+2023-07-13 13:46:00,141.23,0,342,Grocery,Credit Card,Desktop,Kolkata
+2023-07-13 18:06:00,29.66,0,1833,Utilities,UPI,Mobile,Delhi
+2023-07-13 19:26:00,41.26,0,1508,Travel,PayPal,Desktop,Delhi
+2023-07-13 19:37:00,10.28,0,677,Health,NetBanking,Desktop,Mumbai
+2023-07-13 19:39:00,103.49,0,193,Food,Credit Card,POS,Kolkata
+2023-07-13 21:07:00,15.63,0,1294,Travel,PayPal,Mobile,Kolkata
+2023-07-13 21:59:00,44.16,0,1851,Travel,NetBanking,Desktop,Pune
+2023-07-13 23:20:00,90.54,1,1220,Electronics,UPI,Mobile,Delhi
+2023-07-13 23:45:00,68.54,0,492,Fashion,Credit Card,Mobile,Bengaluru
+2023-07-14 03:09:00,184.77,0,899,Health,PayPal,Mobile,Delhi
+2023-07-14 03:29:00,83.87,1,1533,Health,NetBanking,POS,Bengaluru
+2023-07-14 04:08:00,16.21,0,812,Entertainment,Credit Card,POS,Delhi
+2023-07-14 06:35:00,34.45,0,750,Fashion,NetBanking,Mobile,Delhi
+2023-07-14 08:53:00,81.93,1,298,Health,UPI,Mobile,Mumbai
+2023-07-14 10:20:00,28.31,0,54,Utilities,UPI,POS,Pune
+2023-07-14 13:02:00,2.74,0,371,Travel,NetBanking,Desktop,Bengaluru
+2023-07-14 13:26:00,53.18,0,753,Fashion,NetBanking,POS,Delhi
+2023-07-14 14:18:00,193.83,0,504,Entertainment,PayPal,POS,Kolkata
+2023-07-14 14:45:00,81.22,0,1602,Health,PayPal,POS,Bengaluru
+2023-07-14 17:02:00,78.39,0,568,Entertainment,NetBanking,POS,Chennai
+2023-07-14 17:31:00,9.96,0,1948,Grocery,NetBanking,Desktop,Hyderabad
+2023-07-14 21:56:00,7.2,0,1849,Fashion,UPI,Mobile,Bengaluru
+2023-07-14 22:25:00,1.97,0,1321,Travel,Debit Card,Mobile,Kolkata
+2023-07-15 09:03:00,24.7,0,620,Grocery,Debit Card,Mobile,Kolkata
+2023-07-15 10:33:00,154.74,0,1073,Utilities,PayPal,POS,Bengaluru
+2023-07-15 12:13:00,33.31,0,1100,Fashion,Debit Card,POS,Mumbai
+2023-07-15 13:56:00,95.23,0,1116,Food,Credit Card,POS,Delhi
+2023-07-15 14:18:00,79.56,0,300,Food,Debit Card,Desktop,Hyderabad
+2023-07-15 15:48:00,63.6,0,233,Food,Credit Card,Desktop,Kolkata
+2023-07-15 16:11:00,49.4,1,838,Electronics,UPI,Desktop,Mumbai
+2023-07-15 16:36:00,76.79,0,324,Utilities,UPI,POS,Delhi
+2023-07-15 16:44:00,86.88,0,734,Utilities,Credit Card,POS,Hyderabad
+2023-07-15 17:46:00,39.38,0,1754,Grocery,NetBanking,Mobile,Kolkata
+2023-07-15 20:00:00,111.18,0,883,Travel,Credit Card,POS,Hyderabad
+2023-07-15 22:07:00,161.05,0,1319,Fashion,Debit Card,Desktop,Bengaluru
+2023-07-15 22:54:00,9.13,0,986,Fashion,UPI,Mobile,Hyderabad
+2023-07-15 23:12:00,64.63,0,1946,Fashion,UPI,POS,Mumbai
+2023-07-16 02:36:00,15.8,0,295,Travel,Debit Card,Desktop,Hyderabad
+2023-07-16 03:07:00,173.71,0,644,Fashion,UPI,Desktop,Delhi
+2023-07-16 03:15:00,113.27,0,1062,Fashion,UPI,Mobile,Kolkata
+2023-07-16 08:46:00,40.71,0,278,Electronics,UPI,POS,Mumbai
+2023-07-16 08:47:00,56.71,0,1731,Fashion,UPI,Mobile,Pune
+2023-07-16 11:09:00,51.44,0,1149,Food,Debit Card,Desktop,Delhi
+2023-07-16 11:26:00,4.67,0,1139,Utilities,Credit Card,Desktop,Pune
+2023-07-16 14:08:00,53.81,0,939,Utilities,NetBanking,Mobile,Delhi
+2023-07-16 14:49:00,70.86,0,75,Electronics,UPI,POS,Kolkata
+2023-07-16 15:13:00,101.85,0,340,Food,Debit Card,Desktop,Bengaluru
+2023-07-16 15:35:00,95.43,0,957,Travel,UPI,POS,Mumbai
+2023-07-16 16:21:00,39.78,0,1071,Electronics,NetBanking,POS,Chennai
+2023-07-16 20:29:00,67.89,0,1071,Travel,Debit Card,POS,Chennai
+2023-07-16 20:45:00,80.22,0,1492,Entertainment,PayPal,POS,Pune
+2023-07-17 00:54:00,82.27,0,1826,Electronics,NetBanking,Mobile,Hyderabad
+2023-07-17 00:58:00,4.95,0,1567,Electronics,UPI,POS,Mumbai
+2023-07-17 03:36:00,55.27,0,715,Utilities,UPI,Mobile,Hyderabad
+2023-07-17 04:32:00,46.26,0,1956,Food,Debit Card,Mobile,Kolkata
+2023-07-17 10:16:00,70.94,0,1803,Fashion,NetBanking,Desktop,Delhi
+2023-07-17 10:48:00,39.12,0,79,Electronics,NetBanking,Desktop,Mumbai
+2023-07-17 13:03:00,41.47,0,1529,Travel,PayPal,Mobile,Chennai
+2023-07-17 13:52:00,97.0,0,1306,Health,UPI,Desktop,Kolkata
+2023-07-17 13:56:00,178.47,0,323,Food,PayPal,Mobile,Mumbai
+2023-07-17 17:31:00,72.79,0,1748,Health,Debit Card,POS,Bengaluru
+2023-07-17 18:41:00,31.59,0,1885,Health,PayPal,Mobile,Pune
+2023-07-18 01:02:00,69.0,0,984,Grocery,PayPal,Desktop,Hyderabad
+2023-07-18 04:27:00,8.49,0,1293,Food,UPI,POS,Hyderabad
+2023-07-18 04:42:00,40.55,0,1260,Food,Debit Card,POS,Pune
+2023-07-18 05:58:00,226.41,0,595,Entertainment,UPI,Mobile,Hyderabad
+2023-07-18 08:23:00,29.51,0,536,Grocery,Credit Card,Desktop,Hyderabad
+2023-07-18 10:13:00,204.53,0,200,Grocery,Credit Card,Mobile,Pune
+2023-07-18 10:23:00,34.88,0,248,Travel,Credit Card,Mobile,Delhi
+2023-07-18 11:26:00,142.2,0,748,Grocery,PayPal,POS,Hyderabad
+2023-07-18 12:33:00,34.16,0,1151,Travel,PayPal,Mobile,Pune
+2023-07-18 15:12:00,41.12,0,967,Travel,NetBanking,Desktop,Mumbai
+2023-07-18 15:54:00,105.34,0,216,Entertainment,Debit Card,Mobile,Bengaluru
+2023-07-18 17:18:00,274.77,0,1277,Electronics,Debit Card,Desktop,Delhi
+2023-07-18 19:03:00,191.27,0,375,Utilities,Debit Card,Mobile,Hyderabad
+2023-07-19 03:31:00,35.05,0,1120,Travel,PayPal,POS,Pune
+2023-07-19 04:55:00,90.78,0,1759,Entertainment,Credit Card,POS,Kolkata
+2023-07-19 05:20:00,86.02,0,1091,Grocery,Debit Card,Desktop,Delhi
+2023-07-19 06:12:00,79.5,0,1350,Utilities,NetBanking,Desktop,Mumbai
+2023-07-19 07:09:00,21.37,0,1062,Entertainment,UPI,Desktop,Kolkata
+2023-07-19 08:28:00,29.14,1,1798,Travel,Debit Card,Mobile,Hyderabad
+2023-07-19 08:32:00,54.89,0,572,Grocery,Credit Card,POS,Chennai
+2023-07-19 10:30:00,2.64,0,1796,Food,UPI,Desktop,Mumbai
+2023-07-19 11:21:00,33.4,1,717,Travel,NetBanking,Desktop,Hyderabad
+2023-07-19 11:32:00,80.35,0,1307,Utilities,Debit Card,Desktop,Mumbai
+2023-07-19 12:53:00,10.77,0,1045,Utilities,Debit Card,Desktop,Pune
+2023-07-19 13:22:00,55.45,0,1631,Health,NetBanking,Mobile,Bengaluru
+2023-07-19 14:09:00,89.3,0,147,Electronics,UPI,POS,Bengaluru
+2023-07-19 14:54:00,97.63,0,1575,Food,Credit Card,POS,Mumbai
+2023-07-19 15:13:00,179.69,0,276,Electronics,NetBanking,Desktop,Kolkata
+2023-07-19 15:43:00,15.79,0,1347,Food,NetBanking,Desktop,Pune
+2023-07-19 19:41:00,20.77,1,686,Entertainment,PayPal,Mobile,Hyderabad
+2023-07-19 23:26:00,8.72,0,1044,Food,UPI,POS,Kolkata
+2023-07-20 01:08:00,33.47,0,1704,Fashion,UPI,Mobile,Delhi
+2023-07-20 06:53:00,21.94,1,634,Utilities,UPI,POS,Mumbai
+2023-07-20 12:25:00,64.64,0,299,Food,NetBanking,POS,Mumbai
+2023-07-20 12:43:00,52.93,0,105,Food,UPI,Mobile,Kolkata
+2023-07-20 12:59:00,70.53,0,1766,Entertainment,PayPal,Mobile,Kolkata
+2023-07-20 17:18:00,25.07,0,555,Food,PayPal,Desktop,Mumbai
+2023-07-20 18:34:00,108.75,0,1883,Food,NetBanking,Desktop,Kolkata
+2023-07-20 19:12:00,37.09,1,771,Travel,UPI,Mobile,Kolkata
+2023-07-20 22:40:00,40.51,0,872,Utilities,Debit Card,POS,Chennai
+2023-07-20 22:58:00,90.36,0,356,Food,NetBanking,Mobile,Delhi
+2023-07-21 03:12:00,59.9,0,911,Travel,Debit Card,Desktop,Chennai
+2023-07-21 05:56:00,76.15,0,1173,Fashion,PayPal,POS,Pune
+2023-07-21 06:19:00,75.63,0,1809,Fashion,UPI,POS,Hyderabad
+2023-07-21 08:47:00,81.05,0,673,Utilities,NetBanking,POS,Mumbai
+2023-07-21 09:54:00,62.23,0,967,Food,UPI,Mobile,Mumbai
+2023-07-21 10:29:00,17.43,0,1307,Entertainment,PayPal,POS,Delhi
+2023-07-21 12:57:00,48.41,0,857,Electronics,UPI,Mobile,Delhi
+2023-07-21 22:30:00,62.34,0,533,Fashion,PayPal,Mobile,Pune
+2023-07-21 23:31:00,38.37,0,1790,Health,PayPal,Mobile,Kolkata
+2023-07-21 23:33:00,64.22,0,59,Fashion,NetBanking,Desktop,Bengaluru
+2023-07-22 00:01:00,75.03,0,1760,Food,UPI,Desktop,Pune
+2023-07-22 00:43:00,17.6,0,589,Travel,PayPal,POS,Delhi
+2023-07-22 03:17:00,302.76,0,1771,Travel,Debit Card,Mobile,Hyderabad
+2023-07-22 11:34:00,165.65,0,1747,Electronics,Debit Card,Desktop,Mumbai
+2023-07-22 12:18:00,23.94,1,230,Electronics,Debit Card,Desktop,Chennai
+2023-07-22 15:09:00,168.94,0,1446,Entertainment,Credit Card,Desktop,Delhi
+2023-07-22 15:38:00,33.1,0,1480,Health,Credit Card,POS,Delhi
+2023-07-22 15:47:00,4.5,0,317,Fashion,Debit Card,Desktop,Chennai
+2023-07-22 20:13:00,60.76,0,713,Electronics,UPI,Mobile,Bengaluru
+2023-07-22 20:48:00,17.9,0,1092,Utilities,UPI,POS,Pune
+2023-07-22 23:01:00,215.95,0,1634,Food,NetBanking,Mobile,Delhi
+2023-07-23 00:09:00,16.63,1,1786,Travel,NetBanking,Desktop,Mumbai
+2023-07-23 02:04:00,71.8,0,1749,Grocery,UPI,POS,Delhi
+2023-07-23 03:08:00,160.85,0,101,Health,NetBanking,Mobile,Kolkata
+2023-07-23 03:23:00,463.39,0,153,Electronics,Credit Card,Desktop,Hyderabad
+2023-07-23 04:50:00,167.42,0,1019,Health,UPI,Desktop,Bengaluru
+2023-07-23 14:32:00,91.28,0,453,Utilities,NetBanking,Desktop,Bengaluru
+2023-07-23 19:56:00,302.39,0,1386,Health,UPI,POS,Chennai
+2023-07-23 22:47:00,21.39,0,422,Entertainment,PayPal,POS,Bengaluru
+2023-07-24 01:59:00,138.35,0,1459,Health,NetBanking,Desktop,Kolkata
+2023-07-24 03:12:00,23.26,0,483,Entertainment,UPI,POS,Mumbai
+2023-07-24 04:20:00,3.53,0,647,Utilities,UPI,POS,Chennai
+2023-07-24 05:40:00,31.48,0,1829,Electronics,Credit Card,Desktop,Kolkata
+2023-07-24 09:35:00,172.48,0,675,Food,UPI,Desktop,Delhi
+2023-07-24 10:21:00,129.72,0,369,Electronics,Credit Card,POS,Pune
+2023-07-24 10:27:00,16.05,0,1178,Travel,Credit Card,Desktop,Mumbai
+2023-07-24 11:58:00,5.17,1,126,Fashion,UPI,POS,Bengaluru
+2023-07-24 22:27:00,100.72,1,159,Grocery,UPI,POS,Delhi
+2023-07-24 23:29:00,42.13,0,800,Grocery,Credit Card,POS,Bengaluru
+2023-07-25 00:29:00,653.8,0,1630,Grocery,PayPal,Mobile,Hyderabad
+2023-07-25 01:06:00,42.69,0,1187,Utilities,Credit Card,Desktop,Mumbai
+2023-07-25 02:16:00,91.81,0,1859,Health,Debit Card,Desktop,Pune
+2023-07-25 02:49:00,44.79,0,1134,Electronics,NetBanking,POS,Chennai
+2023-07-25 05:48:00,87.47,0,187,Utilities,Credit Card,Desktop,Hyderabad
+2023-07-25 09:08:00,210.21,0,950,Grocery,NetBanking,Desktop,Mumbai
+2023-07-25 12:30:00,202.83,0,154,Entertainment,Credit Card,Mobile,Pune
+2023-07-25 13:33:00,39.77,1,1864,Food,NetBanking,Desktop,Hyderabad
+2023-07-25 13:45:00,21.22,0,626,Health,PayPal,Desktop,Bengaluru
+2023-07-25 14:34:00,220.67,0,385,Utilities,Debit Card,Mobile,Delhi
+2023-07-25 18:11:00,223.07,0,1534,Fashion,Debit Card,POS,Chennai
+2023-07-25 18:45:00,280.28,0,1427,Grocery,PayPal,Desktop,Bengaluru
+2023-07-25 19:47:00,98.11,0,666,Entertainment,PayPal,POS,Delhi
+2023-07-25 21:23:00,6.58,0,390,Food,PayPal,POS,Delhi
+2023-07-25 23:03:00,16.66,0,258,Entertainment,PayPal,POS,Chennai
+2023-07-25 23:48:00,80.21,0,1884,Food,Debit Card,POS,Hyderabad
+2023-07-26 00:25:00,197.21,0,156,Grocery,Credit Card,POS,Chennai
+2023-07-26 01:10:00,5.12,0,1323,Electronics,PayPal,Desktop,Hyderabad
+2023-07-26 02:32:00,173.84,0,1983,Grocery,PayPal,Mobile,Pune
+2023-07-26 02:58:00,115.64,0,1349,Grocery,PayPal,POS,Chennai
+2023-07-26 04:32:00,38.81,0,971,Utilities,UPI,POS,Hyderabad
+2023-07-26 04:50:00,188.61,0,1577,Food,UPI,POS,Kolkata
+2023-07-26 05:48:00,66.74,0,648,Food,NetBanking,POS,Kolkata
+2023-07-26 06:26:00,69.64,0,1416,Health,UPI,POS,Bengaluru
+2023-07-26 09:47:00,85.99,0,379,Grocery,PayPal,Desktop,Pune
+2023-07-26 09:54:00,126.88,0,1572,Grocery,Debit Card,Desktop,Pune
+2023-07-26 10:23:00,2.82,0,1625,Grocery,NetBanking,Mobile,Pune
+2023-07-26 12:17:00,80.56,0,757,Electronics,PayPal,POS,Chennai
+2023-07-26 23:46:00,34.25,0,301,Food,Debit Card,Mobile,Kolkata
+2023-07-27 04:04:00,4.07,0,1202,Electronics,Debit Card,Mobile,Kolkata
+2023-07-27 12:09:00,50.79,0,1767,Utilities,NetBanking,Mobile,Delhi
+2023-07-27 12:41:00,51.7,0,1316,Electronics,Debit Card,Desktop,Bengaluru
+2023-07-27 14:16:00,1.82,0,946,Utilities,NetBanking,Desktop,Bengaluru
+2023-07-27 15:01:00,83.06,0,1825,Health,PayPal,POS,Pune
+2023-07-27 16:01:00,0.05,0,864,Fashion,PayPal,Desktop,Delhi
+2023-07-27 16:44:00,42.37,0,983,Electronics,NetBanking,POS,Hyderabad
+2023-07-27 17:09:00,4.64,0,1574,Electronics,UPI,POS,Pune
+2023-07-27 20:08:00,91.06,0,1040,Health,PayPal,Desktop,Mumbai
+2023-07-27 20:15:00,121.08,0,724,Entertainment,NetBanking,POS,Delhi
+2023-07-27 21:15:00,4.97,0,1886,Electronics,PayPal,POS,Pune
+2023-07-27 22:04:00,155.72,0,372,Health,Debit Card,POS,Mumbai
+2023-07-27 22:41:00,12.66,0,467,Travel,NetBanking,POS,Mumbai
+2023-07-27 23:44:00,32.07,0,993,Electronics,UPI,Desktop,Hyderabad

@@ -1,0 +1,10 @@
+.venv
+.vendor
+**/__pycache__
+.pytest_cache
+.env
+frontend/node_modules
+frontend/dist
+models
+notebooks
+docs

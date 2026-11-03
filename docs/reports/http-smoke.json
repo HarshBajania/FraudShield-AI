@@ -1,0 +1,48 @@
+{
+  "checked_at": "2026-10-13T06:11:29.579948+00:00",
+  "base_url": "http://127.0.0.1:5174/api",
+  "checks": [
+    {
+      "endpoint": "/health",
+      "status": 200,
+      "latency_ms": 62.14
+    },
+    {
+      "endpoint": "/model/info",
+      "status": 200,
+      "latency_ms": 9.03
+    },
+    {
+      "endpoint": "/model/metrics",
+      "status": 200,
+      "latency_ms": 9.77
+    },
+    {
+      "endpoint": "/transactions",
+      "status": 200,
+      "latency_ms": 24.97
+    },
+    {
+      "endpoint": "/analytics/overview",
+      "status": 200,
+      "latency_ms": 28.81
+    },
+    {
+      "endpoint": "/analytics/fraud",
+      "status": 200,
+      "latency_ms": 54.03
+    },
+    {
+      "endpoint": "/monitoring",
+      "status": 200,
+      "latency_ms": 28.91
+    }
+  ],
+  "prediction_checks": {
+    "single": 200,
+    "batch": 200,
+    "equivalent": true,
+    "real_shap": "SHAP",
+    "invalid_amount_status": 422
+  }
+}
